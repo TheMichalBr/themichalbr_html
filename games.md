@@ -1,10 +1,10 @@
 <h1>CS2 Settings</h1>
 <!--
 <table>
-<tr><td><b>MM & WM Rank</b></td><td><b>Danger Zone Rank</b></td><td><b>FACEIT Level (www.faceit.com/en/players/michalbr-)</b></td><td><b>ESPORTAL Level (www.esportal.com/en/profile/michalbr)</b></td></tr>
-<tr><td><small><img src="https://totalcsgo.com/image/ranks/skillgroup18.png">Global Elite</small></td><td><small><img src="https://csgo-ranks.com/wp-content/uploads/sites/12/2020/07/danger-zone-rank-timber-wolf.png" weight="62" height="62"> Timber Wolf</small></td><td><small> <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> Level 7 (1500+)</small></td><td><small> <img src="https://broomingboost.net/wp-content/uploads/2021/08/esportal-boost.png" weight="65" height="65"> Elite 1</small></td></tr>
+<tr><td><b>MM & WM Rank</b></td><td><b>Danger Zone Rank</b></td><td><b>FACEIT</b></td><td><b>ESPORTAL</b></td></tr>
+<tr><td><small><img src="https://totalcsgo.com/image/ranks/skillgroup18.png">Global Elite</small></td><td>Timber Wolf</td><td><small> <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> Level 7 (www.faceit.com/en/players/michalbr-)</small></td><td>Elite 1 (www.esportal.com/en/profile/michalbr)</td></tr>
 </table>
-
+<!--
 <h3>My settings (still no cs2, but looks like cfg will be soon just history)</h3>
 <details>
 <summary>autoexec.cfg - Personal config (exec autoexec.cfg in console)</summary>
