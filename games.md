@@ -3,7 +3,7 @@
 <table>
 <tr><td><b>MM & WM Rank</b></td><td><b>FACEIT</b></td><td><b>ESPORTAL</b></td></tr>
 <tr><td><small><img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"></small></td><td><small><img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"></small></td><td> <img src="https://user-images.githubusercontent.com/51486174/230768322-5f77778f-56a9-4b1f-a251-b87eef041a5d.png" weight="65" height="65"></td></tr>
-<tr><td>Global Elite</td><td>Level 7 (www.faceit.com/en/players/michalbr-)</td><td>Elite 1 (www.esportal.com/en/profile/michalbr)</td></tr>
+<tr><td>Global Elite - https://steamcommunity.com/id/misakbr2/</td><td>Level 7 - www.faceit.com/en/players/michalbr-</td><td>Elite 1 - www.esportal.com/en/profile/michalbr</td></tr>
 </table>
 
 <h3>My settings</h3>
