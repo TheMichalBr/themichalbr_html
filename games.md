@@ -43,7 +43,7 @@ echo #### MichalBr's config loaded! ####;
 </details>
 
 <details>
-<summary>practice.cfg - Config for practice</summary>
+<summary>practice.cfg</summary>
 <h6></h6>
   
 ```ruby
