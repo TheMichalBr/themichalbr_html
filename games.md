@@ -7,7 +7,7 @@
 
 <h3>My settings</h3>
 <details>
-<summary>autoexec.cfg - Personal config (exec autoexec.cfg in console)</summary>
+<summary>autoexec.cfg - Personal config</summary>
 <h6></h6>
   
 ```ruby
@@ -42,7 +42,7 @@ echo #### MichalBr's config loaded! ####;
 </details>
 
 <details>
-<summary>practice.cfg - Config for practice (exec practice.cfg in console)</summary>
+<summary>practice.cfg - Config for practice</summary>
 <h6></h6>
   
 ```ruby
@@ -64,23 +64,15 @@ Say #### MichalBr's practice config loaded! ####;
 <h6></h6>
 </details>
 
-<table>
-<tr><td><b>Crosshair</b></td><td><b>Viewmodel</b></td><td><b>Binds</b></td><td><b>Launch options</b></td></td></tr>
-<tr><td><small>CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D</small></td><td><small>viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0</small></td><td><small>bind f "use weapon_smokegrenade"; bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals"; (Using MOUSE4 for player ping and MOUSE5 for use microphone)</small></td><td><small>-high -threads 8 -novid -nojoy -freq 270 -console -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128 -cl_cmdrate 128 -rate 786432 +cl_interp_ratio 1 +cl_interp 0 -dxlevel 81 -language bananagaming +exec autoexec.cfg</small></td></tr>
-</table>
+<table><tr><td><b>Crosshair</b></td><td><b>Viewmodel</b></td><td><b>Binds</b></td><td><b>Launch options</b></td></td></tr>
+<tr><td><small>CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D</small></td><td><small>viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0</small></td><td><small>bind f "use weapon_smokegrenade"; bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals"; (Using MOUSE4 for player ping and MOUSE5 for use microphone)</small></td><td><small>-high -threads 8 -novid -nojoy -freq 270 -console -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128 -cl_cmdrate 128 -rate 786432 +cl_interp_ratio 1 +cl_interp 0 -dxlevel 81 -language bananagaming +exec autoexec.cfg</small></td></tr></table>
 
-<table>
-<tr><td><b>HUD</b></td><td><b>Radar</b></td><td><b>cl_bob</b></td></tr>
-<tr><td><small>hud_scaling 0.896259; cl_hud_color 0; cl_hud_playercount_showcount 0; cl_hud_playercount_pos 0; cl_showloadout 0; cl_hud_healthammo_style 0; cl_hud_background_alpha 0.5; cl_hud_bomb_under_radar 1; safezonex 0.993978; safezoney 0.993978</small></td><td><small>cl_hud_radar_scale 1.15; cl_radar_scale 0.4; cl_radar_always_centered 1; cl_radar_rotate 1; cl_radar_icon_scale_min 0.4</small></td><td><small>cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1</small></td></tr>
-</table>
+<table><tr><td><b>HUD</b></td><td><b>Radar</b></td><td><b>cl_bob</b></td></tr>
+<tr><td><small>hud_scaling 0.896259; cl_hud_color 0; cl_hud_playercount_showcount 0; cl_hud_playercount_pos 0; cl_showloadout 0; cl_hud_healthammo_style 0; cl_hud_background_alpha 0.5; cl_hud_bomb_under_radar 1; safezonex 0.993978; safezoney 0.993978</small></td><td><small>cl_hud_radar_scale 1.15; cl_radar_scale 0.4; cl_radar_always_centered 1; cl_radar_rotate 1; cl_radar_icon_scale_min 0.4</small></td><td><small>cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1</small></td></tr></table>
 
-<h3>Video and audio settings</h3>
-<table>
-<tr><td><b>Resolution</b></td><td><b>Brigthness</b></td><td><b>Master Volume</b><td><b>Quality settings</b></td></td></tr>
-<tr><td><small>1280x1024, 4:3 - Stretched-Fullscreen, 270Hz </small></td><td><small>Režim barev - Počítačový monitor - 125%</small></td><td><small>25% (VOIP: 40%)</small></td><td><small>Souhrnná kvalita stínů - Velmi nízká, Kvalita modelů/textur - Nízká, Streamování textur - Vypnuto, Kvalita efektů - Nízká, Kvalita shaderu - Nízká, Navýšení kontrastu postav - Vypnuto, Vícejádrové renderování - Zapnuto, Režim vyhlazování typu multisampling - Žádné, FXAA vyhlazování - Vypnuto, Režim filtrování textur - Bilineární, Vertikální synchronizace - Vypnuto, Rozmazání pohybu - Vypnuto, Režim pro tři monitory - Vypnuto, Uber shadery - Zapnuto</small></td></tr>
-</table>
+<table><tr><td><b>Resolution</b></td><td><b>Brigthness</b></td><td><b>Master Volume</b><td><b>Quality settings</b></td></td></tr>
+<tr><td><small>1280x1024, 4:3 - Stretched-Fullscreen, 270Hz </small></td><td><small>Režim barev - Počítačový monitor - 125%</small></td><td><small>25% (VOIP: 40%)</small></td><td><small>Souhrnná kvalita stínů - Velmi nízká, Kvalita modelů/textur - Nízká, Streamování textur - Vypnuto, Kvalita efektů - Nízká, Kvalita shaderu - Nízká, Navýšení kontrastu postav - Vypnuto, Vícejádrové renderování - Zapnuto, Režim vyhlazování typu multisampling - Žádné, FXAA vyhlazování - Vypnuto, Režim filtrování textur - Bilineární, Vertikální synchronizace - Vypnuto, Rozmazání pohybu - Vypnuto, Režim pro tři monitory - Vypnuto, Uber shadery - Zapnuto</small></td></tr></table>
 
-<h3>Keyboard and mouse settings</h3>
 <table><tr><td><b>DPI</b></td><td><b>Hz</b></td><td><b>Pointer speed (Win)</b></td><td><b>In-Game sensitivity</b></td><td><b>In-Game scope sensitivity</b></td><td><b>Bindend set.</b></td></tr>
 <tr><td><small>400</small></td><td><small>1000</small></td><td><small>6/11</small></td><td><small>2,4</small></td><td><small>1</small></td><td><small>bots bind na =
 Nastavení klávesnice Kruhová nabídka zbraní Výběr předchozí zbraně MWHEELUP Výběr další zbraně MWHEELDOWN Vyvolání konzole` ` Ukazovátko MOUSE4 Mikrofon - K MOUSE5 Chat. kolečko 1 MOUSE3 r_cleardecals</small></td></tr></table>
