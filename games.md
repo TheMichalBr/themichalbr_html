@@ -2,7 +2,7 @@
 
 <table>
 <tr><td><b>MM and WM & DZ Rank</b></td><td><b>FACEIT</b></td><td><b>ESPORTAL</b></td></tr>
-<tr><td><small><img src="https://totalcsgo.com/image/ranks/skillgroup18.png">Global Elite & Timber Wolf</small></td><td><small><img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> Level 7 (www.faceit.com/en/players/michalbr-)</small></td><td>Elite 1 (www.esportal.com/en/profile/michalbr)</td></tr>
+<tr><td><small><img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65">Global Elite & Timber Wolf</small></td><td><small><img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> Level 7 (www.faceit.com/en/players/michalbr-)</small></td><td>Elite 1 (www.esportal.com/en/profile/michalbr)</td></tr>
 </table>
 
 <h3>My settings (still no cs2, but looks like cfg will be soon just history)</h3>
