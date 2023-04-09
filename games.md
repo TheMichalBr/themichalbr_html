@@ -5,7 +5,7 @@
 <tr><td><small><img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65">Global Elite</small></td><td><small><img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> Level 7 (www.faceit.com/en/players/michalbr-)</small></td><td>Elite 1 (www.esportal.com/en/profile/michalbr)</td></tr>
 </table>
 
-<h3>My settings (still no cs2, but looks like cfg will be soon just history)</h3>
+<h3>My settings</h3>
 <details>
 <summary>autoexec.cfg - Personal config (exec autoexec.cfg in console)</summary>
 <h6></h6>
