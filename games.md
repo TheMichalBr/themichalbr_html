@@ -5,6 +5,10 @@
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> | <img src="https://user-images.githubusercontent.com/51486174/230768322-5f77778f-56a9-4b1f-a251-b87eef041a5d.png" weight="65" height="65"> |
 | Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- | Elite 1 - https://esportal.com/en/profile/michalbr |
 
+<details>
+<summary>autoexec.cfg </summary>
+<h6></h6>
+  
 ```ruby
 //// This is my autoexec.cfg - Personal config ////
 
@@ -35,6 +39,8 @@ cl_autohelp "0";cl_showhelp "0";cl_cmdrate "128";cl_updaterate "128";
 clear;
 echo #### MichalBr's config loaded! ####;
 ```
+  
+</details>
 
 <details>
 <summary>practice.cfg - Config for practice</summary>
