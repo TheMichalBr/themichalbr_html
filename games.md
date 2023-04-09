@@ -5,7 +5,6 @@
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> | <img src="https://user-images.githubusercontent.com/51486174/230768322-5f77778f-56a9-4b1f-a251-b87eef041a5d.png" weight="65" height="65"> |
 | Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- | Elite 1 - https://esportal.com/en/profile/michalbr |
 
-<h3>My settings</h3>
 <details>
 <summary>autoexec.cfg - Personal config</summary>
 <h6></h6>
