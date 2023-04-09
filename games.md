@@ -1,4 +1,4 @@
-<h1>CS2 Settings</h1>
+<h1>CS Settings</h1>
 
 <table>
 <tr><td><b>MM & WM Rank</b></td><td><b>Danger Zone Rank</b></td><td><b>FACEIT</b></td><td><b>ESPORTAL</b></td></tr>
