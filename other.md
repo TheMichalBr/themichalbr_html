@@ -26,5 +26,3 @@ XXXXXXXXXXXXX - other COMMING SOON - XXXXXXXXXXXXXXXXXX
   <img src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gOBFyo2UkPrGUf96FJDIv-m4uSlLDzoB_KwB5kSRGR8jvlzPsEj-QaxJ-u4c3AvCVx6QWQ5QhQNd_burm2yRG4N7jP_Zw=w1543-h653"></img>
   <img src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gMPTIyrexcy6Nll2NP9wYKKUXbzTGtjMHDzoavMzcnuEmcm1nSJfx7EFA-wCekXF9PHkCCCBxu0UbYfuNUgv9RCyvDkQA=w1543-h653"></img>
 </ul>
-
-<br>
