@@ -61,8 +61,6 @@ Say #### MichalBr's practice config loaded! ####;
 <table><tr><td><b>HUD</b></td><td><b>Radar</b></td><td><b>cl_bob</b></td></tr>
 <tr><td><small>hud_scaling 0.896259; cl_hud_color 0; cl_hud_playercount_showcount 0; cl_hud_playercount_pos 0; cl_showloadout 0; cl_hud_healthammo_style 0; cl_hud_background_alpha 0.5; cl_hud_bomb_under_radar 1; safezonex 0.993978; safezoney 0.993978</small></td><td><small>cl_hud_radar_scale 1.15; cl_radar_scale 0.4; cl_radar_always_centered 1; cl_radar_rotate 1; cl_radar_icon_scale_min 0.4</small></td><td><small>cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1</small></td></tr></table>
 
-<table><tr><td><b>Resolution</b></td><td><b>Brigthness</b></td><td><b>Master Volume</b><td><b>Quality settings</b></td></td></tr>
-<tr><td><small>1280x1024, 4:3 - Stretched-Fullscreen, 270Hz </small></td><td><small>Režim barev - Počítačový monitor - 125%</small></td><td><small>25% (VOIP: 40%)</small></td><td><small>Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH</small></td></tr></table>
-
-<table><tr><td><b>DPI</b></td><td><b>Hz</b></td><td><b>Pointer speed (Win)</b></td><td><b>In-Game sensitivity</b></td><td><b>In-Game scope sensitivity</b></td><td><b>Bindend set.</b></td></tr>
-<tr><td><small>400</small></td><td><small>1000</small></td><td><small>6/11</small></td><td><small>2,4</small></td><td><small>1</small></td><td><small>Bots Bind - =, Ukazovátko - MOUSE4, Mikrofon - MOUSE5, Chat. kolečko 1 MOUSE3 r_cleardecals</small></td></tr></table>
+| Resolution and Brigthness | Master Volume | Quality settings | Mouse DPI, Hz and Pointer speed (Win) | In-Game sensitivity and scope sensitivity | Binds |
+| :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
+| 1280x1024 270Hz, 4:3 - Stretched-Fullscreen, Computer Monitor - 125% | 25% (VOIP: 35%) | Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH | 400 DPI, 1000Hz, 6/11 | 2,4 / 1 | Bots Bind - =, Ukazovátko - MOUSE4, Mikrofon - MOUSE5, Chat. kolečko 1 MOUSE3, ALT r_cleardecals |
