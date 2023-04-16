@@ -8,9 +8,7 @@
 <h5>autoexec.cfg</h5>
   
 ```ruby
-//// This is my autoexec.cfg - Personal config ////
-
-// Crosshair ( CSGO-Z2DdF-fjDA5-QHVPd-3uBWQ-CrrBE )
+// Crosshair - CSGO-Z2DdF-fjDA5-QHVPd-3uBWQ-CrrBE
 
 // Viewmodel
 viewmodel_fov 68;viewmodel_offset_x 1;viewmodel_offset_y 2;viewmodel_offset_z -2;cl_righthand 1;viewmodel_presetpos 0;
