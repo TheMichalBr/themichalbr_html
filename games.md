@@ -5,9 +5,7 @@
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> | <img src="https://user-images.githubusercontent.com/51486174/230768322-5f77778f-56a9-4b1f-a251-b87eef041a5d.png" weight="65" height="65"> |
 | Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- | Elite 1 - https://esportal.com/en/profile/michalbr |
 
-<details>
-<summary>autoexec.cfg </summary>
-<h6></h6>
+<h5>autoexec.cfg</h5>
   
 ```ruby
 //// This is my autoexec.cfg - Personal config ////
@@ -39,12 +37,8 @@ cl_autohelp "0";cl_showhelp "0";cl_cmdrate "128";cl_updaterate "128";
 clear;
 echo #### MichalBr's config loaded! ####;
 ```
-  
-</details>
 
-<details>
-<summary>practice.cfg</summary>
-<h6></h6>
+<h5>practice.cfg</h5>
   
 ```ruby
 // Commands
@@ -62,8 +56,6 @@ bind "c" "sv_rethrow_last_grenade";bind "x" "noclip";
 clear;
 Say #### MichalBr's practice config loaded! ####;
 ```
-<h6></h6>
-</details>
 
 <table><tr><td><b>Crosshair</b></td><td><b>Viewmodel</b></td><td><b>Binds</b></td><td><b>Launch options</b></td></td></tr>
 <tr><td><small>CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D</small></td><td><small>viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0</small></td><td><small>bind f "use weapon_smokegrenade"; bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals"; (Using MOUSE4 for player ping and MOUSE5 for use microphone)</small></td><td><small>-high -threads 8 -novid -nojoy -freq 270 -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128 -cl_cmdrate 128 -rate 786432 +cl_interp_ratio 1 +cl_interp 0 -dxlevel 81 -language bananagaming +exec autoexec.cfg</small></td></tr></table>
