@@ -5,6 +5,15 @@
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> | <img src="https://user-images.githubusercontent.com/51486174/230768322-5f77778f-56a9-4b1f-a251-b87eef041a5d.png" weight="65" height="65"> |
 | Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- | Elite 1 - https://esportal.com/en/profile/michalbr |
 
+| Resolution and Brigthness | Volume | Quality settings | Mouse settings | In-Game sensitivity and scope sensitivity |
+| :------------: | :------------: | :------------: | :------------: | :------------: |
+| 1280x1024 270Hz, 4:3 - Stretched-Fullscreen, Computer Monitor - 125% | 25% (VOIP: 35%) | Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH | 400 DPI, 1000Hz, 6/11 | 2,4 / 1 |
+
+<table><tr><td><b>Crosshair</b></td><td><b>Viewmodel</b></td><td><b>Binds</b></td><td><b>Launch options</b></td></td></tr>
+<tr><td><small>CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D</small></td><td><small>viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0</small></td><td><small>bind f "use weapon_smokegrenade"; bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals"; (Using MOUSE4 for player ping and MOUSE5 for use microphone and MOUSE3)</small></td><td><small>-high -threads 8 -novid -nojoy -freq 270 -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128 -cl_cmdrate 128 -rate 786432 +cl_interp_ratio 1 +cl_interp 0 -dxlevel 81 -language bananagaming +exec autoexec.cfg</small></td></tr>
+<tr><td><b>HUD</b></td><td><b>Radar</b></td><td><b>cl_bob</b></td></tr>
+<tr><td><small>hud_scaling 0.896259; cl_hud_color 0; cl_hud_playercount_showcount 0; cl_hud_playercount_pos 0; cl_showloadout 0; cl_hud_healthammo_style 0; cl_hud_background_alpha 0.5; cl_hud_bomb_under_radar 1; safezonex 0.993978; safezoney 0.993978</small></td><td><small>cl_hud_radar_scale 1.15; cl_radar_scale 0.4; cl_radar_always_centered 1; cl_radar_rotate 1; cl_radar_icon_scale_min 0.4</small></td><td><small>cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1</small></td></tr></table>
+
 <h5>autoexec.cfg</h5>
   
 ```ruby
@@ -54,12 +63,3 @@ bind "c" "sv_rethrow_last_grenade";bind "x" "noclip";
 clear;
 Say #### MichalBr's practice config loaded! ####;
 ```
-
-| Resolution and Brigthness | Volume | Quality settings | Mouse settings | In-Game sensitivity and scope sensitivity |
-| :------------: | :------------: | :------------: | :------------: | :------------: |
-| 1280x1024 270Hz, 4:3 - Stretched-Fullscreen, Computer Monitor - 125% | 25% (VOIP: 35%) | Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH | 400 DPI, 1000Hz, 6/11 | 2,4 / 1 |
-
-<table><tr><td><b>Crosshair</b></td><td><b>Viewmodel</b></td><td><b>Binds</b></td><td><b>Launch options</b></td></td></tr>
-<tr><td><small>CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D</small></td><td><small>viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0</small></td><td><small>bind f "use weapon_smokegrenade"; bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals"; (Using MOUSE4 for player ping and MOUSE5 for use microphone and MOUSE3)</small></td><td><small>-high -threads 8 -novid -nojoy -freq 270 -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128 -cl_cmdrate 128 -rate 786432 +cl_interp_ratio 1 +cl_interp 0 -dxlevel 81 -language bananagaming +exec autoexec.cfg</small></td></tr>
-<tr><td><b>HUD</b></td><td><b>Radar</b></td><td><b>cl_bob</b></td></tr>
-<tr><td><small>hud_scaling 0.896259; cl_hud_color 0; cl_hud_playercount_showcount 0; cl_hud_playercount_pos 0; cl_showloadout 0; cl_hud_healthammo_style 0; cl_hud_background_alpha 0.5; cl_hud_bomb_under_radar 1; safezonex 0.993978; safezoney 0.993978</small></td><td><small>cl_hud_radar_scale 1.15; cl_radar_scale 0.4; cl_radar_always_centered 1; cl_radar_rotate 1; cl_radar_icon_scale_min 0.4</small></td><td><small>cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1</small></td></tr></table>
