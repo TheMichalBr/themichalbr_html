@@ -63,10 +63,7 @@ bind "c" "sv_rethrow_last_grenade";bind "x" "noclip";
 
 clear;
 Say #### MichalBr's practice config loaded! ####;
-
 ```
-
-#### S ÚPRAVOU CONFIGŮ A NASTAVENÍ SE ČEKÁ NA VYDÁNÍ CS2, KDE SE TEPRVE UVIDÍ ZDA CONFIGY BUDOU JEŠTĚ POTŘEBA! ####
 
 <!--
 <h1>Valorant Settings (WIP)</h1>
