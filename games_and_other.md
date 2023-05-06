@@ -62,14 +62,14 @@ bind "c" "sv_rethrow_last_grenade";bind "x" "noclip";
 clear;
 Say #### MichalBr's practice config loaded! ####;
 ```
-
+<!--
 <h1>Valorant Settings (WIP)</h1>
 
 | Rank | Crosshair | In-Game sensitivity | Resolution and quality settings | Misc. |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 | <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img> Platinum II | XXXXXXX | 0.82 / 1 / 1 | 1920x1080, All Graphic set to low, only Bloom and MT ON | Only FPS Counter enabled |
 
-<!--
+
 XXXXXXXXXXXXX - WIP- XXXXXXXXXXXXXXXXXX
 <h1> Other settings / platforms-socials </h1>
 <h6>• My Steam account: https://steamcommunity.com/id/misakbr2/</h6>
