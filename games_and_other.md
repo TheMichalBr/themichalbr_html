@@ -1,5 +1,7 @@
 <h1>CS Settings</h1>
 
+#### S ÚPRAVOU CONFIGŮ A NASTAVENÍ SE ČEKÁ NA VYDÁNÍ CS2, KDE SE TEPRVE UVIDÍ ZDA CONFIGY BUDOU JEŠTĚ POTŘEBA! ####
+
 | MM & WM Rank | FACEIT | ESPORTAL |
 | :------------: | :------------: | :------------: |
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> | <img src="https://user-images.githubusercontent.com/51486174/230768322-5f77778f-56a9-4b1f-a251-b87eef041a5d.png" weight="65" height="65"> |
