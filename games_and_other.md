@@ -14,9 +14,11 @@
 ```ruby
 // Crosshair
 CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D
+// cross new : ?
 
 // Viewmodel
 viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0
+// vie new : ?
 
 // Weapon Movement
 cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;
@@ -37,7 +39,7 @@ bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand
 bind "kp_pgdn" "buy awp; buy vesthelm; buy vest; buy defuser;"
 bind "kp_downarrow" "buy m4a1; buy ak47; buy defuser; buy vesthelm; buy vest;"
 
- bind f "use weapon_smokegrenade"; bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals"; (Using MOUSE4 for player ping and MOUSE5 for use microphone and MOUSE3)
+// binds v2 : bind f "use weapon_smokegrenade"; bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals"; (Using MOUSE4 for player ping and MOUSE5 for use microphone and MOUSE3)
 
 // Hud
 hud_scaling 0.896259; cl_hud_color 0; cl_hud_playercount_showcount 0; cl_hud_playercount_pos 0; cl_showloadout 0; cl_hud_healthammo_style 0; cl_hud_background_alpha 0.5; cl_hud_bomb_under_radar 1; safezonex 0.993978; safezoney 0.993978 
