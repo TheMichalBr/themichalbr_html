@@ -5,10 +5,6 @@
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> |
 | Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- |
 
-| Resolution and Brigthness | Volume | Quality settings | Mouse settings | In-Game sensitivity and scope sensitivity |
-| :------------: | :------------: | :------------: | :------------: | :------------: |
-| 1280x1024 270Hz, 4:3 - Stretched-Fullscreen, Computer Monitor - 125% | 25% (VOIP: 35%) | Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH | 400 DPI, 1000Hz, 6/11 | 2,4 / 1 |
-
 <h5>autoexec.cfg</h5>
   
 ```ruby
@@ -51,6 +47,14 @@ cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_reco
 cl_autohelp "0";cl_showhelp "0";cl_cmdrate "128";cl_updaterate "128";
 
 clear;
+
+// Resolution and Brigthness - 1280x1024 270Hz, 4:3 - Stretched-Fullscreen, Computer Monitor - 125%
+// Volume - 25% (VOIP: 35%) 
+// Quality settings - Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH
+// Mouse settings - 400 DPI, 1000Hz, 6/11
+// In-Game sensitivity and scope sensitivity -  2,4 / 1 
+
+
 echo #### MichalBr's config loaded! ####;
 ```
 
