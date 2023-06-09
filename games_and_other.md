@@ -16,6 +16,12 @@
 <h5>autoexec.cfg</h5>
   
 ```ruby
+// Crosshair
+CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D
+
+// Viewmodel
+viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0
+
 // Weapon Movement
 cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;
 cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1;
