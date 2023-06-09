@@ -1,9 +1,9 @@
 <h1>CS Settings</h1>
 
-| MM & WM Rank | FACEIT | ESPORTAL |
-| :------------: | :------------: | :------------: |
-| <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> | <img src="https://user-images.githubusercontent.com/51486174/230768322-5f77778f-56a9-4b1f-a251-b87eef041a5d.png" weight="65" height="65"> |
-| Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- | Elite 1 - https://esportal.com/en/profile/michalbr |
+| MM & WM Rank | FACEIT |
+| :------------: | :------------: |
+| <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> |
+| Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- |
 
 | Resolution and Brigthness | Volume | Quality settings | Mouse settings | In-Game sensitivity and scope sensitivity |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
