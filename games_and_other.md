@@ -27,7 +27,7 @@ cl_hud_radar_scale 1.15; cl_radar_scale 0.4; cl_radar_always_centered 1; cl_rada
 cl_radar_icon_scale_min 0.4; cl_radar_square_with_scoreboard 1; cl_radar_icon_scale_min 0.25;
 
 // BINDS (Using MOUSE4 for player ping and MOUSE5 for use microphone and MOUSE3)
-bind "alt" "+speed; r_cleardecals";bind "alt" "toggle cl_righthand 0 1";bind f "use weapon_smokegrenade";
+bind "alt" "+speed; r_cleardecals"; bind "alt" "toggle cl_righthand 0 1"; bind f "use weapon_smokegrenade";
 bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals";
 bind "kp_pgdn" "buy awp; buy vesthelm; buy vest; buy defuser;"
 bind "kp_downarrow" "buy m4a1; buy ak47; buy defuser; buy vesthelm; buy vest;";
@@ -38,7 +38,7 @@ cl_showloadout 0; cl_hud_healthammo_style 0; cl_hud_background_alpha 0.5; cl_hud
 safezonex 0.993978; safezoney 0.993978;
 
 // OTHER
-cl_autohelp "0";cl_showhelp "0";cl_cmdrate "128";cl_updaterate "128"; alias"";
+cl_autohelp "0"; cl_showhelp "0"; cl_cmdrate "128"; cl_updaterate "128"; alias"";
 
 clear;
 
