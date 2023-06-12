@@ -48,11 +48,12 @@ cl_autohelp "0";cl_showhelp "0";cl_cmdrate "128";cl_updaterate "128";
 
 clear;
 
-// Resolution and Brigthness - 1280x1024 270Hz, 4:3 - Stretched-Fullscreen, Computer Monitor - 125%
-// Volume - 25% (VOIP: 35%) 
-// Quality settings - Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH
-// Mouse settings - 400 DPI, 1000Hz, 6/11
-// In-Game sensitivity and scope sensitivity -  2,4 / 1 
+//    CS Settings:
+//    Resolution and Brigthness - 1280x1024 270Hz, 4:3 - Stretched-Fullscreen, Computer Monitor - 125%
+//    Volume - 25% (VOIP: 35%) 
+//    Quality settings - Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH
+//    Mouse settings - 400 DPI, 1000Hz, 6/11
+//    In-Game sensitivity and scope sensitivity -  2,4 / 1 
 
 
 echo #### MichalBr's config loaded! ####;
