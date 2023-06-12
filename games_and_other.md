@@ -30,7 +30,7 @@ cl_radar_icon_scale_min 0.4; cl_radar_square_with_scoreboard 1; cl_radar_icon_sc
 bind "alt" "+speed; r_cleardecals";bind "alt" "toggle cl_righthand 0 1";bind f "use weapon_smokegrenade";
 bind v "use weapon_flashbang"; bind = "holdpos"; bind "alt" "toggle cl_righthand 0 1"; r_cleardecals";
 bind "kp_pgdn" "buy awp; buy vesthelm; buy vest; buy defuser;"
-bind "kp_downarrow" "buy m4a1; buy ak47; buy defuser; buy vesthelm; buy vest;"
+bind "kp_downarrow" "buy m4a1; buy ak47; buy defuser; buy vesthelm; buy vest;";
 
 // Hud
 hud_scaling 0.896259; cl_hud_color 0; cl_hud_playercount_showcount 0; cl_hud_playercount_pos 0; 
