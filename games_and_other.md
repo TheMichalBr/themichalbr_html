@@ -15,7 +15,7 @@ CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D
 viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0
 
 // Weapon Movement
-cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;
+cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0; 
 cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1;
 
 // Steam Launch options (using bananagaming font)
@@ -35,14 +35,14 @@ bind "kp_downarrow" "buy m4a1; buy ak47; buy defuser; buy vesthelm; buy vest;"
 // Hud
 hud_scaling 0.896259; cl_hud_color 0; cl_hud_playercount_showcount 0; cl_hud_playercount_pos 0; 
 cl_showloadout 0; cl_hud_healthammo_style 0; cl_hud_background_alpha 0.5; cl_hud_bomb_under_radar 1; 
-safezonex 0.993978; safezoney 0.993978 
+safezonex 0.993978; safezoney 0.993978;
 
 // cl_bob
-cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;cl_bob_lower_amt 5;
-cl_bobamt_lat 0.1;cl_bobamt_vert 0.1
+cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;cl_bob_lower_amt 5; 
+cl_bobamt_lat 0.1;cl_bobamt_vert 0.1;
 
 // Other
-cl_autohelp "0";cl_showhelp "0";cl_cmdrate "128";cl_updaterate "128"; alias""
+cl_autohelp "0";cl_showhelp "0";cl_cmdrate "128";cl_updaterate "128"; alias"";
 
 clear;
 
