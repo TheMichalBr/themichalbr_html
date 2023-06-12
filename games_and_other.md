@@ -23,10 +23,8 @@ cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1;
 -cl_cmdrate 128 -rate 786432 +cl_interp_ratio 1 +cl_interp 0 -dxlevel 81 -language bananagaming +exec autoexec.cfg
 
 // Radar
-cl_radar_scale 0.4; cl_radar_always_centered 1; cl_hud_radar_scale 1.15; cl_radar_icon_scale_min 0.25;
-cl_radar_rotate 1; cl_radar_square_with_scoreboard 1;
-
-cl_hud_radar_scale 1.15; cl_radar_scale 0.4; cl_radar_always_centered 1; cl_radar_rotate 1; cl_radar_icon_scale_min 0.4
+cl_hud_radar_scale 1.15; cl_radar_scale 0.4; cl_radar_always_centered 1; cl_radar_rotate 1; 
+cl_radar_icon_scale_min 0.4; cl_radar_square_with_scoreboard 1; cl_radar_icon_scale_min 0.25;
 
 // Binds (Using MOUSE4 for player ping and MOUSE5 for use microphone and MOUSE3)
 bind "alt" "+speed; r_cleardecals";bind "alt" "toggle cl_righthand 0 1";bind f "use weapon_smokegrenade";
