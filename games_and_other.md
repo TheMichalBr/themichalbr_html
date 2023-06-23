@@ -18,7 +18,7 @@ viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z
 cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0; 
 cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1;
 
-// STEAM LAUNCH OPTIONS (using bananagaming font)
+// STEAM LAUNCH OPTIONS
 -high -threads 8 -novid -nojoy -freq 270 -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128 
 -cl_cmdrate 128 -rate 786432 +cl_interp_ratio 1 +cl_interp 0 -dxlevel 81 -language bananagaming +exec autoexec.cfg
 
