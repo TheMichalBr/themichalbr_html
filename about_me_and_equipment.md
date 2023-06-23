@@ -29,4 +29,4 @@
 <li><p><b>Headset</b> – HyperX Cloud II</li>
 <li><p><b>Microphone</b> – HyperX Quadcast</li>
 <li><p><b>Mobile</b> – Samsung S20 FE</li>
-<li><p><b>Console</b> – Xbox 360</li></ul>
+<li><p><b>Console</b> – Xbox 360 + Kinect</li></ul>
