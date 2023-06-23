@@ -1,7 +1,7 @@
 <h1> MichalBr </h1>
 
 <ul><li><p>My name is Michal, 21 years old and I've come from the Czech Republic – Brno and can speak Czech, English and bit of German and Spanish.<br></li>
-<ul><li><p>And I can speak Czech, English and bit of German and Spanish.<br></li>
+<li><p>And I can speak Czech, English and bit of German and Spanish.<br></li>
 <li><p>My hobbies are games, technology, programing, creating content, music, films, collecting, exploring, memes and much more.</li> 
 <li><p>I'm not going to write everything here, but if you have any questions, feel free to message me @MichalBr on Discord.</li></ul>
 
