@@ -1,11 +1,11 @@
-<h1> CS Settings </h1>
+<h1>CS Settings</h1>
 
 | MM Rank | FACEIT |
 | :------------: | :------------: |
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> |
 | Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- |
 
-<h5> autoexec.cfg </h5>
+<h5>autoexec.cfg</h5>
   
 ```ruby
 // CROSSHAIR
@@ -53,7 +53,7 @@ echo //    In-Game sensitivity and scope sensitivity -  2,4 / 1
 echo #### MichalBr's config loaded! ####;
 ```
 
-<h5> practice.cfg </h5>
+<h5>practice.cfg</h5>
   
 ```ruby
 // COMMANDS
@@ -72,23 +72,23 @@ clear;
 Say #### MichalBr's practice config loaded! ####;
 ```
 
-<!--
-<h1>Valorant Settings (WIP)</h1>
+<h1>Valorant Settings</h1>
 
-| Rank | Crosshair | In-Game sensitivity | Resolution and quality settings | Misc. |
-| :------------: | :------------: | :------------: | :------------: | :------------: |
-| <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img> Platinum II | XXXXXXX | 0.82 / 1 / 1 | 1920x1080, All Graphic set to low, only Bloom and MT ON | Only FPS Counter enabled |
+| Rank |
+| :------------: |
+| <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img> Platinum II |
 
+ Crosshair | In-Game sensitivity | Resolution and quality settings | Misc. |
+ :------------: | :------------: | :------------: | :------------: |
+ XXXXXXX | 0.82 / 1 / 1 | 1920x1080, All Graphic set to low, only Bloom and MT ON | Only FPS Counter enabled Nastavení: Jazyk English / Enemy Highlight Color Purple / Sens. 0.82 1 1 / Map Rotate On 1.16 0.72 / Grafika Fullscreen / full hd - 2k 270hz max fps 500 / nvidia reflex ON+BOOST / multihreded rend ON all graphiscs low 1x only bloom On
 
+<h1>Other game Settings and platforms-socials</h1>
 
-<h1> Other settings / platforms-socials </h1>
-<h6>• My Steam account: https://steamcommunity.com/id/misakbr2/</h6>
-<h6>• My Riot account: MichalBr#UwU</h6>
-<h6>• My settings.gg (non-active): https://settings.gg/misakbr2 and mb4 acc</h6>
-<h1> Reviews (Recenze) </h1>
-<b>Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr</b><br>
-<b>NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/</b><br>
+<b>• My Steam account: https://steamcommunity.com/id/misakbr2/</b>
+<b>• My Riot account: MichalBr#UwU</b>
+<b>• My settings.gg (non-active): https://settings.gg/misakbr2 and mb4 acc</b>
 
+<h1>My Reviews (Recenze)</h1>
 
-<h3>VALORANT Basic (Video, radar, sound and mouse):</h3>
-Nastavení: Jazyk English / Enemy Highlight Color Purple / Sens. 0.82 1 1 / Map Rotate On 1.16 0.72 / Grafika Fullscreen / full hd - 2k 270hz max fps 500 / nvidia reflex ON+BOOST / multihreded rend ON all graphiscs low 1x only bloom On
+<b>• Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr</b>
+<b>• NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/</b>

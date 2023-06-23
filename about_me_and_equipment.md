@@ -1,13 +1,13 @@
-<h1> MichalBr </h1>
+<h1>MichalBr</h1>
 
 <ul><li><p>My name is Michal, 21 years old and I've come from the Czech Republic – live in Brno.<br></li>
 <li><p>I can speak well in Czech, English and bit of German and Spanish.<br></li>
 <li><p>My hobbies are games, technology, programing, creating content, editing, music, films, collecting, exploring, memes and much more.</li> 
 <li><p>I'm not going to write everything here, but if you have any questions, feel free to message me @MichalBr on Discord.</li></ul>
 
-<h1> My equipment </h1>
+<h1>My equipment</h1>
 
-<h3> Computer </h3>
+<h3>Computer</h3>
 
 <ul><li><p><b>CASE</b> –⁠ Fractal Design Define 7 Black TG Dark Tint</li>
 <li><p><b>PSU</b> – Corsair HX1000</li> 
@@ -19,7 +19,7 @@
 <li><p><b>DRIVES</b> – Samsung SSD 980 M.2 - 500GB, TOSHIBA HDWE150 HDD - 5TB</li>
 <li><p><b>OS</b> – Windows 11 Pro - Insider Dev</li></ul>
 
-<h3> Accessories </h3>
+<h3>Accessories</h3>
 
 <ul><li><p><b>Main Monitor</b> – Acer Predator XB273UNX - QHD 275Hz</li>
 <li><p><b>Other Monitors</b> – ZOWIE by BenQ XL2720 - FullHD 144Hz, IIYAMA PLE2209HDS-B1</li>
