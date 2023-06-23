@@ -1,6 +1,6 @@
 <h1>CS Settings</h1>
 
-| MM & WM Rank | FACEIT |
+| MM Rank | FACEIT |
 | :------------: | :------------: |
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> |
 | Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- |
