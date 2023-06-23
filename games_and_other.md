@@ -80,7 +80,7 @@ Say #### MichalBr's practice config loaded! ####;
 | <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img> Platinum II | XXXXXXX | 0.82 / 1 / 1 | 1920x1080, All Graphic set to low, only Bloom and MT ON | Only FPS Counter enabled |
 
 
-XXXXXXXXXXXXX - WIP- XXXXXXXXXXXXXXXXXX
+
 <h1> Other settings / platforms-socials </h1>
 <h6>• My Steam account: https://steamcommunity.com/id/misakbr2/</h6>
 <h6>• My Riot account: MichalBr#UwU</h6>
@@ -88,5 +88,7 @@ XXXXXXXXXXXXX - WIP- XXXXXXXXXXXXXXXXXX
 <h1> Reviews (Recenze) </h1>
 <b>Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr</b><br>
 <b>NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/</b><br>
+
+
 <h3>VALORANT Basic (Video, radar, sound and mouse):</h3>
 Nastavení: Jazyk English / Enemy Highlight Color Purple / Sens. 0.82 1 1 / Map Rotate On 1.16 0.72 / Grafika Fullscreen / full hd - 2k 270hz max fps 500 / nvidia reflex ON+BOOST / multihreded rend ON all graphiscs low 1x only bloom On
