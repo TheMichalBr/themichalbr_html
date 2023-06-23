@@ -8,7 +8,7 @@
 <h5>autoexec.cfg</h5>
   
 ```ruby
-// CROSSHAIR - subto? new
+// CROSSHAIR
 CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D
 
 // VIEWMODEL
