@@ -5,7 +5,7 @@
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> |
 | Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- |
 
-<h5>autoexec.cfg</h5>
+<h5> autoexec.cfg </h5>
   
 ```ruby
 // CROSSHAIR
@@ -53,7 +53,7 @@ echo //    In-Game sensitivity and scope sensitivity -  2,4 / 1
 echo #### MichalBr's config loaded! ####;
 ```
 
-<h5>practice.cfg</h5>
+<h5> practice.cfg </h5>
   
 ```ruby
 // COMMANDS
@@ -89,6 +89,4 @@ XXXXXXXXXXXXX - WIP- XXXXXXXXXXXXXXXXXX
 <b>Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr</b><br>
 <b>NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/</b><br>
 <h3>VALORANT Basic (Video, radar, sound and mouse):</h3>
-<img src="https://lh3.googleusercontent.com/drive-viewer/AAOQEOTb8QrQxj1AI-O3USeBVaemsYGPXxOl2VKEaS4UrtJoj2WFc8t5HW_dEbDdc95MgxQrexcP6Wd6mlBgYYLcVYYp5Oar1Q=w1920-h961"></img>
-<img src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gOBFyo2UkPrGUf96FJDIv-m4uSlLDzoB_KwB5kSRGR8jvlzPsEj-QaxJ-u4c3AvCVx6QWQ5QhQNd_burm2yRG4N7jP_Zw=w1543-h653"></img>
-<img src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gMPTIyrexcy6Nll2NP9wYKKUXbzTGtjMHDzoavMzcnuEmcm1nSJfx7EFA-wCekXF9PHkCCCBxu0UbYfuNUgv9RCyvDkQA=w1543-h653"></img>
+Nastavení: Jazyk English / Enemy Highlight Color Purple / Sens. 0.82 1 1 / Map Rotate On 1.16 0.72 / Grafika Fullscreen / full hd - 2k 270hz max fps 500 / nvidia reflex ON+BOOST / multihreded rend ON all graphiscs low 1x only bloom On
