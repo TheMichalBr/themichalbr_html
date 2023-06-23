@@ -1,4 +1,4 @@
-<h1>CS Settings</h1>
+<h1> CS Settings </h1>
 
 | MM Rank | FACEIT |
 | :------------: | :------------: |
