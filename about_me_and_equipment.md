@@ -1,6 +1,6 @@
 <h1> MichalBr </h1>
 
-<ul><li><p>My name is Michal, 21 years old and I've come from the Czech Republic – live in Brno and can speak Czech and English (German, Spanish).<br></li>
+<ul><li><p>My name is Michal, 21 years old and I've come from the Czech Republic – live in Brno and can speak Czech and English and bit German, Spanish.<br></li>
 <li><p>My hobbies are games, technology, programing, creating content, music, films, collecting, exploring, memes and much more.</li> 
 <li><p>I'm not going to write everything here, but if you have any questions, feel free to message me @MichalBr on Discord.</li></ul>
 
@@ -16,7 +16,7 @@
 <li><p><b>GPU</b> – NVIDIA MSI GeForce RTX 2070 GAMING Z 8GB</li>
 <li><p><b>RAM</b> – Kingston Fury Renegade RGB DDR4 32GB 2x16GB 3600MHz CL16</li>
 <li><p><b>DRIVES</b> – Samsung SSD 980 M.2 - 500GB, TOSHIBA HDWE150 HDD - 5TB</li>
-<li><p><b>OS</b> – Windows 11 Pro - Insider Beta</li></ul>
+<li><p><b>OS</b> – Windows 11 Pro - Insider Dev</li></ul>
 
 <h3> Accessories </h3>
 
