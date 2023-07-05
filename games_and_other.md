@@ -77,12 +77,11 @@ Say #### MichalBr's practice config loaded! ####;
 | Rank | Crosshair | In-Game sensitivity | Resolution and quality settings | Misc. |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 | <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img> | XXXXXXX | 0.82 / 1 / 1 | 1920x1080, All Graphic set to low, only Bloom and MT ON | Only FPS Counter enabled Nastavení: Jazyk English / Enemy Highlight Color Purple / Sens. 0.82 1 1 / Map Rotate On 1.16 0.72 / Grafika Fullscreen / full hd - 2k 270hz max fps 500 / nvidia reflex ON+BOOST / multihreded rend ON all graphiscs low 1x only bloom On |
-| Platinum II |
+| Platinum II - MichalBr#UwU |
 
 <h1>Other</h1>
 
-<b>• My Steam account: https://steamcommunity.com/id/misakbr2/</b>
-<b>• My Riot account: MichalBr#UwU</b>
-<b>• My settings.gg (non-active): https://settings.gg/misakbr2 and mb4 acc</b>
-<b>• Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr</b>
-<b>• NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/</b>
+<b>• My Steam account: https://steamcommunity.com/id/misakbr2/.</b>
+<b>• My settings.gg (non-active): https://settings.gg/misakbr2 and mb4 acc.</b>
+<b>• Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr.</b>
+<b>• NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.</b>
