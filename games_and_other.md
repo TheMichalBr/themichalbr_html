@@ -71,6 +71,7 @@ bind "c" "sv_rethrow_last_grenade";bind "x" "noclip";
 clear;
 Say #### MichalBr's practice config loaded! ####;
 ```
+<!--
 
 <h1>Valorant Settings</h1>
 
