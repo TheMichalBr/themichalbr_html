@@ -19,7 +19,7 @@ cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_reco
 cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1;
 
 // STEAM LAUNCH OPTIONS
--high -threads 8 -novid -nojoy -freq 270 -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128 
+-high -threads 8 -novid -nojoy -freq 270 -tickrate 128 +fps_max 400 +fps_max_menu 144 +cl_updaterate 128 
 -cl_cmdrate 128 -rate 786432 +cl_interp_ratio 1 +cl_interp 0 -dxlevel 81 -language bananagaming +exec autoexec.cfg
 
 // RADAR
@@ -76,13 +76,14 @@ Say #### MichalBr's practice config loaded! ####;
 
 | Rank |
 | :------------: |
-| <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img> Platinum II |
+| <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img> | 
+| Platinum II |
 
  Crosshair | In-Game sensitivity | Resolution and quality settings | Misc. |
  :------------: | :------------: | :------------: | :------------: |
  XXXXXXX | 0.82 / 1 / 1 | 1920x1080, All Graphic set to low, only Bloom and MT ON | Only FPS Counter enabled Nastavení: Jazyk English / Enemy Highlight Color Purple / Sens. 0.82 1 1 / Map Rotate On 1.16 0.72 / Grafika Fullscreen / full hd - 2k 270hz max fps 500 / nvidia reflex ON+BOOST / multihreded rend ON all graphiscs low 1x only bloom On
 
-<h1>Other game Settings and platforms-socials</h1>
+<h1>Other</h1>
 
 <b>• My Steam account: https://steamcommunity.com/id/misakbr2/</b>
 <b>• My Riot account: MichalBr#UwU</b>
