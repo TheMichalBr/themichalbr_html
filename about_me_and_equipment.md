@@ -22,10 +22,10 @@
 <h3>Accessories</h3>
 
 <ul><li><p><b>Main Monitor</b> – Acer Predator XB273UNX - QHD 275Hz</li>
-<li><p><b>Other Monitors</b> – ZOWIE by BenQ XL2720 - FullHD 144Hz, IIYAMA PLE2209HDS-B1</li>
+<li><p><b>Other Monitors</b> – ZOWIE by BenQ XL2720 - FullHD 144Hz (IIYAMA PLE2209HDS-B1)</li>
 <li><p><b>Keyboard</b> – Logitech G915 LIGHTSPEED TKL</li>
 <li><p><b>Mouse</b> – Logitech G Pro X Superlight - 400 DPI, 1000Hz</li>
 <li><p><b>Mousepad</b> – Logitech G640</li>
 <li><p><b>Headset</b> – HyperX Cloud II</li>
 <li><p><b>Microphone</b> – HyperX Quadcast</li>
-<li><p><b>Other</b> – Samsung S20 FE, Xbox 360 + Kinect</li></ul>
+<li><p><b>Other</b> – Electric Table, Samsung S20 FE, Xbox 360 + Kinect</li></ul>
