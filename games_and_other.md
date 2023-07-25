@@ -7,6 +7,7 @@
 
 <h1></h1>
 <b>• NOVINKA - NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.</b>
+<b>Otevřena nová část o Valorantu</b>
 <h1></h1>
 
 <h5>autoexec.cfg</h5>
