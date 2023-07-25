@@ -78,4 +78,4 @@ Say #### MichalBr's practice config loaded! ####;
 
 | Rank | Crosshair | In-Game sensitivity | Resolution and quality settings | Misc. |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
-| <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img>  Platinum II – MichalBr#UwU | Cyan - Static | 0.82 / 1 / 1 | Fullscreen 2560x1440 270Hz max fps 500, All graphic set to low, only Bloom and MT ON and Mvidia reflex ON+BOOST | Only FPS counter enabled, Enemy Highlight Color Purple, Map Rotate - On 1.16 0.72 |
+| <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img>  Platinum II – MichalBr#UwU | Cyan - Static | 0.82 / 1 / 1 | 2560x1440 270Hz, max.fps 500, All graphic set to low, only Bloom, MT and NV reflex to ON+BOOST | FPS counter - enabled, Enemy highlight color - purple, Map rotate - On (1.16 0.72) |
