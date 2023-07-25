@@ -1,6 +1,5 @@
 <b>• NOVINKA - NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.</b>
 <h1>
-<h1>
 <h1>CS Settings</h1>
 
 | MM Rank | FACEIT |
