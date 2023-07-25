@@ -5,7 +5,7 @@
 | MM Rank | FACEIT |
 | :------------: | :------------: |
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> |
-| Global Elite - https://steamcommunity.com/id/misakbr2/ | Level 7 - https://faceit.com/en/players/michalbr- |
+| <b>Global Elite</b> - https://steamcommunity.com/id/misakbr2/ | <b>Level 7</b> - https://faceit.com/en/players/michalbr- |
 
 <h5>autoexec.cfg</h5>
   
