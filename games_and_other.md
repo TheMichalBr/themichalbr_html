@@ -6,15 +6,15 @@
 | <b>Global Elite</b> – https://steamcommunity.com/id/misakbr2/ | <b>Level 7</b> – https://faceit.com/en/players/michalbr- |
 
 <h1></h1><b>↺ UPOZORNĚNÍ –</b> Novou Doom Eternal recenzi najdete na <b>https://steamcommunity.com/id/misakbr2/recommended/782330/.</b><h1></h1>
-<!-- WIP 
- <h1>Valorant Settings</h1>
+<!-- WIP
+<h1>Valorant Settings</h1>
 
 | Rank | Crosshair | In-Game sensitivity | Resolution and quality settings | Misc. |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 | <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img>  <b>Platinum II</b> – MichalBr#UwU | Cyan - Static | 0.82 / 1 / 1 | 2560x1440 270Hz, FPS limit - 500, All graphic set to low, only Bloom, MT and NVRB are ON | FPS counter - enabled, Enemy highlight color - red, Map rotate - On (1.16 0.72) |
-<h5>autoexec.cfg</h5>
 --!>
 
+<h5>autoexec.cfg</h5>
   
 ```ruby
 // CROSSHAIR
