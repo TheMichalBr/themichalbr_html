@@ -1,3 +1,5 @@
+<b>• Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr a NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.</b>
+
 <h1>CS Settings</h1>
 
 | MM Rank | FACEIT |
@@ -47,7 +49,7 @@ echo //    Resolution and Brigthness - 1280x1024 270Hz, 4:3 - Stretched-Fullscre
 echo //    Volume - 25% (VOIP: 35%) 
 echo //    Quality settings - Almost everything is set to LOW, except for multithreaded rendering ON and shadows HIGH
 echo //    Mouse settings - 400 DPI, 1000Hz, 6/11
-echo //    In-Game sensitivity and scope sensitivity -  2,4 / 1 
+echo //    In-Game sensitivity and scope sensitivity - 2,4 / 1 (OLD: https://settings.gg/misakbr2)
 
 
 echo #### MichalBr's config loaded! ####;
@@ -71,7 +73,6 @@ bind "c" "sv_rethrow_last_grenade";bind "x" "noclip";
 clear;
 Say #### MichalBr's practice config loaded! ####;
 ```
-<!--
 
 <h1>Valorant Settings</h1>
 
@@ -79,10 +80,3 @@ Say #### MichalBr's practice config loaded! ####;
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 | <img src="https://legendboost.com/images/valorant/ranks/rank-5-1-fc0f86e94fd8494b796161d92c9cf66b.png?vsn=d" weight="95" height="95"></img> | XXXXXXX | 0.82 / 1 / 1 | 1920x1080, All Graphic set to low, only Bloom and MT ON | Only FPS Counter enabled Nastavení: Jazyk English / Enemy Highlight Color Purple / Sens. 0.82 1 1 / Map Rotate On 1.16 0.72 / Grafika Fullscreen / full hd - 2k 270hz max fps 500 / nvidia reflex ON+BOOST / multihreded rend ON all graphiscs low 1x only bloom On |
 | Platinum II - MichalBr#UwU |
-
-<h1>Other</h1>
-
-<b>• My Steam account: https://steamcommunity.com/id/misakbr2/.</b>
-<b>• My settings.gg (non-active): https://settings.gg/misakbr2 and mb4 acc.</b>
-<b>• Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr.</b>
-<b>• NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.</b>
