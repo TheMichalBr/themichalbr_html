@@ -1,4 +1,4 @@
-• Herní a ostatní recenze: https://www.metacritic.com/user/MichalBr a NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.
+<b>• NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.</b>
 
 <h1>CS Settings</h1>
 
