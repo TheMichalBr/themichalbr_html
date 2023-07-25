@@ -1,12 +1,13 @@
-<b>• NOVINKA - NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.</b>
-<h1>
-<h4></h4>
 <h1>CS Settings</h1>
 
 | MM Rank | FACEIT |
 | :------------: | :------------: |
 | <img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"> | <img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"> |
 | <b>Global Elite</b> - https://steamcommunity.com/id/misakbr2/ | <b>Level 7</b> - https://faceit.com/en/players/michalbr- |
+
+<h1></h1>
+<b>• NOVINKA - NOVÁ DOOM ETERNAL RECENZE! https://steamcommunity.com/id/misakbr2/recommended/782330/.</b>
+<h1></h1>
 
 <h5>autoexec.cfg</h5>
   
