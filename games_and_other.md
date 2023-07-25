@@ -7,7 +7,7 @@
 
 <h1></h1><b>↺ UPOZORNĚNÍ –</b> Novou Doom Eternal recenzi najdete na <b>https://steamcommunity.com/id/misakbr2/recommended/782330/.</b><h1></h1>
 <!-- WIP
- <h1>Valorant Settings</h1>
+<h1>Valorant Settings</h1>
 
 | Rank | Crosshair | In-Game sensitivity | Resolution and quality settings | Misc. |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
