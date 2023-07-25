@@ -1,4 +1,4 @@
-<h1>Couter-Strike Settings</h1>
+<h1>Couter-Strike 2 Settings</h1>
 
 | MM Rank | FACEIT |
 | :------------: | :------------: |
