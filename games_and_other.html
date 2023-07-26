@@ -109,16 +109,10 @@ Say #### MichalBr's practice config loaded! ####;
 
 
 
-
-
-
-
-
-
-
-
-
 <!--
+
+    ----------------------------------------------------------------------
+
 &emsp;
 <h1>Crosshairs:</h1>
 <ul>
@@ -127,11 +121,16 @@ Say #### MichalBr's practice config loaded! ####;
 <li><p>CSGO-8Gkvb-aphzt-aB9Au-uAMUG-CrrBE</li>
 <li><p>CSGO-kuLez-W4DAQ-fxLtc-QDy7a-tUfOQ</li>
 <li><p>CSGO-oLKsQ-kVRsV-LVnSm-6TjZM-d4izO</li>
+    cl_crosshairstyle 4;cl_crosshairsize 1.2;cl_crosshairgap -4;cl_crosshairthickness 0.5;cl_crosshair_drawoutline
+    0;cl_crosshairdot 0;cl_crosshaircolor 1;cl_crosshairusealpha 1;cl_crosshairalpha
+    250;cl_crosshairgap_useweaponvalue 0;cl_crosshair_t 0
 </ul>
 <h1>Viewmodels:</h1>
 <ul>
 <li><p>viewmodel_fov 68;viewmodel_offset_x 2;viewmodel_offset_y 2;viewmodel_offset_z -2;cl_righthand 1;viewmodel_presetpos 0</li>
 <li><p>viewmodel_fov 60;viewmodel_offset_x 1;viewmodel_offset_y 1;viewmodel_offset_z -1;cl_righthand 1;viewmodel_presetpos 1</li>
+viewmodel_fov 68;viewmodel_offset_x 1;viewmodel_offset_y 2;viewmodel_offset_z -2;cl_righthand
+1;viewmodel_presetpos 0
 </ul>
 
     
@@ -157,36 +156,6 @@ https://settings.gg/player/154866313
 overwatch a fornite
 https://query.hicoria.com/query.php?user=mcx_379915
 
-
-    &emsp;
-    <h1>Crosshairs:</h1>
-    <ul>
-        <li>
-            <p>CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D
-        </li>
-        <li>
-            <p>CSGO-94yFf-NEJtd-yNLtE-qPtuY-O2syM
-        </li>
-        <li>
-            <p>CSGO-8Gkvb-aphzt-aB9Au-uAMUG-CrrBE
-        </li>
-        <li>
-            <p>CSGO-kuLez-W4DAQ-fxLtc-QDy7a-tUfOQ
-        </li>
-        <li>
-            <p>CSGO-oLKsQ-kVRsV-LVnSm-6TjZM-d4izO
-        </li>
-
-
-        // Crosshair
-        cl_crosshairstyle 4;cl_crosshairsize 1.2;cl_crosshairgap -4;cl_crosshairthickness 0.5;cl_crosshair_drawoutline
-        0;cl_crosshairdot 0;cl_crosshaircolor 1;cl_crosshairusealpha 1;cl_crosshairalpha
-        250;cl_crosshairgap_useweaponvalue 0;cl_crosshair_t 0
-
-        // Viewmodel
-        viewmodel_fov 68;viewmodel_offset_x 1;viewmodel_offset_y 2;viewmodel_offset_z -2;cl_righthand
-        1;viewmodel_presetpos 0
-
         // Weapon Movement
         cl_viewmodel_shift_left_amt 0.5;cl_viewmodel_shift_right_amt 0.25;viewmodel_recoil 0;cl_bob_lower_amt
         5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1
@@ -207,42 +176,6 @@ https://query.hicoria.com/query.php?user=mcx_379915
         clear;
         echo #### MichalBr's config loaded! ####;
     </ul>
-    <h1>Viewmodels:</h1>
-    <ul>
-        <li>
-            <p>viewmodel_fov 68;viewmodel_offset_x 2;viewmodel_offset_y 2;viewmodel_offset_z -2;cl_righthand
-                1;viewmodel_presetpos 0
-        </li>
-        <li>
-            <p>viewmodel_fov 60;viewmodel_offset_x 1;viewmodel_offset_y 1;viewmodel_offset_z -1;cl_righthand
-                1;viewmodel_presetpos 1
-        </li>
-    </ul>
-
-
-    <h1>Možnosti spuštění:</h1>
-    -high -threads 8 -novid -nojoy -freq 144 -console -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128
-    +cl_interp_ratio 1 +cl_interp 0 +cl_forcepreload 1 -language bananagaming +exec autoexec.cfg -nod3d9ex +snd_mixahead
-    0.1
-    -dxlevel 81 -noaafonts
-    <h1>Bindy</h1>
-    bind f "use weapon_smokegrenade"
-    bind v "use weapon_flashbang"
-    bind = "comand for bot to stay"
-    <h1>Další nastavení:</h1>
-    &emsp;
-    DPI 400
-    HZ 1000
-    RYCHLOST UKAZATELE (WIN) 6/11
-    ROZLISENI STRETCHED
-    MOZNOSTI SPUSTENI -high -threads 8 -novid -nojoy -freq 144 -console -tickrate 128 +fps_max 500 +fps_max_menu 144
-    +cl_updaterate 128 +cl_interp_ratio 1 +cl_interp 0 +cl_forcepreload 1 -language bananagaming +exec autoexec.cfg
-
-
-
-
-</html>
-
 
 <h3>Personal settings</h3>
 <h6>You can find my config in <a href="https://github.com/TheMichalBr/mweb/tree/main/config_cs">mweb/config_cs</a> or on
@@ -301,51 +234,11 @@ https://query.hicoria.com/query.php?user=mcx_379915
         <td><b>Master Volume</b></td>
     </tr>
     <tr>
-        <td><small>1280x1024, 4:3 - Stretched, 144Hz </small></td>
+        <td><small>1280x1024 /960, 4:3 - Stretched, 144Hz </small></td>
         <td><small>130%</small></td>
-        <td><small>25% (VOIP: 40%)</small></td>
+        <td><small>25% (VOIP: 40%)</small></td> all low 
     </tr>
 </table>
-
-Nastavení videa
-Jas
-130%
-Režim barev
-Počítačový monitor
-Poměr stran
-4:3
-Rozlišení
-1280x960 STRETCHED
-Režim zobrazení
-Celá obrazovka
-Souhrnná kvalita stínů
-Velmi nízká
-Kvalita modelů/textur
-Nízká
-Streamování textur
-Vypnuto
-Kvalita efektů
-Nízká
-Kvalita shaderu
-Nízká
-Navýšení kontrastu postav
-Vypnuto
-Vícejádrové renderování
-Zapnuto
-Režim vyhlazování typu multisampling
-Žádné
-FXAA vyhlazování
-Vypnuto
-Režim filtrování textur
-Bilineární
-Vertikální synchronizace
-Vypnuto
-Rozmazání pohybu
-Vypnuto
-Režim pro tři monitory
-Vypnuto
-Uber shadery
-Zapnuto
 
 <h3>Keyboard and mouse settings</h3>
 <table>
@@ -364,101 +257,6 @@ Zapnuto
         <td><small>1</small></td>
     </tr>
 </table>
-
-Nastavení klávesnice
-Přepnutí zobrazení inventáře
-I
-Pohyb vpřed
-W
-Pohyb vzad
-S
-Úkrok doleva
-A
-Úkrok doprava
-D
-Chůze
-SHIFT
-Skok
-SPACE
-Přikrčení
-CTRL
-Použití
-E
-Střelba
-MOUSE1
-Sekundární střelba
-MOUSE2
-Přebití
-R
-Kruhová nabídka zbraní
-Výběr předchozí zbraně
-MWHEELUP
-Výběr další zbraně
-MWHEELDOWN
-Poslední používaná zbraň
-Q
-Upuštění zbraně
-G
-Prohlédnutí zbraně
-F
-Nákupní menu
-B
-Automatický nákup
-F3
-Nákup předešlého
-F4
-Primární zbraň
-1
-Sekundární zbraň
-2
-Zbraně na blízko
-3
-Procházení granátů
-4
-Výbušniny a pasti
-5
-Výbušný granát
-6
-Oslepující granát
-7
-Dýmovnice
-8
-Návnada
-9
-Molotovův koktejl
-0
-Adrenalin
-Nástroje
-Nabídka graffiti
-T
-Tabulka statistik
-TAB
-Vybavení spoluhráčů
-Zahájení hlasování
-Výběr týmu
-M
-Vyvolání konzole`
-`
-Ukazovátko
-MOUSE4
-Rádiové zprávy
-Z
-Příkazové rádiové zprávy
-Standardní rádiové zprávy
-Oznamující rádiové zprávy
-Oznamující rádiové zprávy
-Psaní zprávy týmu
-U
-Psaní zprávy
-Y
-Mikrofon - K
-MOUSE5
-Dočasné umlčení příchozí komunikace
-Chat. kolečko 1
-MOUSE3
-Chat. kolečko 2
-Chat. kolečko 3
-r_cleardecals
 
 <br>
 <h1>Valorant Settings</h1>
@@ -491,16 +289,7 @@ r_cleardecals
     <img
         src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gMPTIyrexcy6Nll2NP9wYKKUXbzTGtjMHDzoavMzcnuEmcm1nSJfx7EFA-wCekXF9PHkCCCBxu0UbYfuNUgv9RCyvDkQA=w1543-h653"></img>
 </ul>
-
 <br>
-<h1>Other Settings</h1>
-XXXXXXXXXXXXX - COMMING SOON - XXXXXXXXXXXXXXXXXX
-
-
-
-<h1>Recenze</h1>
-DOOM ETERNAL RECENZE: https://steamcommunity.com/id/misakbr2/recommended/782330/
-https://www.metacritic.com/user/MichalBr
 
 <table>
     <tr>
@@ -529,12 +318,11 @@ https://www.metacritic.com/user/MichalBr
 </table>
 Bude zájem i o další herní, neherní recenze?
 
-
 <img src="https://query.hicoria.com/query.php?user=mcx_379915" alt="server status">
 
 <h1> Other platforms </h1>
 <h6>• My Steam account: https://steamcommunity.com/id/misakbr2/</h6>
-<h6>• My Riot account: MichalBr#UwU</h6><br>
+<h6>• My Riot account: MichalBr#UwU</h6><br> https://www.metacritic.com/user/MichalBr
 
 <!DOCTYPE html>
 
@@ -573,24 +361,6 @@ Bude zájem i o další herní, neherní recenze?
             1;viewmodel_presetpos 1
     </li>
 </ul>
-
-
-<h1>Možnosti spuštění:</h1>
--high -threads 8 -novid -nojoy -freq 144 -console -tickrate 128 +fps_max 500 +fps_max_menu 144 +cl_updaterate 128
-+cl_interp_ratio 1 +cl_interp 0 +cl_forcepreload 1 -language bananagaming +exec autoexec.cfg -nod3d9ex +snd_mixahead 0.1
--dxlevel 81 -noaafonts
-<h1>Bindy</h1>
-bind f "use weapon_smokegrenade"
-bind v "use weapon_flashbang"
-bind = "comand for bot to stay"
-<h1>Další nastavení:</h1>
-&emsp;
-DPI 400
-HZ 1000
-RYCHLOST UKAZATELE (WIN) 6/11
-ROZLISENI STRETCHED
-MOZNOSTI SPUSTENI -high -threads 8 -novid -nojoy -freq 144 -console -tickrate 128 +fps_max 500 +fps_max_menu 144
-+cl_updaterate 128 +cl_interp_ratio 1 +cl_interp 0 +cl_forcepreload 1 -language bananagaming +exec autoexec.cfg
 -->
 </body>
 </html>
