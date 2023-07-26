@@ -26,6 +26,13 @@ body {
     color: white;
 }
 
+h3
+{
+
+    color: darkcyan;
+
+}
+
 body {
     display: grid;
     place-items: center;
