@@ -11,6 +11,11 @@
     box-sizing: border-box;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 html,
 body {
     height: 100%;
