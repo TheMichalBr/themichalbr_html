@@ -182,7 +182,7 @@ html {
 
 .bg-image {
     /* The image used */
-    background-image: url("z8.jpg");
+    background-image: url("t2.jpg");
 
     /* Add the blur effect */
     filter: blur(8px);
@@ -215,16 +215,6 @@ html {
     padding: 20px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
