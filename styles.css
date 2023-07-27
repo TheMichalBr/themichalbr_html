@@ -126,6 +126,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    background-position: left;
     filter: blur(0.5px);
 }
 
