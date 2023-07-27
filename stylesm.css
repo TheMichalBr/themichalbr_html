@@ -1,4 +1,87 @@
+body
+{
+    text-align: center;
+    align-items: center;
+    align-self: auto;
+}
 h1
 {
     text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial CE, sans-serif;
+    text-shadow: 4px 3px 4px black
+}
+h3
+{
+    text-align: center;
+    color: white;
+    font-family: Arial CE, sans-serif;
+    text-shadow: 3px 2px 3px black
+}
+ul
+{
+    text-align: center;
+    align-items: center;
+    align-self: auto;
+    align-content: center;
+    align-tracks: center;
+    margin: 0 auto;
+    color: white;
+    font-family: Arial CE, sans-serif;
+    text-shadow: 2px 3px 1px black
+}
+b
+{
+    text-align: center;
+    align-items: center;
+    align-self: auto;
+    align-content: center;
+    align-tracks: center;
+    color: whitesmoke;
+    font-family: Arial CE, sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+table
+{
+    text-align: center;
+    align-items: center;
+    align-self: auto;
+    align-content: center;
+    align-tracks: center;
+}
+.center 
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+////////////////////////////////////////
+pre 
+
+    background-color: #D1D1D0;
+    overflow: auto;
+    font-family: 'Monaco', monospace;
+    padding: 0 1em;
+}
+code 
+
+    font-family: Monaco, monospace;
+    font-size: base-font-size;
+    line-height: 100%;
+    background-color: #eee;
+    padding: 0.2em;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    border-radius: 5px;
+}
+pre code 
+
+    border: none;
+    background: none;
+      font-size: base-font-size * 0.875;
+    line-height: 1em;
+    letter-spacing: normal;
+    word-break: break-all;
 }
