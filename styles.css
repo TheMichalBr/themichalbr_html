@@ -108,11 +108,11 @@ body {
 }
 
 .card:nth-child(1):before {
-    background-image: url(z4.png);
+    background-image: url(pictures/p-cs.png);
 }
 
 .card:nth-child(2):before {
-    background-image: url(z3.jpg);
+    background-image: url(pictures/p-pc.jpg);
 }
 
 .card:nth-child(3):before {
@@ -120,7 +120,7 @@ body {
 }
 
 .card:nth-child(4):before {
-    background-image: url(z2.jpg);
+    background-image: url(pictures/p-pc.jpg);
 }
 
 .content {
