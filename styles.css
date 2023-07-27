@@ -26,13 +26,6 @@ body {
     color: white;
 }
 
-h3
-{
-
-    color: darkcyan;
-
-}
-
 body {
     display: flex;
     place-items: center;
@@ -109,18 +102,41 @@ body {
 
 .card:nth-child(1):before {
     background-image: url(pictures/p-cs.png);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-position: right;
+    filter: blur(0.5px);
 }
 
 .card:nth-child(2):before {
-    background-image: url(pictures/p-pc.jpg);
+    background-image: url(https://cdn.vox-cdn.com/uploads/chorus_asset/file/24285166/Witcher_world_panorama.png);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-position: center;
+    filter: blur(0.5px);
 }
 
 .card:nth-child(3):before {
-    background-image: url(https://insider-gaming.com/wp-content/uploads/2023/01/witcher-3-wild-hunt-next-gen.jpg);
+    background-image: url(https://www.minimaldesksetups.com/wp-content/uploads/2022/08/DSCF7140-min-1.jpg);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    filter: blur(0.5px);
 }
 
 .card:nth-child(4):before {
     background-image: url(pictures/p-ja.jpg);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-position: center;
+    filter: blur(0.5px);
 }
 
 .content {
@@ -169,38 +185,8 @@ body {
 }
 
 .btn:focus {
-    outline: 1px dashed yellow;
+    outline: 1px dashed darkcyan;
     outline-offset: 3px;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-.bg-image {
-    /* The image used */
-    background-image: url("t2.jpg");
-
-    /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
-    /* Full height */
-    height: 100%;
-    width: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.zblurovani
-{
-background-image: url("t2.jpg");
-filter: blur(5px);
-
 }
 
 @media (hover: hover) and (min-width: 600px) {
