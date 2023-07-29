@@ -7,4 +7,4 @@
 <h1></h1>
 <h5>My other projects:</h5>
 
-• [<img src="https://github.com/TheMichalBr/michalbr/blob/main/pictures/icon.png?raw=true" width="42" height="42" align="center">  **New App project 🔨 (WIP)** ](appcomingsoon)
+• [<img src="https://www.pngmart.com/files/16/Carpenter-Hammer-Transparent-PNG.png" width="42" height="42" align="center">  **New App project (WIP)** ](appcomingsoon)
