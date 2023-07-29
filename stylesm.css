@@ -3,6 +3,7 @@ body
     text-align: center;
     align-items: center;
     align-self: auto;
+    background-size: flex; 
 }
 h1
 {
