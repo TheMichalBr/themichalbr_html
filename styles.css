@@ -272,7 +272,7 @@ body {
 /* LINK */
 
 /* unvisited link */ a:link {
-    color: rgb(116, 38, 38);
+    color: rgb(69, 172, 38);
 }
 
 /* visited link */ a:visited {
@@ -289,6 +289,6 @@ body {
 
 a
 {
-    text-shadow: 0.90px 0.90px 0.90px black;
+    text-shadow: 0.85px 0.85px 0.85px black;
     
 }
