@@ -6,4 +6,4 @@
 
 <h1></h1><h5>
   
-• [<img src="https://www.pngmart.com/files/16/Carpenter-Hammer-Transparent-PNG.png" width="96" height="96" align="center">  **NEW! app project** ](https://github.com/TheMichalBr/mprojects/app) — App is currently working in progress.
+• [<img src="https://www.pngmart.com/files/16/Carpenter-Hammer-Transparent-PNG.png" width="96" height="96" align="center">  **NEW! Project A** ](https://github.com/TheMichalBr/mprojects/app) — App is currently working in progress.
