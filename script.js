@@ -1,0 +1,1 @@
+alert("Některé části stránky stále nejsou připravené!");
