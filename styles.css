@@ -180,8 +180,7 @@ body {
     text-transform: uppercase;
     color: white;
     background-color: black;
-    border: 3px 3px 3px;
-    border-color: black;
+    border: none;
 }
 
 .btn:hover {
