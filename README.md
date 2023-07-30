@@ -1,5 +1,5 @@
 ![MBWL](https://github.com/TheMichalBr/michalbr/blob/main/pictures/icon.png?raw=true)
-<h5>Hello and welcome on my humble profile 🦭</h5>
+<h5>Hello and welcome on my humble profile. 🦭</h5>
 <h1></h1>
 <h5>My projects:</h5><h5>
 
