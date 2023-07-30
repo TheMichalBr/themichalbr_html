@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 
 :root {
-    --d: 1500ms;
+    --d: 1420ms;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
     --font-sans: "Rubik", sans-serif;
     --font-serif: "Cardo", serif;
@@ -188,7 +188,7 @@ body {
 }
 
 .btn:focus {
-    outline: 1px dashed darkcyan;
+    outline: 1px dashed rgb(18, 182, 204);
     outline-offset: 3px;
 }
 
