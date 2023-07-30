@@ -272,11 +272,11 @@ body {
 /* LINK */
 
 /* unvisited link */ a:link {
-    color: rgb(136, 50, 50);
+    color: rgb(116, 38, 38);
 }
 
 /* visited link */ a:visited {
-    color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 /* mouse over link */ a:hover {
@@ -285,4 +285,10 @@ body {
 
 /* selected link */ a:active {
     color: rgb(28, 94, 194);
+}
+
+a
+{
+    text-shadow: 0.90px 0.90px 0.90px black;
+    
 }
