@@ -6,4 +6,4 @@
 
 <h1></h1><h4>
 
-[<img src="https://www.pngmart.com/files/16/Carpenter-Hammer-Transparent-PNG.png" width="96" height="96" align="center">  **Project A** ](https://github.com/TheMichalBr/mprojects/app) — Currently working in progress.  
+[<img src="" width="96" height="96" align="center">  **Project A** ](https://github.com/TheMichalBr/mprojects/app) — Currently working in progress.  
