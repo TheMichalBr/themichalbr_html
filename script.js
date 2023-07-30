@@ -1,1 +1,1 @@
-alert("Některé části stránky stále nejsou připravené!");
+alert("Web is under development and some things doesn't work! (WIP-ALERT)");
