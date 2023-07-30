@@ -1,7 +1,9 @@
+/* MAIN CARDS */
+
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 
 :root {
-    --d: 900ms;
+    --d: 1500ms;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
     --font-sans: "Rubik", sans-serif;
     --font-serif: "Cardo", serif;
@@ -107,7 +109,7 @@ body {
     margin-right: auto;
     width: 100%;
     background-position: center;
-    filter: blur(0.6px);
+    filter: blur(0.8px);
 }
 
 .card:nth-child(2):before {
@@ -117,7 +119,7 @@ body {
     margin-right: auto;
     width: 100%;
     background-position: center;
-    filter: blur(0.6px);
+    filter: blur(0.8px);
 }
 
 .card:nth-child(3):before {
@@ -127,7 +129,7 @@ body {
     margin-right: auto;
     width: 100%;
     background-position: left;
-    filter: blur(0.6px);
+    filter: blur(0.8px);
 }
 
 .card:nth-child(4):before {
@@ -137,7 +139,7 @@ body {
     margin-right: auto;
     width: 100%;
     background-position: center;
-    filter: blur(0.6px);
+    filter: blur(0.8px);
 }
 
 .content {
@@ -178,7 +180,8 @@ body {
     text-transform: uppercase;
     color: white;
     background-color: black;
-    border: none;
+    border: 3px 3px 3px;
+    border-color: black;
 }
 
 .btn:hover {
@@ -239,6 +242,9 @@ body {
         transition-duration: 0s;
     }
 }
+
+/* BACKGROUND */
+
 body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -261,4 +267,23 @@ body {
     100% {
         background-position: 0% 0%;
     }
+}
+
+
+/* LINK */
+
+/* unvisited link */ a:link {
+    color: rgb(136, 50, 50);
+}
+
+/* visited link */ a:visited {
+    color: rgba(0, 0, 0, 0);
+}
+
+/* mouse over link */ a:hover {
+    color: rgb(35, 170, 204);
+}
+
+/* selected link */ a:active {
+    color: rgb(28, 94, 194);
 }
