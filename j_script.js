@@ -1,1 +1,1 @@
-alert("ALERT: Web is under development and some things doesn't work!");
+alert("IMPORTANT ALERT: Web is in the maintarance!");
