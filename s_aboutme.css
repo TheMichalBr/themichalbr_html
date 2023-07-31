@@ -1,29 +1,71 @@
-iframe
-{
-    border-radius: 12px;
-    border-color: black;
-}
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
+/* ========== Scrollbar ========== */
+
 * {
     scrollbar-width: auto;
     scrollbar-color: transparent transparent;
 }
-
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
     width: 17px;
 }
-
 *::-webkit-scrollbar-track {
     background: #ffffff;
 }
-
 *::-webkit-scrollbar-thumb {
     background-color: #005661;
     border-radius: 20px;
     border: 4px solid #ffffff;
 }
+
+/* ========== Iframe responsive resize ========== */
+
+.wrapper {
+    position: relative; /*Pozn. flex*/
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 0px;
+    height: 520;
+    width: 960;
+}
+.wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+iframe
+{
+    border-radius: 16px;
+    border-color: black;
+}
+
+/* ========== Background gradient ========== */
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(18, 155, 109) 98%);
+    animation: gradient 17s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* ========== Web look and responsive resize ========== */
 
 * {
     box-sizing: border-box;
@@ -196,29 +238,5 @@ body .main-article blockquote {
 
     body article header .upper-header .date-since {
         display: none;
-    }
-}
-
-body {
-    margin: auto;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    overflow: auto;
-    background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(18, 155, 109) 98%);
-    animation: gradient 17s ease infinite;
-    background-size: 400% 400%;
-    background-attachment: fixed;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 0%;
-    }
-
-    50% {
-        background-position: 100% 100%;
-    }
-
-    100% {
-        background-position: 0% 0%;
     }
 }
