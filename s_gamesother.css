@@ -116,6 +116,36 @@ body article header .lower-header .subtitle {
     line-height: 1.75;
 }
 
+.tabulkacs
+{
+    color: whitesmoke;
+    text-shadow: 0.5px 0.5px 0.5px rgb(7, 16, 97);
+    outline: 2px solid white;
+    outline-offset: 1px;
+    margin: center;
+    align-self: center;
+    align-content: center;
+    padding: 5px;
+    border: 1px dashed green;
+    border-spacing: 2px;
+        /* horizontal <length> | vertical <length> */
+        border-spacing: 1cm 2em;
+        /* Global values */
+        border-spacing: inherit;
+        border-spacing: initial;
+        border-spacing: unset;
+        border-spacing: 1em .5em;
+            padding: 0 2em 1em 0;
+            width: 1.5em;
+                height: 1.5em;
+                text-align: center;
+                    vertical-align: middle;
+}
+table td 
+{
+    outline: 2px solid black;
+}
+
 body .summary {
     width: 100%;
     display: flex;
