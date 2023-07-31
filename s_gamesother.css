@@ -24,6 +24,18 @@
     box-sizing: border-box;
 }
 
+h1
+{
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px rgb(7, 16, 97);
+}
+
+code
+{
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px rgb(7, 16, 97)
+}
+
 body {
     display: flex;
     justify-content: center;
