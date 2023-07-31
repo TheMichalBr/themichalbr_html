@@ -1,1 +1,0 @@
-alert("IMPORTANT ALERT: Web is in the maintarance!");
