@@ -1,3 +1,8 @@
+iframe
+{
+    border-radius: 12px;
+    border-color: black;
+}
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
