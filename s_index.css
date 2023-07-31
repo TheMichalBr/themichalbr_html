@@ -182,11 +182,7 @@ body {
     background-color: black;
     border: none;
     border-radius: 12px;
-    
-
 /* 
-
-
     for textchange:
     display: cursor: pointer;
         margin-top: 1.5rem;
@@ -223,13 +219,7 @@ body {
     color: white;
     background-color: black;
     border: none;
-
-
-
-
 */
-
-
 }
 
 .btn:hover {
@@ -237,7 +227,7 @@ body {
 }
 
 .btn:focus {
-    outline: 1px dashed rgb(18, 182, 204);
+    outline: 1px dashed rgb(0, 0, 0);
     outline-offset: 3px;
 }
 
