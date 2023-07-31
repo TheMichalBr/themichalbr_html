@@ -1,1 +1,1 @@
-alert("Web is under development and some things doesn't work! (WIP-ALERT)");
+alert("ALERT: Web is under development and some things doesn't work!");
