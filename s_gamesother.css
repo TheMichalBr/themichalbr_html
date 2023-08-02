@@ -175,6 +175,7 @@ body .main-article {
     margin: 40px 0;
     padding: 40px;
     background-color: #4a966a;
+    opacity: 0.92;
     border-radius: 16px;
     filter: blur(0.1px);
 }

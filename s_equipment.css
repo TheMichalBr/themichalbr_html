@@ -136,6 +136,7 @@ body .main-article {
     position: relative;
     margin: 40px 0;
     padding: 40px;
+    opacity: 0.92;
     background-color: #14718d;
     border-radius: 16px;
     filter: blur(0.1px);

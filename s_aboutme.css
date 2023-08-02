@@ -20,7 +20,6 @@ b
     border-radius: 25px;
     background-color: #000000;
 }
-
 .cut img {
     float: left;
     
@@ -28,24 +27,6 @@ b
     height: 50px;
     width: 50px;
     border-radius: 50%;
-}
-
-/* ========== Links - a ========== */
-
-a:link {
-    color: rgb(76, 189, 255);
-}
-a:visited {
-    color: rgb(255, 255, 255);
-}
-a:hover {
-    color: rgb(26, 167, 202);
-}
-a:active {
-    color: rgb(18, 78, 168);
-}
-a {
-    text-shadow: 0.85px 0.85px 0.85px black;
 }
 
 /* ========== Scrollbar ========== */
@@ -228,6 +209,7 @@ body .main-article {
     margin: 40px 0;
     padding: 40px;
     background-color: #293464;
+    opacity: 0.92;
     border-radius: 16px;
     filter: blur(0.1px);
 }
