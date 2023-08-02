@@ -59,7 +59,7 @@ body article header {
     padding: 50px;
     border-radius: 16px;
     color: #fff;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(0.1px);
