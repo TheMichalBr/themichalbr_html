@@ -1,14 +1,14 @@
-/* ========== Socials ========== */
-b
-{
-    color: white;
-    
-}
 .odkazy
 {
     align-items: center;
     text-align: center;
 }
+
+b {
+    color: white;
+
+}
+
 .cut {
     display: inline-block;
     align-items: center;
@@ -20,34 +20,33 @@ b
     border-radius: 25px;
     background-color: #15112e;
 }
+
 .cut img {
     float: left;
-    
     margin: 0 10px 0 -25px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
 }
 
-/* ========== Scrollbar ========== */
-
 * {
     scrollbar-width: auto;
     scrollbar-color: transparent transparent;
 }
+
 *::-webkit-scrollbar {
     width: 17px;
 }
+
 *::-webkit-scrollbar-track {
     background: #ffffff;
 }
+
 *::-webkit-scrollbar-thumb {
     background-color: #005661;
     border-radius: 20px;
     border: 4px solid #ffffff;
 }
-
-/* ========== Iframe responsive resize ========== */
 
 .wrapper {
     position: relative; /*Pozn. flex*/
@@ -57,6 +56,7 @@ b
     height: 520;
     width: 960;
 }
+
 .wrapper iframe {
     position: absolute;
     top: 0;
@@ -64,13 +64,11 @@ b
     width: 100%;
     height: 100%;
 }
-iframe
-{
+
+iframe{
     border-radius: 16px;
     border-color: black;
 }
-
-/* ========== Background gradient ========== */
 
 body {
     margin: auto;
@@ -86,17 +84,13 @@ body {
     0% {
         background-position: 0% 0%;
     }
-
     50% {
         background-position: 100% 100%;
     }
-
     100% {
         background-position: 0% 0%;
     }
 }
-
-/* ========== Web look and responsive resize ========== */
 
 * {
     box-sizing: border-box;
@@ -239,7 +233,6 @@ body .main-article blockquote {
     body {
         padding: 50px;
     }
-
     body article header .lower-header .subtitle {
         width: 100%;
     }
@@ -249,15 +242,12 @@ body .main-article blockquote {
     body article header .lower-header .title {
         word-break: break-all;
     }
-
     body article .summary {
         flex-direction: column;
     }
-
     body article .summary .summary-item:not(:last-child) {
         padding-bottom: 30px;
     }
-
     body article .main-article .gallery {
         grid-template-areas: "img1 img1" "img1 img1" "img2 img3" "img4 img5";
     }
@@ -267,7 +257,6 @@ body .main-article blockquote {
     body {
         padding: 25px;
     }
-
     body article header .upper-header .date-since {
         display: none;
     }
