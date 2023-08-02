@@ -322,17 +322,8 @@ body {
     color: rgb(18, 78, 168);
 }
 
-a
-{
-    text-shadow: 0.85px 0.85px 0.85px black;
-    
-}
-
-
-
-
-/**/
 a {
+    text-shadow: 0.85px 0.85px 0.85px black;
     overflow: hidden;
     position: relative;
     display: inline-block;
