@@ -1,11 +1,8 @@
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
 * {
     scrollbar-width: auto;
     scrollbar-color: transparent transparent;
 }
 
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
     width: 17px;
 }
@@ -72,8 +69,7 @@ body article header .lower-header {
     padding-top: 50px;
 }
 
-h3
-{
+h3{
     color: whitesmoke;
     text-shadow: 0.5px 0.5px 0.5px rgb(7, 16, 97);
 }
@@ -167,7 +163,6 @@ body .main-article blockquote {
     body {
         padding: 50px;
     }
-
     body article header .lower-header .subtitle {
         width: 100%;
     }
@@ -177,15 +172,12 @@ body .main-article blockquote {
     body article header .lower-header .title {
         word-break: break-all;
     }
-
     body article .summary {
         flex-direction: column;
     }
-
     body article .summary .summary-item:not(:last-child) {
         padding-bottom: 30px;
     }
-
     body article .main-article .gallery {
         grid-template-areas: "img1 img1" "img1 img1" "img2 img3" "img4 img5";
     }
@@ -195,7 +187,6 @@ body .main-article blockquote {
     body {
         padding: 25px;
     }
-
     body article header .upper-header .date-since {
         display: none;
     }
@@ -215,11 +206,9 @@ body {
     0% {
         background-position: 0% 0%;
     }
-
     50% {
         background-position: 100% 100%;
     }
-
     100% {
         background-position: 0% 0%;
     }

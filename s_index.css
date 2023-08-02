@@ -1,11 +1,8 @@
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
 * {
     scrollbar-width: auto;
     scrollbar-color: transparent transparent;
 }
 
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
     width: 17px;
 }
@@ -19,8 +16,6 @@
     border-radius: 20px;
     border: 4px solid #ffffff;
 }
-
-/* MAIN CARDS */
 
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 
@@ -204,19 +199,7 @@ body {
     background-color: black;
     border: none;
     border-radius: 12px;
-/* 
-    předtím:
-    cursor: pointer;
-    margin-top: 1.5rem;
-    padding: 0.75rem 1.5rem;
-    font-size: 0.65rem;
-    font-weight: bold;
-    letter-spacing: 0.025rem;
-    text-transform: uppercase;
-    color: white;
-    background-color: black;
-    border: none;
-*/
+
 }
 .btn:hover {
     background-color: #0d0d0d;
@@ -277,8 +260,6 @@ body {
     }
 }
 
-/* BACKGROUND */
-
 body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -293,32 +274,27 @@ body {
     0% {
         background-position: 0% 0%;
     }
-
     50% {
         background-position: 100% 100%;
     }
-
     100% {
         background-position: 0% 0%;
     }
 }
 
-
-/* LINK */
-
-/* unvisited link */ a:link {
+a:link {
     color: rgb(76, 189, 255);
 }
 
-/* visited link */ a:visited {
+a:visited {
     color: rgb(255, 255, 255);
 }
 
-/* mouse over link */ a:hover {
+a:hover {
     color: rgb(26, 167, 202);
 }
 
-/* selected link */ a:active {
+a:active {
     color: rgb(18, 78, 168);
 }
 
@@ -328,12 +304,11 @@ a {
     position: relative;
     display: inline-block;
     /*display: block;
-        width: 120px;
-        height: 32px;
-        z-index: 0;
-        padding: 0em;
-        margin: 0em;*/
-        
+    width: 120px;
+    height: 32px;
+    z-index: 0;
+    padding: 0em;
+    margin: 0em;*/
 }
 
 a::before,
@@ -381,31 +356,27 @@ a span {
 a:hover span {
     transform: translate3d(-200%, 0, 0);
 }
-/* old styleso
-body
-{
+/* -- old styleso
+body{
     text-align: center;
     align-items: center;
     align-self: auto;
     background-size: flex; 
 }
-h1
-{
+h1{
     text-align: center;
     color: white;
     font-weight: bold;
     font-family: Arial CE, sans-serif;
     text-shadow: 4px 3px 4px black
 }
-h3
-{
+h3{
     text-align: center;
     color: white;
     font-family: Arial CE, sans-serif;
     text-shadow: 3px 2px 3px black
 }
-ul
-{
+ul{
     text-align: center;
     align-items: center;
     align-self: auto;
@@ -416,8 +387,7 @@ ul
     font-family: Arial CE, sans-serif;
     text-shadow: 2px 3px 1px black
 }
-b
-{
+b{
     text-align: center;
     align-items: center;
     align-self: auto;
@@ -427,16 +397,14 @@ b
     font-family: Arial CE, sans-serif;
     text-shadow: 1px 1px 1px black;
 }
-table
-{
+table{
     text-align: center;
     align-items: center;
     align-self: auto;
     align-content: center;
     align-tracks: center;
 }
-.center 
-{
+.center {
     margin-left: auto;
     margin-right: auto;
 }
