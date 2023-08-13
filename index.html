@@ -25,6 +25,26 @@
     preloadImages("p_me", "p_pc.jpg", "p_wl.png", "p_cs.png");
 
 </script>
+<script type="text/javascript">
+    function f1() {
+        if (document.all) { return false; }
+    }
+    function f2(e) {
+        if (document.layers || (document.getElementById & !document.all)) {
+            if (e.which == 2 || e.which == 3) { return false; }
+        }
+    }
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = f1;
+    }
+    else {
+        document.onmouseup = f2;
+        document.oncontextmenu = f1;
+    }
+    document.oncontextmenu = new function
+
+</script>
 <body>
     <style>
         body {
