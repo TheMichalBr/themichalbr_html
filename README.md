@@ -1,4 +1,4 @@
-<h3>Hello everyone and welcome on my humble profile owned by MichalBr. 🦭</h3>
+<h3>Hello everyone and welcome on my humble profile owned by MichalBr.</h3>
 
 <h1></h1><h5>
 
@@ -6,4 +6,4 @@
 
 <h1></h1><h5>
 
-[<img src="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/512/Seal-3d-icon.png" width="96" height="96" align="center">  **Project AS** ](https://github.com/TheMichalBr/mprojects/app/codenameseal) — Currently working in progress.  
+[<img src="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/512/Seal-3d-icon.png" width="96" height="96" align="center">  **Project S** ](https://github.com/TheMichalBr/mprojects/appseal) — Currently working in progress.  
