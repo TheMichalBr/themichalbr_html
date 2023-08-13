@@ -1,4 +1,4 @@
-<h3>Hello and welcome on my humble profile or MichalBr's page. 🦭</h3>
+<h3>Hello and welcome on my humble MichalBr profile. 🦭</h3>
 
 <h1></h1><h5>
 
