@@ -121,7 +121,7 @@ body {
 }
 
 .card:nth-child(1):before {
-    background-image: url(p_cs.png);
+    background-image: url(pictures/cs.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -131,7 +131,7 @@ body {
 }
 
 .card:nth-child(2):before {
-    background-image: url(p_w.png);
+    background-image: url(pictures/wl.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -141,7 +141,7 @@ body {
 }
 
 .card:nth-child(3):before {
-    background-image: url(p_pc.jpg);
+    background-image: url(pictures/pc.jpg);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -151,7 +151,7 @@ body {
 }
 
 .card:nth-child(4):before {
-    background-image: url(p_me.jpg);
+    background-image: url(pictures/me.jpg);
     display: flex;
     margin-left: auto;
     margin-right: auto;
