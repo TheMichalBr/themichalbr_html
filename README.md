@@ -6,4 +6,4 @@
 
 <h1></h1><h5>
 
-[<img src="https://cdn-icons-png.flaticon.com/512/6789/6789514.png" width="96" height="96" align="center">  **Project AS** ](https://github.com/TheMichalBr/mprojects/app/codenameseal) — Currently working in progress.  
+[<img src="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/512/Seal-3d-icon.png" width="96" height="96" align="center">  **Project AS** ](https://github.com/TheMichalBr/mprojects/app/codenameseal) — Currently working in progress.  
