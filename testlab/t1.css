@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 35px 60px rgba(0, 0, 0, 0.25);
+}
+
+.header__logo {
+    text-transform: uppercase;
+}
+
+.header__menu {
+    display: flex;
+    column-gap: 54px;
+}
+
+.header__link {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #6A6A6A;
+    text-decoration: none;
+    position: relative;
+}
+
+.header__link::after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: blue;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.header__link:hover::after {
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(18, 155, 109) 98%);
+    animation: gradient 17s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
