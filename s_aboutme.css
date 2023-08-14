@@ -1,3 +1,38 @@
+.sci {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    background-color: black;
+    border-radius: 16px;
+    width: 1000px;
+    height: 200px;
+}
+
+.sci ul {
+    display:contents;
+}
+
+.sci ul li {
+    list-style: none;
+}
+
+.sci ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 39px;
+}
+
+.sci ul li a img {
+    filter: invert(1);
+    max-width: 40px;
+}
+
+.sci ul li a:hover img {
+    opacity: 0.5;
+}
+
 .odkazy
 {
     align-items: center;
@@ -74,7 +109,7 @@ body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(18, 155, 109) 98%);
+    background: linear-gradient(315deg, rgb(74, 7, 230) 3%, rgb(14, 103, 187) 38%, rgb(20, 170, 160) 68%, rgb(15, 168, 168) 98%);
     animation: gradient 17s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
