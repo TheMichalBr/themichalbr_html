@@ -3,6 +3,30 @@
 @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Roboto:400,500,500i,700,700i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Monoton|Roboto:400,500,500i,700,700i,900,900i&display=swap');
 
+.wrapper {
+    position: relative;
+    text-align: center;
+    /*Pozn. flex*/
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 0px;
+    height: 800;
+    width: 1200;
+}
+
+.wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    border-radius: 16px;
+    border-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -38,8 +62,7 @@ header.sticky {
 }
 
 header .logo {
-    font-family: 'Diplomata SC', cursive;
-    /*font-family: 'Monoton', cursive;*/
+    font-family: 'Monoton', cursive;
     text-decoration: underline;
     position: relative;
     font-weight: 700;
@@ -92,6 +115,7 @@ header.sticky ul li a {
 
 .banner {
     position: relative;
+    font-family: 'Courier New', Courier, monospace;
     width: 100%;
     min-height: 100vh;
     background: url(https://i.postimg.cc/44Vyq8Db/bg.jpg);
@@ -130,6 +154,11 @@ header.sticky ul li a {
 
 .mxw800p {
     max-width: 800px;
+    margin: 0 auto;
+}
+.mxw800pp {
+    max-width: 1600px;
+    max-height: 900px;
     margin: 0 auto;
 }
 

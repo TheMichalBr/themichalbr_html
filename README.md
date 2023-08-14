@@ -6,4 +6,4 @@
 
 <h1></h1><h5>
 
-[<img src="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/512/Seal-3d-icon.png" width="96" height="96" align="center">  **Project S** ](https://github.com/TheMichalBr/mprojects/appseal) — Currently working in progress.  
+[<img src="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/512/Seal-3d-icon.png" width="96" height="96" align="center">  **Project S** ](https://github.com/TheMichalBr/mprojects/app) — Currently working in progress.  
