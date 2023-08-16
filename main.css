@@ -118,7 +118,7 @@ header.sticky ul li a {
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
     min-height: 100vh;
-    background: url(p_pr.png);
+    background: url(./pictures/p_mw.png);
     background-size: cover;
     display: flex;
     justify-content: center;
