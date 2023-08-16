@@ -6,9 +6,9 @@
 .wrapper {
     position: relative;
     text-align: center;
-    /*Pozn. flex
+   
     padding-bottom: 56.25%;
-    /* 16:9 
+   
     padding-top: 0px;
     height: 800;
     width: 1200;
@@ -180,7 +180,7 @@ p {
 
 .mxw800p span {
     font-family: 'Diplomata SC', cursive;
-    /*font-family: 'Monoton', cursive;
+    font-family: 'Monoton', cursive;
     text-decoration: underline;
     position: relative;
     font-weight: 700;
@@ -597,5 +597,4 @@ p {
     .sci ul li a img {
         font-size: 24px;
     }
-
 }
