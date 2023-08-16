@@ -2,6 +2,30 @@
 @import url('https://fonts.googleapis.com/css?family=Miltonian|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Roboto:400,500,500i,700,700i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Monoton|Roboto:400,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(18, 155, 109) 98%);
+    animation: gradient 17s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
 
 .wrapper {
     position: relative;
@@ -62,7 +86,7 @@ header.sticky {
 }
 
 header .logo {
-    font-family: 'Monoton', cursive;
+    font-family: 'Yulio', cursive;
     text-decoration: underline;
     position: relative;
     font-weight: 700;
@@ -72,6 +96,7 @@ header .logo {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
+    text-shadow: 0.1px 0.1px 0.1px black;
 }
 
 
@@ -106,11 +131,13 @@ header ul li a {
     letter-spacing: 2px;
     font-weight: 300;
     transition: 0.6s;
+    text-shadow: 0.2px 0.2px 0.2px black;
 }
 
 header.sticky .logo,
 header.sticky ul li a {
     color: #000;
+    
 }
 
 .banner {
@@ -123,14 +150,13 @@ header.sticky ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .banner h2 {
     color: #fff;
     font-size: 90px;
-    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+    text-shadow: 2px 2px 2px black;
     text-align: center;
     line-height: 1em;
 }
