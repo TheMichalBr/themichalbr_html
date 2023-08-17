@@ -475,7 +475,8 @@ p {
     letter-spacing: 2px;
 }
 
-.workBx {
+.textove2 {
+    background: #444d92;
     position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -484,7 +485,7 @@ p {
     margin-top: 40px;
 }
 
-.workBx .brand {
+.textove2 .brand {
     position: relative;
     background: #4978ff;
     min-height: 300px;
@@ -495,11 +496,11 @@ p {
     align-items: center;
 }
 
-.workBx .brand:hover {
+.textove2 .brand:hover {
     background: #000;
 }
 
-.workBx .brand a {
+.textove2 .brand a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
@@ -507,7 +508,7 @@ p {
     letter-spacing: 2px;
 }
 
-.workBx .brand:hover a {
+.textove2 .brand:hover a {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -624,7 +625,6 @@ p {
 .fo ul li a:hover img {
     opacity: 0.5;
     height: 50px;
-    weight: 50px;
 }
 
 .toggle {
