@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Miltonian|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Roboto:400,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Monoton|Roboto:400,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
 /* Design is created by MichalBr. Copyright 2023 by TheMichalBr */
 
 /* -- styl -- */
@@ -175,14 +181,6 @@ b {
     background-position: center;
     filter: blur(0.8px);
 }
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Miltonian|Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Roboto:400,500,500i,700,700i,900,900i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Monoton|Roboto:400,500,500i,700,700i,900,900i&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
 html {
     scroll-behavior: smooth
