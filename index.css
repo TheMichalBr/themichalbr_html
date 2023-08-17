@@ -617,8 +617,8 @@ p {
 
 .fo ul li a img {
     filter: invert(1);
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 36px;
+    max-height: 36px;
 }
 
 .fo ul li a:hover img {
