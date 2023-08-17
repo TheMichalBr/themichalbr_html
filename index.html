@@ -17,10 +17,10 @@
 <a href="#" class="logo">M<span></span></a>
 <ul>
 <li><a href="#home" onclick="toggle()">Home</a></li>
-<li><a href="#menu" onclick="toggle()">Games</a></li>
-<li><a href="#home" onclick="toggle()">Equipment</a></li>
-<li><a href="#home" onclick="toggle()">About me</a></li>
-<li><a href="#follow" onclick="toggle()">Follow me</a></li>
+<li><a href="#gamesother" onclick="toggle()">Games</a></li>
+<li><a href="#equipment" onclick="toggle()">Equipment</a></li>
+<li><a href="#aboutme" onclick="toggle()">About me</a></li>
+<li><a href="#followme" onclick="toggle()">Follow me</a></li>
 </ul>
 <div class="toggle" onclick="toggle()"></div>
 </header>
@@ -29,7 +29,9 @@
 <section class="banner" id="home">
 <h2>MichalBr<span></span></h2>
 </section>
-<section class="sec work" id="services">
+
+<!-- Special -->
+<section class="sec work" id="alfa1">
 <div class="mxw800p"></div>
 </section>
 
@@ -73,7 +75,7 @@
 </div></div></main></div></div></div></section>
 
 <!-- About me -->
-<section class="sec contact" id="folow">
+<section class="sec contact" id="aboutme">
 
 <h1>About me</h1><br>
 
@@ -90,7 +92,7 @@
 </section>
 
 <!-- Equipment -->
-<section class="sec workBx" id="menu" class="main-article">
+<section class="sec workBx" id="equipment" class="main-article">
 
 <h1 class="title">My equipment</h1>
 
@@ -139,13 +141,13 @@
 </section>
 
 <!-- Games / Other -->
-<section class="sec contact" id="follow">
+<section class="sec workBx" id="gamesother">
 <p><b><a href="https://steamcommunity.com/id/misakbr2/recommended/782330/" data-replace="Nová DOOM Eternal recenze" class="odkaz"><span>↺ Novinkové centrum (in CZ)</span></a></p></b>
 
 </section>
 
 <!-- Socials -->
-<section class="sec contact" id="follow">
+<section class="sec contact" id="followme">
 
 <div class="content"><div class="mxw800p">
 
@@ -160,9 +162,9 @@
 </ul>
 
 <section class="main-article" class="odkazy">
-&#160;&#160;&#160;<div class="cut"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="97" height="97"><b>GitHub – @TheMichalBr</b></div>&#160;&#160;&#160;
-<div class="cut"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png" width="97" height="97"><b>Steam – @MichalBr</b></div>&#160;&#160;&#160;
-<div class="cut"><img src="https://img.freepik.com/free-icon/youtube_318-194847.jpg" width="97" height="97"><b>Youtube – @MichalBr</b></div>&#160;&#160;&#160;
+<div class="cut"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="97" height="97"><b>GitHub – @TheMichalBr</b></div>
+<div class="cut"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png" width="97" height="97"><b>Steam – @MichalBr</b></div>
+<div class="cut"><img src="https://img.freepik.com/free-icon/youtube_318-194847.jpg" width="97" height="97"><b>Youtube – @MichalBr</b></div>
 <div class="cut"><img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1-1.png" width="97" height="97"><b>Discord – @MichalBr</b></div>
 </section>
 
@@ -212,7 +214,7 @@ var header = document.querySelector("header");
 header.classList.toggle("active");
 }
 
-alert("Web is currently not working!");
+<!-- alert("Web is currently not working!"); -->
 
 </script>
 
