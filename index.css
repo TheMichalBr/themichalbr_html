@@ -280,7 +280,6 @@ header .logo {
     text-shadow: 0.1px 0.1px 0.1px black;
 }
 
-
 header .logo span {
     position: relative;
     font-weight: 500;
@@ -582,7 +581,7 @@ p {
 }
 
 .textove {
-    background: #333f97;
+    background: #333f979d;
     display: flex;
     position: relative;
     margin: 0 auto;
@@ -591,9 +590,10 @@ p {
 .textove h3, p, b {
     color: #fff;
     text-shadow: 1px 1px 1px black;
+    margin: auto;;
 }
 
-.sci {
+.fo {
     position: relative;
     display: flex;
     justify-content: center;
@@ -601,27 +601,30 @@ p {
     margin: 50px 0;
 }
 
-.sci ul {
+.fo ul {
     display: flex;
 }
 
-.sci ul li {
+.fo ul li {
     list-style: none;
 }
 
-.sci ul li a {
+.fo ul li a {
     text-decoration: none;
     display: inline-block;
     margin: 0 35px;
 }
 
-.sci ul li a img {
+.fo ul li a img {
     filter: invert(1);
     max-width: 40px;
+    max-height: 40px;
 }
 
-.sci ul li a:hover img {
+.fo ul li a:hover img {
     opacity: 0.5;
+    height: 50px;
+    weight: 50px;
 }
 
 .toggle {
