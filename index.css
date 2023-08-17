@@ -582,7 +582,7 @@ p {
 }
 
 .textove {
-    background: #333f97c4;
+    background: #333f97;
     display: flex;
     position: relative;
     margin: 0 auto;
@@ -622,11 +622,6 @@ p {
 
 .sci ul li a:hover img {
     opacity: 0.5;
-}
-
-.copyright a {
-    color: #fff;
-    text-decoration: none;
 }
 
 .toggle {
