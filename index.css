@@ -286,7 +286,7 @@ header .logo {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
-    text-shadow: 0.1px 0.1px 0.1px black;
+    text-shadow: 0.45px 0.45px 0.45px rgba(0, 0, 0, 0.507);
 }
 
 header .logo span {
@@ -298,6 +298,7 @@ header .logo span {
     text-transform: capitalize;
     letter-spacing: 2px;
     transition: 0.6s;
+    text-shadow: 0.30px 0.30px 0.30px rgba(0, 0, 0, 0.507);
 }
 
 header ul {
@@ -320,7 +321,7 @@ header ul li a {
     letter-spacing: 2px;
     font-weight: 300;
     transition: 0.89s;
-    text-shadow: 0.1px 0.1px 0.1px rgba(0, 0, 0, 0.507);
+    text-shadow: 0.25px 0.25px 0.25px rgba(0, 0, 0, 0.507);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -659,7 +660,7 @@ p {
         display: block;
         position: relative;
         width: 30px;
-        height: 30px;
+        height: 20px;
         cursor: pointer;
     }
 
