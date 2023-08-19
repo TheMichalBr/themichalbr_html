@@ -433,9 +433,13 @@ p {
     margin-top: 40px;
     
 }
+.services ul {
+    margin: 45px 25px;
+}
 .services ul li {
     list-style: none;
     margin: 25px 10px;
+    word-spacing: normal;
 }
 .services ul li a {
     text-decoration: none;
@@ -533,7 +537,7 @@ p {
 
 .textove2 ul li {
     list-style: none;
-    margin: 45px 100px;
+    margin: 45px 95px;
 }
 
 .textove2 ul li a {
@@ -651,6 +655,7 @@ p {
     filter: invert(1);
     max-width: 36px;
     max-height: 36px;
+    transition-delay: 45ms;
 }
 
 .fo ul li a:hover img {
