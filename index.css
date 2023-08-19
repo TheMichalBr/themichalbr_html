@@ -427,8 +427,21 @@ p {
     grid-gap: 30px;
     max-width: 100%;
     margin-top: 40px;
+    background-color: #000000ab;
+    grid-gap: 20px;
+    max-width: 100%;
+    margin-top: 40px;
+    
 }
-
+.services ul li {
+    list-style: none;
+    margin: 25px 10px;
+}
+.services ul li a {
+    text-decoration: none;
+    display: flex;
+    margin: 0 35px;
+}
 .services .box {
     width: 300px;
     margin: 0 auto;
@@ -497,12 +510,11 @@ p {
 .textove2 {
     background: #000000ab; /* #444d92 */
     position: flex;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
     max-width: 100%;
     margin-top: 40px;
-    display: flex;
     margin: 1 auto;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -521,23 +533,18 @@ p {
 
 .textove2 ul li {
     list-style: none;
-    margin: 45px 0;
+    margin: 45px 100px;
 }
 
 .textove2 ul li a {
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     margin: 0 35px;
 }
-.textove2 ul li a:hover img {
-    opacity: 0.5;
-    height: 50px;
-}
-
 
 .teamBx {
     position: relative;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
     max-width: 100%;
