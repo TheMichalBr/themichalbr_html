@@ -221,13 +221,13 @@ body {
 
 .wrapper {
     position: relative;
+    display: flex;
     text-align: center;
     padding-bottom: 56.25%;
     padding-top: 0px;
     height: 800;
     width: 1200;
 }
-
 .wrapper iframe {
     position: absolute;
     top: 0;
@@ -235,12 +235,10 @@ body {
     width: 100%;
     height: 100%;
 }
-
 iframe {
-    border-radius: 16px;
-    border-color: white;
+    border-radius: 32px;
+    border-color: rgba(255, 255, 255, 0.726);
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -420,33 +418,36 @@ p {
     color: #fff;
 }
 
-.services {
-    position: relative;
-    display: grid;
+.myequipment {
+    position: flex;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
-    max-width: 100%;
     margin-top: 40px;
     background-color: #000000ab;
     grid-gap: 20px;
-    max-width: 100%;
-    margin-top: 40px;
-    
+    flex-grow: 4;
+    justify-content: center;
+    flex: 'flex-grow';
+    align-self: center;
+    align-items: center;
+    width: auto;
+    word-wrap: break-word;
 }
-.services ul {
+.myequipment ul {
     margin: 45px 25px;
 }
-.services ul li {
+.myequipment ul li {
     list-style: none;
     margin: 25px 10px;
     word-spacing: normal;
 }
-.services ul li a {
+.myequipment ul li a {
     text-decoration: none;
     display: flex;
     margin: 0 35px;
 }
-.services .box {
+.myequipment .box {
     width: 300px;
     margin: 0 auto;
     background: #fff;
@@ -454,20 +455,24 @@ p {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
 }
 
-.services .box .iconBx {
-    margin-top: 25px;
+.myequipment h3 {
+    align-self: center;
+    word-wrap: break-word;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.829);
 }
 
-.services .box .iconBx img {
-    max-width: 70px;
-    margin-bottom: 15px;
+.myequipment p {
+    align-self: center;
+    word-wrap: break-word;
+    font-size: 17px;
+    text-shadow: 2.3px 2.3px 2.3px rgba(0, 0, 0, 0.829);
 }
-
-.services .box h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-weight: 700;
+.myequipment b {
+    align-self: center;
+    word-wrap: break-word;
+    font-size: 19px;
+    text-shadow: 2.4px 2.4px 2.4px rgba(0, 0, 0, 0.829);
 }
 
 .stats {
@@ -475,75 +480,144 @@ p {
     padding-top: 250px;
     margin-top: -250px;
 }
-
 .stats h3,
 .stats p {
     color: #fff;
 }
 
-.statsBox {
-    position: relative;
-    display: list-item;
+.gamesother {
+    position: flex;
+    display: flex;
+    order: 1;
+    flex-direction: column;
+    flex-grow: 4;
+    flex-shrink: 2;
+    flex-flow: column wrap;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
-    max-width: 100%;
     margin-top: 40px;
     background-color: #000000ab;
     text-align: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: auto;
+    word-wrap: break-word;
 }
-
-.statsBox table{
+.gamesother table {
     align-self: center;
     margin-left: auto;
+    justify-content: center;
     margin-right: auto;
 }
-
-.statsBox h2 {
+.gamesother h2 {
     color: #fff;
     font-size: 36px;
+    justify-content: center;
 }
-
-.statsBox h4 {
+.gamesother h4 {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
+    justify-content: center;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.gamesother h3 {
+    align-self: center;
+    word-wrap: break-word;
+    font-size: 36px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.829);
+}
 
-.textove2 {
-    background: #000000ab; /* #444d92 */
+.gamesother code {
+    align-self: center;
+    word-wrap: break-word;
+    font-size: 13.5px;
+    text-shadow: 2.3px 2.3px 2.3px rgba(0, 0, 0, 0.829);
+}
+
+.gamesother code{
+    align-self: center;
+    word-wrap: break-word;
+    font-size: 13.5px;
+    text-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.829);
+}
+.gamesother b {
+    align-self: center;
+    word-wrap: break-word;
+    font-size: 13.5px;
+    text-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.829);
+}
+
+.gamesother a {
+    align-self: center;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.829);
+}
+
+.gamesother a:link {
+    color: rgb(76, 189, 255);
+}
+
+.gamesother a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.gamesother a:hover {
+    color: rgb(26, 167, 202);
+}
+
+.gamesother a:active {
+    color: rgb(18, 78, 168);
+}
+
+.aboutme {
+    background: #000000ab;
+    /* #444d92 */
     position: flex;
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
     max-width: 100%;
+    /*  min-height: 300px;*/
     margin-top: 40px;
     margin: 1 auto;
     color: white;
-    text-shadow: 1px 1px 1px black;
-}
-
-.textove2 .brand {
-    position: relative;
-    background: #4978ff;
-    min-height: 300px;
-    width: 250px;
-    margin: 0 auto;
-    display: flex;
+    text-shadow: 55px 55px 55px rgba(0, 0, 0, 0.815);
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+    order: 2;
     justify-content: center;
     align-items: center;
+    width: inherit;
+    flex-grow: 2;
+    width: auto;
+    word-wrap: break-word;
 }
-
-.textove2 ul li {
+.aboutme ul li {
     list-style: none;
     margin: 45px 95px;
 }
 
-.textove2 ul li a {
+.aboutme ul li a {
     text-decoration: none;
     display: flex;
     margin: 0 35px;
+}
+
+.aboutme h3 {
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.829);
+}
+
+.aboutme p {
+    font-size: 18px;
+    text-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.829);
 }
 
 .teamBx {
@@ -655,7 +729,7 @@ p {
     filter: invert(1);
     max-width: 36px;
     max-height: 36px;
-    transition-delay: 45ms;
+    transition-delay: 25ms;
 }
 
 .fo ul li a:hover img {
