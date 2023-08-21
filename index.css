@@ -559,11 +559,11 @@ p {
 }
 
 .gamesother a:link {
-    color: rgb(76, 189, 255);
+    color: rgb(51, 153, 212);
 }
 
 .gamesother a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(52, 65, 78);
 }
 
 .gamesother a:hover {
