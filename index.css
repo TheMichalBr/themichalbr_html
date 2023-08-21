@@ -236,7 +236,7 @@ body {
     height: 100%;
 }
 iframe {
-    border-radius: 32px;
+    border-radius: 25px;
     border-color: rgba(255, 255, 255, 0.726);
 }
 * {
