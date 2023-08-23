@@ -332,7 +332,7 @@ header.sticky ul li a {
 
 .banner {
     position: relative;
-    font-family: 'Mirza', cursive;
+    font-family: 'Mirza', cursive; /* 'Mirza', cursive; */
     width: 100%;
     min-height: 100vh;
     background: url(./pictures/p_mw.png);
@@ -344,8 +344,8 @@ header.sticky ul li a {
 
 .banner h2 {
     color: #fff;
-    font-size: 160px;
-    font-family: 'Mirza', cursive;
+    font-size: 140px;
+    font-family: 'Yulio', cursive; /*'Mirza', cursive;*/
     text-shadow: 5px 5px 5px rgb(4, 19, 39);
     text-align: center;
     line-height: 1em;
