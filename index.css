@@ -203,7 +203,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
     background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(18, 155, 109) 98%);
-    animation: gradient 30s ease infinite; /* animation: gradient 17s ease infinite; */
+    animation: gradient 32s ease infinite; /* animation: gradient 17s ease infinite; */
     background-size: 400% 400%;
     background-attachment: fixed;
 }
@@ -261,9 +261,9 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; /*padding 40 a space-between byl */
     align-items: center;
-    padding: 40px 100px;
+    padding: 48px 100px;
     z-index: 1000;
     transition: 0.243s;
 }
@@ -271,7 +271,15 @@ header {
 header.sticky {
     padding: 5px 100px;
     background: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: 1px solid rgba(0, 0, 0, .1); 
+    align-items: center;
+
+
+
+    /*padding: 5px 100px;
+        background: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        align-items: center; */
 }
 
 header .logo {
