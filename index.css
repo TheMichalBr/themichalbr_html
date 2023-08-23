@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Signika&family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Itim&family=Mali:wght@400;500&family=Mirza:wght@600&family=Nabla&family=Reenie+Beanie&family=Rubik+Marker+Hatch&display=swap');
+@import url('font.otf');
 
 /* Design is created by MichalBr. Copyright 2023 by TheMichalBr */
 
@@ -202,7 +203,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
     background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(18, 155, 109) 98%);
-    animation: gradient 17s ease infinite;
+    animation: gradient 30s ease infinite; /* animation: gradient 17s ease infinite; */
     background-size: 400% 400%;
     background-attachment: fixed;
 }
@@ -264,7 +265,7 @@ header {
     align-items: center;
     padding: 40px 100px;
     z-index: 1000;
-    transition: 0.6s;
+    transition: 0.243s;
 }
 
 header.sticky {
