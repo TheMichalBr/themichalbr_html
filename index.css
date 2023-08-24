@@ -262,8 +262,6 @@ header {
     padding: 42px 100px;
     z-index: 1000;
     transition: 0.245s;
-    position: sticky;
-    top: 0;
 }
 
 header.sticky {
