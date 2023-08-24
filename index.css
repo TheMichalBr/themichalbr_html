@@ -85,7 +85,7 @@ b {
         transition-duration: 0s;
     }
 }
-*/
+*//*
 .cut {
     display: inline-block;
     align-items: center;
@@ -193,7 +193,7 @@ b {
     background-position: center;
     filter: blur(0.8px);
 }
-
+*/
 html {
     scroll-behavior: smooth
 }
@@ -253,16 +253,48 @@ body {
 
 header {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0.5;
+    bottom: 0.5; 
+    left: 1;
     width: 100%;
+    margin-block-start: 0.5px;
+    border-radius: 555px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 42px 100px;
     z-index: 1000;
     transition: 0.245s;
+    transition:
+        width 2s,
+        height 2s,
+        background-color 0.2s,
+        rotate 1.82s,
+    /* offset 0.1s;*/
 }
+
+header ul li a nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+header ul li a {
+    flex: 1;
+    background-color: #33333300;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+header ul li a:hover,
+header ul li a:focus {
+    background-color: #fff;
+    color: #333;
+}
+
 
 header.sticky {
     padding: 5px 100px;
@@ -323,8 +355,8 @@ header ul li a {
 
 header.sticky .logo,
 header.sticky ul li a {
-    color: #000;
-    
+    color: #000000;
+
 }
 
 .banner {
