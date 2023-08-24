@@ -247,10 +247,6 @@ iframe {
     font-family: 'Poppins', sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     min-height: 1000px;
 }
@@ -261,25 +257,20 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-evenly; /*padding 40 a space-between byl */
+    justify-content: space-between;
     align-items: center;
-    padding: 48px 100px;
+    padding: 42px 100px;
     z-index: 1000;
-    transition: 0.243s;
+    transition: 0.245s;
+    position: sticky;
+    top: 0;
 }
 
 header.sticky {
     padding: 5px 100px;
     background: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .1); 
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
     align-items: center;
-
-
-
-    /*padding: 5px 100px;
-        background: #fff;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        align-items: center; */
 }
 
 header .logo {
