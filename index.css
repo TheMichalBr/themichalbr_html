@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&family=Cabin+Sketch&family=Cardo:ital,wght@0,400;0,700;1,400&family=Diplomata&family=Hind+Guntur:wght@300;400;500&family=Itim&family=JetBrains+Mono:wght@300;500&family=Keania+One&family=Kenia&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Miltonian&family=Mirza:wght@400;500;600;700&family=Monoton&family=Nabla&family=Poppins:wght@100;200;300;400;500;700&family=Quicksand:wght@300;500&family=Raleway:wght@100;200;300;400;600;700&family=Reenie+Beanie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Marker+Hatch&family=Rubik:wght@300;400;500;600;700;800;900&family=Saira:wght@100;300;500&family=Signika+Negative:wght@300;400;500;600;700&family=Signika:wght@300;400;500;600;700&family=Source+Code+Pro:wght@200;300;400;500&display=swap');
 @font-face { font-family: customfont; src: url(font.otf); }
 
-/* -- Design is created by MichalBr(https://github.com/TheMichalBr), Copyright 2023. ForDev(https://github.com/TheMichalBr/themichalbr/blob/d4a442064ceef014bb5d5e161eced4501253a964/index.txt) -- */
+/* -- Design is created by MichalBr(https://github.com/TheMichalBr), Copyright 2023. // For Developer (https://github.com/TheMichalBr/themichalbr/blob/d4a442064ceef014bb5d5e161eced4501253a964/index.txt) -- */
 
 /* --  Header -- */
 
@@ -214,8 +214,6 @@ iframe {
 :root {
     --d: 1420ms;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
-    --font-sans: "Rubik", sans-serif;
-    --font-serif: "Cardo", serif;
 }
 
 html {
@@ -666,6 +664,11 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 50px 0;
+}
+
+.fo h3, b{
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .fo ul {
