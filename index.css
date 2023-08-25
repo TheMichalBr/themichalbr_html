@@ -1,3 +1,5 @@
+/* Design is created by MichalBr. Copyright 2023 by TheMichalBr */
+
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Miltonian|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Keania+One|Miltonian|Roboto:400,500,500i,700,700i,900,900i&display=swap');
@@ -6,9 +8,147 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Signika&family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Itim&family=Mali:wght@400;500&family=Mirza:wght@600&family=Nabla&family=Reenie+Beanie&family=Rubik+Marker+Hatch&display=swap');
-@import url('font.otf');
 
-/* Design is created by MichalBr. Copyright 2023 by TheMichalBr */
+@font-face {
+    font-family: customfont;
+    src: url(font.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+
+/*
+.string {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    animation: move 4s infinite;
+}
+
+.greeting {
+    position: relative;
+    top: 8.6vmin;
+    animation: white-out 5s infinite;
+}
+
+.closure::after {
+    content: '';
+    position: absolute;
+    height: 25vmin;
+    width: 40vmin;
+    background: #282c34;
+    transform: translate(-45vmin, -24.5vmin);
+}
+
+.closure::before {
+    content: '';
+    position: absolute;
+    height: 25vmin;
+    width: 40vmin;
+    background: #282c34;
+    transform: translate(-40vmin, 5vmin);
+}
+
+.en {
+    color: #fa8231;
+}
+
+.es {
+    color: white;
+}
+
+.de {
+    color: #c678dd;
+}
+
+.it {
+    color: #a9b0bd;
+}
+
+@keyframes move {
+    25% {
+        transform: translatey(-5.8vmin);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translatey(-11vmin);
+    }
+
+    75% {
+        transform: translatey(-16.5vmin);
+    }
+}
+
+ */
+
+.banner p {
+    border-right: solid 3px rgba(0, 255, 0, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: customfont; /*'Source Code Pro', monospace;*/
+    font-size: 100px;
+    color: rgb(252, 254, 255);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.815);
+}
+
+/* Animation */
+.banner p {
+    animation: animated-text 3.5s steps(1000, end) 1s 1 normal both,
+        animated-cursor 800ms steps(29, end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 590px;
+    }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: rgba(0, 255, 0, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+/*
+.michalbr {
+    font-size: 140px;
+    min-height: auto;
+    min-width: 838px;
+    font-family: 'Yulio';
+    background: url(https://cdn.wallpapersafari.com/75/65/lMeajQ.jpg);
+    background-size: 125%;
+        background-position: 500% 800%;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0.08);
+    text-shadow: 2px 2px 2px rgba(13, 14, 73, 0.301);
+    text-overflow: 1px 1px 1px rgba(0, 0, 0, 0.753);
+    animation: zoomout 20s ease 600ms forwards;
+}
+
+@keyframes zoomout {
+    from {
+        background-size: 125%;
+    }
+
+    to {
+        background-size: 130%;
+    }
+}*/
 
 /* -- styl -- */
 
@@ -272,9 +412,9 @@ header {
         rotate 1.82s,
     /* offset 0.1s;*/;
     transition-timing-function: ease;
-    transition-delay: 0.35s;
-transition-duration: 0.35s;
-transition-property: all;
+    transition-delay: 0.325s;
+    transition-duration: 0.325s;
+    transition-property: all;
 }
 
 header ul li a nav {
@@ -308,7 +448,7 @@ header.sticky {
 }
 
 header .logo {
-    font-family: 'Yulio', cursive;
+    font-family: customfont;
     text-decoration: underline;
     position: relative;
     font-weight: 700;
@@ -378,7 +518,7 @@ header.sticky ul li a {
 .banner h2 {
     color: #fff;
     font-size: 140px;
-    font-family: 'Yulio', cursive; /*'Mirza', cursive;*/
+    font-family: customfont; /*'Mirza', cursive;*/
     text-shadow: 5px 5px 5px rgb(4, 19, 39);
     text-align: center;
     line-height: 1em;
@@ -440,8 +580,6 @@ p {
     letter-spacing: 2px;
     transition: 0.6s;
 }
-
-
 
 .btn {
     position: relative;
