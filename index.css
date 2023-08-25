@@ -176,11 +176,9 @@ body {
     0% {
         background-position: 0% 0%;
     }
-
     50% {
         background-position: 100% 100%;
     }
-
     100% {
         background-position: 0% 0%;
     }
@@ -354,19 +352,23 @@ h1 {
     word-wrap: break-word;
     font-family: 'Poppins', sans-serif;
 }
+
 .myequipment ul {
     margin: 45px 25px;
 }
+
 .myequipment ul li {
     list-style: none;
     margin: 25px 10px;
     word-spacing: normal;
 }
+
 .myequipment ul li a {
     text-decoration: none;
     display: flex;
     margin: 0 35px;
 }
+
 .myequipment .box {
     width: 300px;
     margin: 0 auto;
@@ -388,6 +390,7 @@ h1 {
     font-size: 17px;
     text-shadow: 2.3px 2.3px 2.3px rgba(0, 0, 0, 0.829);
 }
+
 .myequipment b {
     align-self: center;
     word-wrap: break-word;
@@ -402,6 +405,7 @@ h1 {
     padding-top: 250px;
     margin-top: -250px;
 }
+
 .stats h3,
 .stats p {
     color: #fff;
@@ -704,7 +708,6 @@ h1 {
         height: 20px;
         cursor: pointer;
     }
-
     .toggle:before {
         content: '';
         position: absolute;
@@ -716,7 +719,6 @@ h1 {
         box-shadow: 0 10px 0 #000;
         transition: 0.5s;
     }
-
     .toggle:after {
         content: '';
         position: absolute;
@@ -728,13 +730,11 @@ h1 {
         box-shadow: 0 10px 0 #000;
         transition: 0.5s;
     }
-
         header,
         header.sticky {
             padding: 16px 50px;
             background: #fff;
         }
-
     header ul {
         position: absolute;
         top: 60px;
@@ -747,60 +747,48 @@ h1 {
         visibility: hidden;
         opacity: 0;
     }
-
     header.active ul {
         visibility: visible;
         opacity: 1;
         display: block;
         padding-top: 300px;
     }
-
     header.active ul li a {
         display: inline-block;
         margin: 15px 0;
         font-size: 20px;
     }
-
     header .logo,
     header ul li a {
         color: #000;
     }
-
     .banner {
         background-position: center;
     }
-
     .banner h2 {
         font-size: 92px;
         padding: 0 50px;
     }
-
     .sec {
         padding: 100px 50px 50px 50px;
     }
-
     .services .box {
         width: 100%;
     }
-
     .stats {
         padding-top: 250px;
     }
-
     .row100 {
         flex-direction: column;
     }
-
     .contactForm .row100 .inputBx50,
     .contactForm .row100 .inputBx100 {
         width: 100%;
         margin: 0;
     }
-
     .sci {
         margin: 20px;
     }
-
     .sci ul li a img {
         font-size: 24px;
     }
