@@ -119,37 +119,23 @@ header.sticky ul li a {
 /* --  Banner -- */
 
 .banner {
+    align-items: center;
+    justify-content: center;
     position: relative;
-    font-family: 'Mirza', cursive;
+    display: flex;
     width: 100%;
     min-height: 100vh;
-    background: url(./pictures/p_mw.png);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner h2 {
-    color: #fff;
-    font-size: 140px;
-    font-family: customfont;
-    text-shadow: 5px 5px 5px rgb(4, 19, 39);
-    text-align: center;
-    line-height: 1em;
-}
-
-.banner h2 span {
-    color: #4978ff;
 }
 
 .banner p {
     border-right: solid 3px rgba(0, 255, 0, .75);
     white-space: nowrap;
     overflow: hidden;
+    text-align: center;
+    /* line-height: 1em;*/
     font-family: customfont;
     font-size: 100px;
-    color: rgb(252, 254, 255);
+    color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.815);
     animation: animated-text 3.5s steps(1000, end) 1s 1 normal both, animated-cursor 800ms steps(29, end) infinite;
 }
@@ -248,11 +234,6 @@ h3 {
     text-align: center;
     color: white;
     text-shadow: 1px 1px 1px white;
-}
-
-b {
-    color: white;
-
 }
 
 * {
