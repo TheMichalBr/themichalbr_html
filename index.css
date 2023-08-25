@@ -257,8 +257,8 @@ header {
     bottom: 0.5; 
     left: 1;
     width: 100%;
-    margin-block-start: 0.5px;
-    border-radius: 555px;
+    margin-block-start: 0px;
+    border-radius: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -270,7 +270,11 @@ header {
         height 2s,
         background-color 0.2s,
         rotate 1.82s,
-    /* offset 0.1s;*/
+    /* offset 0.1s;*/;
+    transition-timing-function: ease;
+    transition-delay: 0.35s;
+transition-duration: 0.35s;
+transition-property: all;
 }
 
 header ul li a nav {
@@ -287,6 +291,7 @@ header ul li a {
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease-out;
+    border-radius: 8.95px;
 }
 
 header ul li a:hover,
@@ -295,11 +300,10 @@ header ul li a:focus {
     color: #333;
 }
 
-
 header.sticky {
     padding: 5px 100px;
     background: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: 5px solid (0, 0, 0, .1);
     align-items: center;
 }
 
