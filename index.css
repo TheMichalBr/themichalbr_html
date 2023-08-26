@@ -3,6 +3,13 @@
 
 /* -- Design is created by MichalBr(https://github.com/TheMichalBr), Copyright 2023. // For Developer (https://github.com/TheMichalBr/themichalbr/blob/d4a442064ceef014bb5d5e161eced4501253a964/index.txt) - Rozložení, Fonty, Obsah -- */
 
+@media only screen and (device-width: 1920px),
+only screen and (max-width: 1080px) {
+    .css-element {
+display: block;
+    }
+}
+
 /* --  Header -- */
 
 header {
@@ -40,12 +47,22 @@ header ul li a {
     flex: 1;
     background-color: #33333300;
     color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.404);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.404);
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease-out;
     border-radius: 8.95px;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+    transition: 0.89s;
+    text-shadow: 0.25px 0.25px 0.25px rgba(0, 0, 0, 0.507);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 header ul li a:hover,
@@ -59,6 +76,17 @@ header.sticky {
     background: #fff;
     border-bottom: 5px solid (0, 0, 0, .1);
     align-items: center;
+    border-color: rgb(0, 0, 0);
+}
+
+header.sticky ul li a{
+    border-color: rgb(0, 0, 0);
+}
+
+header.sticky ul li a:hover,
+header.sticky ul li a:focus {
+    background-color: #393c3f57;
+    color: #333;
 }
 
 header .logo {
@@ -97,18 +125,6 @@ header ul {
 header ul li {
     position: relative;
     list-style: none;
-}
-
-header ul li a {
-    position: relative;
-    margin: 0 15px;
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 2px;
-    font-weight: 300;
-    transition: 0.89s;
-    text-shadow: 0.25px 0.25px 0.25px rgba(0, 0, 0, 0.507);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 header.sticky .logo,
@@ -754,12 +770,15 @@ h1 {
         visibility: visible;
         opacity: 1;
         display: block;
-        padding-top: 300px;
+        padding-top: 40px;
+        max-height: 405px;
+        transition: ease-out 1025ms;
+        background-color: #ffffff;
     }
     header.active ul li a {
         display: inline-block;
         margin: 15px 0;
-        font-size: 20px;
+        font-size: 30px;
     }
     header .logo,
     header ul li a {
