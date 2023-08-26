@@ -68,7 +68,7 @@ header ul li a {
 header ul li a:hover,
 header ul li a:focus {
     background-color: #fff;
-    color: #333;
+    color: #000000; /* #333 */
 }
 
 header.sticky {
