@@ -85,8 +85,8 @@ header.sticky ul li a{
 
 header.sticky ul li a:hover,
 header.sticky ul li a:focus {
-    background-color: #393c3f57;
-    color: #333;
+    background-color: #000000e0;
+    color: #ffffff;
 }
 
 header .logo {
