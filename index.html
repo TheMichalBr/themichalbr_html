@@ -9,7 +9,7 @@
 <link rel="icon" href="icon.png" type="image/x-icon">
 
 </head>
-<body>
+<body class="website">
 
 <!-- Menu / Header -->
 <header id="header">
@@ -28,7 +28,7 @@
 <!-- Banner -->
 <section class="banner" id="home">
 
-<p>Welcome. everyone! MichalBr</p><h2></h2>
+<p>Welcome.</p>
 
 </section>
 
@@ -46,7 +46,7 @@
 <!-- About me -->
 <section class="sec aboutme" id="about" class="main-article">
 
-<h3>About me</h3><br>
+<h1>About me</h1><br>
 
 <ul><li>
 <p>My name is Michal, 21 years old and I've come from the Czech Republic – live in Brno.</p>
@@ -63,9 +63,9 @@
 <!-- Equipment -->
 <section class="sec myequipment" id="equipment" class="main-article">
 
-<h3>My equipment</h3>
+<h1 class="et">My equipment</h1>
 
-<ul><li>
+<ul class="et1"><li>
 <p><b>CASE</b> –⁠ Fractal Design Define 7 Black TG Dark Tint
 </li><li>
 <p><b>PSU</b> – Corsair HX1000
@@ -87,7 +87,7 @@
 
 <br>
 
-<ul><li>
+<ul class="et2"><li>
 <p><b>Main Monitor</b> – Acer Predator XB273UNX - QHD 275Hz
 </li><li>
 <p><b>Second Monitor</b> – ZOWIE by BenQ XL2720 - FullHD 144Hz
@@ -112,18 +112,14 @@
 <!-- Games / Other -->
 <section class="sec gamesother" id="gamesother" class="main-article">
 
-<br>
-
-<h3>Couter-Strike 2 Settings</a></h3>
-
-<p><b><a href="https://steamcommunity.com/id/misakbr2/recommended/782330/" data-replace="Nová DOOM Eternal recenze" class="odkaz"><span>↺ Novinkové centrum (CZ) - Nová DOOM Eternal recenze</span></a></p></b>
+<h1>Counter-Strike 2</a></h1>
 
 <br>
 
 <table class="tabulkacs" border="1">
 
 <tr>
-<td><b>MM Rank</b></td>
+<td><b>MM/WM Rank</b></td>
 <td><b>FACEIT</b></td>
 </tr>
 <tr>
@@ -139,6 +135,27 @@
 
 <br>
 
+<h1>Valorant</a></h1>
+
+<table class="tabulkacs" border="1">
+
+    <tr>
+        <td><b>Rank</b></td>
+        
+    </tr>
+    <tr>
+        <td><img src="https://cdn3.emoji.gg/emojis/3255-valorant-platinum-2.png" weight="85" height="85"></td>
+        
+    </tr>
+    <tr>
+        <td><b>Platina 2</b> – <a
+                href=https://riotucetmichalbr.cz>MichalBr#UwU</a></td>
+    </tr>
+
+</table>
+
+<br>
+<!--
 <h3>autoexec.cfg</h3>
 <code><pre>
 <b>// CROSSHAIR</b>
@@ -206,6 +223,8 @@ bind "c" "sv_rethrow_last_grenade";bind "x" "noclip";
 clear;
 Say #### MichalBr's practice config loaded! ####;</pre></code><br>
 
+<p><b><a href="https://steamcommunity.com/id/misakbr2/recommended/782330/" data-replace="Nová DOOM Eternal recenze" class="odkaz"><span>↺ Novinkové centrum (CZ) - Nová DOOM Eternal recenze</span></a></p></b>
+-->
 </section>
 
 <!-- Socials -->
@@ -273,7 +292,23 @@ header.classList.toggle("active");
 
 hljs.initHighlightingOnLoad();
 
-<!-- DEV - alert("The web is currently under maintenance!"); -->
+<!-- DEV - alert("The web is currently under maintenance!");
+
+
+    $(document).ready(function () {
+        var HeightDiv = $("div").height();
+        var HeightTable = $("table").height();
+        if (HeightTable > HeightDiv) {
+            var FontSizeTable = parseInt($("table").css("font-size"), 10);
+            while (HeightTable > HeightDiv && FontSizeTable > 5) {
+                FontSizeTable--;
+                $("table").css("font-size", FontSizeTable);
+                HeightTable = $("table").height();
+            }
+        }
+    });
+
+-->
 
 </script>
 
