@@ -464,10 +464,13 @@ h1 {
 .gamesother a:active {
     color: rgb(18, 78, 168);
 }
+a:visited {
+    color: rgb(157, 122, 221);
+}
 .gamestabulka1 {
-    border-spacing: 1em 0.3em;
+    border-spacing: 0.3em 0.3em;
     padding: 0 2em 1em 0;
-    width: 82em;
+    width: 120em;
     height: 20em;
 
     border-image: fill;
@@ -486,6 +489,7 @@ h1 {
     margin-right: auto;
     border: 1px rgba(61, 90, 90, 0.425);
     text-shadow: 0.5px 0.5px 0.5px rgb(7, 16, 97);
+    table-layout: fixed;
 }
 .gamestabulka1 h1 {
     font-size: 3em;
