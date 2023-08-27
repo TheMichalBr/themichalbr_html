@@ -464,7 +464,7 @@ h1 {
 .gamesother a:active {
     color: rgb(18, 78, 168);
 }
-a:visited {
+.gamesother a:visited {
     color: rgb(157, 122, 221);
 }
 .gamestabulka1 {
