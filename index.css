@@ -493,6 +493,7 @@ h1 {
 }
 .gamestabulka1 img{
     filter: drop-shadow(0 0 0.75rem rgb(107, 102, 79));
+    align-self: center;
 }
 .gamestabulka1 h1 {
     font-size: 3em;
