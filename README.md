@@ -2,7 +2,7 @@
 
 <h1></h1><h5>
 
-[<img src="https://github.com/TheMichalBr/themichalbr/blob/main/dev/source/p_icon.png?raw=true" width="96" height="96" align="center">  **Web project** ](https://github.com/TheMichalBr/themichalbr) — My own HTML page, where you can find various information about me and other stuff.  
+[<img src="https://github.com/TheMichalBr/themichalbr/blob/main/p_icon.png?raw=true" width="96" height="96" align="center">  **Web project** ](https://github.com/TheMichalBr/themichalbr) — My own HTML page, where you can find various information about me and other stuff.  
 
 <h1></h1><h5>
 
