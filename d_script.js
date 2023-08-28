@@ -1,0 +1,1 @@
+alert("The web is currently under maintenance!");

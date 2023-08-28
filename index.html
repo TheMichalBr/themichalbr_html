@@ -16,10 +16,10 @@
 
 <a href="#home" class="logo">M</a>
 <ul>
-<li><a href="#about" onclick="toggle()">About me</a></li>
-<li><a href="#equipment" onclick="toggle()">My equipment</a></li>
-<li><a href="#gamesother" onclick="toggle()">Games and other</a></li>
-<li><a href="#follow" onclick="toggle()">Follow me</a></li>
+<li><a href="#aboutme" onclick="toggle()">About me</a></li>
+<li><a href="#myequipment" onclick="toggle()">My equipment</a></li>
+<li><a href="#gamesandother" onclick="toggle()">Games and other</a></li>
+<li><a href="#followme" onclick="toggle()">Follow me</a></li>
 </ul>
 <div class="toggle" onclick="toggle()"></div>
 
@@ -41,10 +41,12 @@
 
 <iframe width="1200" height="800" src="https://www.youtube.com/embed/VgQDsqOi2wo?autoplay=1&mute=1&controls=1&loop=1"></iframe>
 
+<!--<iframe src="https://github.com/TheMichalBr/themichalbr/blob/main/cs_autoexec.cfg" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="1"></iframe>-->
+
 </div></div></div></section>
 
 <!-- About me -->
-<section class="sec aboutme" id="about" class="main-article">
+<section class="sec aboutme" id="aboutme" class="main-article">
 
 <h1>About me</h1><br>
 
@@ -61,7 +63,7 @@
 </section>
 
 <!-- Equipment -->
-<section class="sec myequipment" id="equipment" class="main-article">
+<section class="sec myequipment" id="myequipment" class="main-article">
 
 <h1 class="et">My equipment</h1>
 
@@ -110,9 +112,9 @@
 </section>
 
 <!-- Games / Other -->
-<section class="sec gamesother" id="gamesother" class="main-article">
+<section class="sec gamesother" id="gamesandother" class="main-article">
 
-<h1>Games and other</a></h1>
+<h1>Games and other</h1>
 
 <br>
 
@@ -138,15 +140,33 @@
 	</tbody>
 </table>
 
-<br>
-
-<div class="content">
-<div class="mxw800pp">
-<div class="wrapper">
-
-<iframe src="https://github.com/TheMichalBr/themichalbr/blob/main/cs_autoexec.cfg" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="1"></iframe>
-
-</div></div></div>
+<table class="gamestabulka1">
+    <thead>
+        <tr>
+            <th>
+                <h1>Counter-Strike 2 - MM/WM Rank</h1>
+            </th>
+            <th>
+                <h1>Counter-Strike 2 - FACEIT Rank</h1>
+            </th>
+            <th>
+                <h1>Valorant - Rank</h1>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="https://totalcsgo.com/image/ranks/skillgroup18.png" weight="65" height="65"></td>
+            <td><img src="https://fluvi.s3.eu-central-1.amazonaws.com/3OV-XYBHhEq.png" weight="65" height="65"></td>
+            <td><img src="https://cdn3.emoji.gg/emojis/3255-valorant-platinum-2.png" weight="95" height="95"></td>
+        </tr>
+        <tr>
+            <td><b>Global Elite – </b><br><a href=https://steamcommunity.com/id/misakbr2>MichalBr</a></td>
+            <td><b>Level 7 – </b><br><a href=https://faceit.com/en/players/michalbr->michalbr-</a></td>
+            <td><b>Platina II – </b><br><a href=https://www.riotgames.com/cs>MichalBr#UwU</a></td>
+        </tr>
+    </tbody>
+</table>
 
 <br>
 
@@ -155,7 +175,7 @@
 </section>
 
 <!-- Socials -->
-<section class="sec textove" id="follow" class="main-article">
+<section class="sec textove" id="followme" class="main-article">
 
 <div class="content"><div class="mxw800p">
 
@@ -221,20 +241,18 @@ hljs.initHighlightingOnLoad();
 
 <!-- DEV - alert("The web is currently under maintenance!");
 
-
-    $(document).ready(function () {
-        var HeightDiv = $("div").height();
-        var HeightTable = $("table").height();
-        if (HeightTable > HeightDiv) {
-            var FontSizeTable = parseInt($("table").css("font-size"), 10);
-            while (HeightTable > HeightDiv && FontSizeTable > 5) {
-                FontSizeTable--;
-                $("table").css("font-size", FontSizeTable);
-                HeightTable = $("table").height();
-            }
+$(document).ready(function () {
+    var HeightDiv = $("div").height();
+    var HeightTable = $("table").height();
+    if (HeightTable > HeightDiv) {
+        var FontSizeTable = parseInt($("table").css("font-size"), 10);
+        while (HeightTable > HeightDiv && FontSizeTable > 5) {
+            FontSizeTable--;
+            $("table").css("font-size", FontSizeTable);
+            HeightTable = $("table").height();
         }
-    });
-
+    }
+});
 -->
 
 </script>
