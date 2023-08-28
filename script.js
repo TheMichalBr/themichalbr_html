@@ -1,6 +1,5 @@
 alert("The web is currently under maintenance!");
 
-
 const container = document.querySelector(".container");
 const primaryNav = document.querySelector(".nav__list");
 const toggleButton = document.querySelector(".nav-toggle");
