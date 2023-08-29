@@ -501,6 +501,7 @@ h1 {
 .gamestabulka1 li p{
     color: white;
     font-size: 9px;
+    font-family: 'Nunito', Light, sans-serif;
 }
 .gamestabulka1 li td{
     color: white;
@@ -508,17 +509,20 @@ h1 {
 }
 .gamestabulka1 li b {
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Nunito', Light, sans-serif;
-
 }
 .gamestabulka1 td p {
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Nunito', Light, sans-serif;
 }
 .gamestabulka1 td a {
-    
+    font-size: 16.5px;
+}
+.gamestabulka1 td b {
+    font-size: 16.5px;
+    font-family: 'Nunito', Light, sans-serif;
 }
 
 .gamestabulka1 h1 {

@@ -122,9 +122,9 @@
 <table class="gamestabulka1">
 	<thead>
 		<tr>
-			<th><h1>Counter-Strike 2 - MM/WM Rank</h1></th>
-			<th><h1>Counter-Strike 2 - FACEIT Rank</h1></th>
-            <th><h1>Valorant - Rank</h1></th>
+			<th><h1>Counter-Strike 2 – MM/WM Rank</h1></th>
+			<th><h1>Counter-Strike 2 – FACEIT Rank</h1></th>
+            <th><h1>Valorant – Rank</h1></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -145,16 +145,16 @@
     <thead>
         <tr>
             <th>
-                <h1>Counter-Strike 2 - Configs and Settings</h1>
+                <h1>Counter-Strike 2 – Configs and Settings</h1>
             </th>
             <th>
-                <h1>Valorant - Settings</h1>
+                <h1>Valorant – Settings</h1>
             </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td><p><a href=https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/cs_autoexec.cfg>autoexec.cfg</a> - personal config<br><a href=https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/cs_practice.cfg>practice.cfg</a> - practice config
+            <td><p><a href=https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/cs_autoexec.cfg>autoexec.cfg</a> – personal config<br><a href=https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/cs_practice.cfg>practice.cfg</a> – practice config
             <ul><br>
             <li>
                 <p><b>Crosshair</b> – CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D
@@ -187,33 +187,7 @@
 
 <br>
 
-<p><b><a href="https://steamcommunity.com/id/misakbr2/recommended/782330/" data-replace="Nová DOOM Eternal recenze" class="odkaz"><span>↺ Novinkové centrum (CZ) - Nová DOOM Eternal recenze</span></a></p></b>
-
-<table border="1">
-    <tr>
-        <td><b>COVER</b></td>
-        <td><b>Game</b></td>
-        <td><b>Developer</b></td>
-        <td><b>Score</b></td>
-    </tr>
-    <tr>
-        <td><small><img
-                    src="https://static.metacritic.com/images/products/games/9/562c989431810e6aac45b6164ae0bfca-53.jpg"></small>
-        </td>
-        <td><b>The Witcher 3: Wild Hunt</b></td>
-        <td>CD Project RED</td>
-        <td><b>10 / 10</b></td>
-    </tr>
-
-    <tr>
-        <td><small><img
-                    src="https://static.metacritic.com/images/products/games/9/e6f3e91d6de4757b3a81886b520b5739-53.jpg"></small>
-        </td>
-        <td><b>Cyberpunk 2077</b></td>
-        <td>CD Project RED</td>
-        <td><b>10 / 10</b></td>
-    </tr>
-</table>
+<p><b><a href="https://steamcommunity.com/id/misakbr2/recommended/782330/" data-replace="--" class="odkaz"><span>↺ Nová DOOM Eternal recenze – (CZ)</span></a></p></b>
 
 </section>
 
@@ -296,7 +270,27 @@ $(document).ready(function () {
         }
     }
 });
+
 -->
+
+const container = document.querySelector(".container");
+const primaryNav = document.querySelector(".nav__list");
+const toggleButton = document.querySelector(".nav-toggle");
+
+toggleButton.addEventListener("click", () => {
+    const isExpanded = primaryNav.getAttribute("aria-expanded");
+    primaryNav.setAttribute(
+        "aria-expanded",
+        isExpanded === "false" ? "true" : "false"
+    );
+});
+
+container.addEventListener("click", (e) => {
+    if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
+        primaryNav.setAttribute("aria-expanded", "false");
+    }
+});
+
 
 </script>
 
