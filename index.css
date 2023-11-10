@@ -892,6 +892,8 @@ h1 {
     }
 }
 
+/* --  Slider -- */
+
 .csslider {
     -moz-perspective: 1300px;
     -ms-perspective: 1300px;
@@ -1144,18 +1146,6 @@ h1 {
     transform: rotate(225deg);
 }
 
-/*#region MODULES */
-/*#endregion */
-/*___________________________________ LAYOUT ___________________________________ */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    padding-left: 40px;
-}
-
 #slider1 {
     margin: 20px;
     font-family: 'Lato';
@@ -1182,8 +1172,6 @@ ul {
     transition: .5s .9s;
 }
 
-/*#videos */
-/*___________________________________ LAYOUT ___________________________________ */
 video {
     width: 710px;
     height: 400px;
