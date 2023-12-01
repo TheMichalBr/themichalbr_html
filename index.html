@@ -248,6 +248,20 @@
 
 </section>
 
+<!-- TEST SECTION -->
+
+<section class="sec gamesother" id="gamesandother" class="main-article">
+<div id="Page1">
+    Content of page 1
+    <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
+</div>
+
+<div id="Page2" style="display:none">
+    Content of page 2
+    <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
+</div>
+</section>
+
 <!-- Socials -->
 <section class="sec textove" id="followme" class="main-article">
 
@@ -297,6 +311,12 @@ border-radius: 2px;
 
 <!-- Scripts -->
 <script type="text/javascript">
+
+function show(shown, hidden) {
+    document.getElementById(shown).style.display = 'block';
+    document.getElementById(hidden).style.display = 'none';
+    return false;
+}
 
 window.addEventListener("scroll", function () 
 {
