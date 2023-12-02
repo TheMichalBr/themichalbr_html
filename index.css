@@ -893,6 +893,7 @@ h1 {
         header.sticky {
             padding: 16px 50px;
             background: #fff;
+            text-shadow: 0.25px 0.25px 0.25px rgb(0, 0, 0, 0.500);
         }
     header ul {
         position: absolute;
