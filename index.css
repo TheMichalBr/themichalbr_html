@@ -223,6 +223,54 @@ iframe {
     border-color: rgba(255, 255, 255, 0.726);
 }
 
+/* --  Button -- */
+
+a.arrow-button {
+    margin: 1em auto;
+    width: 280px;
+    text-align: center;
+    background-color: #eee;
+    padding: 0.5em 0;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.6);
+    border-radius: 8px;
+
+    &:hover {
+        color: #eee;
+        background-color: #333;
+    }
+}
+
+.arrow-right {
+    &:after {
+        content: '\25ba';
+        padding-left: 0.5em;
+    }
+}
+
+.arrow {
+    
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    display: table-cell;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
+
 /* --  Other -- */
 
 :root {
