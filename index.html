@@ -18,8 +18,8 @@
 <a href="#home" class="logo">M</a>
 <ul>
 <li><a href="#aboutme" onclick="toggle()">About me</a></li>
-<li><a href="#myequipment" onclick="toggle()">My equipment</a></li>
-<li><a href="#gamesandother" onclick="toggle()">Games and other</a></li>
+<li><a href="#myequipment" onclick="toggle()">Equipment</a></li>
+<li><a href="#gamesandother" onclick="toggle()">Games</a></li>
 <li><a href="#followme" onclick="toggle()">Follow me</a></li>
 </ul>
 <div class="toggle" onclick="toggle()"></div>
@@ -265,6 +265,14 @@
 
 </section>
 
+<section class="sec gamesother" id="gamesandother" class="main-article">
+    <div id="Page1">
+        </div>
+<div id="Page2" style="display:none">
+</div>
+
+    <a href="#" onclick="return show('Page1','Page2');"><div class="arrow"></div></a>
+</section>
 <!-- Socials -->
 <section class="sec textove" id="followme" class="main-article">
 
@@ -299,20 +307,32 @@ body {
 overflow: overlay;
 }
 
+/* Scrollbar Width */
 ::-webkit-scrollbar {
-width: 10px;
-background: transparent;
+    width: 0.012px;
+    background: transparent;
 }
 
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #f2feff; 
+}
+
+/* Scrollbar Handle */
 ::-webkit-scrollbar-thumb {
-background: white;
-border-radius: 2px;
+    background: #888; 
+    border-radius: 0px;
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #111111bb; 
 }
 
 </style>
 </defs>
 
-<!-- Scripts -->
+<!-- Scripts (JS) -->
 <script type="text/javascript">
 
 function show(shown, hidden) {
