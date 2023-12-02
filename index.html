@@ -279,9 +279,17 @@
 <div class="content"><div class="mxw800p">
 
 <h3>Follow me</h3><br><br> <!-- Old title = /dont forget to @followme-->
+<class="scalebyresolution"></class>
+
+<br>
 
 <div class="fo">
-
+<!--<tr>
+    <td id="v1">View 1</td>
+gwgawg
+    <td id="v2">View 2</td>
+    gwagawg
+</tr>-->
 <ul><br>
 <li><a href="https://www.youtube.com/channel/UCHnpnVKU2iVc0j1mW4ZGVHw"><img src="https://img.freepik.com/free-icon/youtube_318-162922.jpg" height="90" width="90"><b>Youtube</b></a></li>
 <li><a href="https://twitter.com/TheMichalBr"><img src="https://i.postimg.cc/Zn8qNR8D/twitter.png" height="90" width="90"><b>Twitter</b></a></li>
@@ -334,6 +342,36 @@ overflow: overlay;
 
 <!-- Scripts (JS) -->
 <script type="text/javascript">
+/*
+    $(window).on("load resize", function () {
+
+        var windowWidth = $(window).width();
+        var windowHeight = $(window).height();
+        var v1Width = $("#v1").width()
+
+
+        $("#v1").resizable({
+            minWidth: 50,
+            maxWidth: windowWidth - 80,
+            maxHeight: windowHeight * (.83),
+            handles: "e, s"
+        }).on("resize", function () {
+
+            if (v1Width == $("#v1").width()) {
+                $("#v2").height(0)
+            }
+            v1Width = $("#v1").width()
+        });
+
+        $("#v2").resizable({
+            maxHeight: windowHeight * (.83),
+            handles: "s"
+        }).on("resize", function () {
+            $("#v1").height(0)
+        });
+
+    });
+*/
 
 function show(shown, hidden) {
     document.getElementById(shown).style.display = 'block';
