@@ -51,7 +51,7 @@ header ul li a {
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease-out;
-    border-radius: 8.95px;
+    border-radius: 9.982px;
     position: relative;
     margin: 0 15px;
     text-decoration: none;
@@ -59,7 +59,7 @@ header ul li a {
     letter-spacing: 2px;
     font-weight: 300;
     transition: 0.89s;
-    text-shadow: 0.25px 0.25px 0.25px rgba(0, 0, 0, 0.507);
+    text-shadow: 0.59px 0.59px 0.59px rgb(0, 0, 0, 0.500);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -71,7 +71,7 @@ header ul li a:focus {
 
 header.sticky {
     padding: 5px 100px;
-    background: #fff;
+    background: #f2feff;
     border-bottom: 5px solid (0, 0, 0, .1);
     align-items: center;
     border-color: rgb(0, 0, 0);
@@ -79,6 +79,7 @@ header.sticky {
 
 header.sticky ul li a{
     border-color: rgb(0, 0, 0);
+    text-shadow: 0.27px 0.27px 0.27px rgb(0, 0, 0, 0.500);
 }
 
 header.sticky ul li a:hover,
@@ -98,7 +99,7 @@ header .logo {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
-    text-shadow: 0.45px 0.45px 0.45px rgba(0, 0, 0, 0.507);
+    text-shadow: 0.87px -0.19px 2.82px rgba(0, 0, 0, 0.475);
 }
 
 header .logo span {
@@ -128,6 +129,7 @@ header ul li {
 header.sticky .logo,
 header.sticky ul li a {
     color: #000000;
+    text-shadow: 0.25px 0.25px 0.25px rgb(0, 0, 0, 0.500);
 }
 
 /* --  Banner -- */
