@@ -182,9 +182,9 @@ body {
     /*overflow: scroll;
     overflow: overlay;
     overflow: auto;*/
-    background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(18, 155, 109) 98%);
+    background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(20, 170, 160) 68%, rgb(40, 150, 30) 98%);
     animation: gradient 32s ease infinite;
-    /* animation: gradient 17s ease infinite; */
+    /* animation: gradient 17s ease infinite;  rgb(18, 155, 109) */
     background-size: 400% 400%;
     background-attachment: fixed;
     min-height: 1000px;
