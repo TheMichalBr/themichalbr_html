@@ -596,7 +596,11 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
     max-width: 100%;
-    /*  min-height: 300px;*/
+    /*  
+    min-height: 300px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    */
     margin-top: 40px;
     margin: 1 auto;
     color: white;
@@ -643,18 +647,13 @@ h1 {
 
 .video{
     background-color: #000000ab;
-    position: flex;
     display: flex;
+    position: flex;
     justify-content: center;
     align-items: center;
     object-fit: cover;
-    padding-bottom: 9.2%;
     overflow: hidden;
-    margin: 1 auto;
-    margin-top: 40px;
-    padding-top: 9%;
-    transition: 0.2s;
-    max-width: 100%;
+    transition: 0.25s;
     width: auto;
 }
 
@@ -676,6 +675,8 @@ h1 {
     border: 9.5px solid rgba(194, 194, 194, 0.562);
     width: 1590px;
     height: 902px;
+    /*min-height: 1080px;
+    min-width: 1920px;*/
 }
 
 /* --  Textove -- */
