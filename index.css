@@ -416,8 +416,7 @@ h1 {
 
 .overcolor{
     background: linear-gradient(180.2deg, rgba(30, 33, 48, 0.37) 6.8%, rgba(74, 98, 110, 0.76) 131%);
-    /*background-color: #232225f1;
-    background-color: rgba(65, 65, 70, 0.65); #666666 */
+    /*background-color: #232225f1; rgba(65, 65, 70, 0.65); #666666; */
 }
 
 /*
@@ -587,7 +586,6 @@ element.style {
     padding-left: 1rem;
 
 }
-
 
 <div id="21"
 class="relative box-border flex scroll-mt-8 flex-col gap-4 rounded-section-radius bg-gray-900/60 p-4 lg:scroll-mt-16 lg:p-6"
