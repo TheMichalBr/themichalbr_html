@@ -317,74 +317,362 @@ h1 {
     background: #111111bb;
 }
 
+/* --  Equipment -- */
 
-/* --  My equipment -- */
-
-.myequipment {
-    position: flex;
+.equipment{
+    background: #000000ab;
+    box-sizing: border-box;
     display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 30px;
-    margin-top: 40px;
-    background-color: #000000ab;
-    grid-gap: 35px;
-    flex-grow: 3;
-    margin: 1 auto;
-    justify-content: center;
-    flex-direction: row;
-    flex: 'flex-grow';
     align-self: center;
     align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+    height: auto;
     width: auto;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.flexcontainerEQ{
+    display: flex;
     flex-wrap: wrap;
-    overflow: auto;
+    flex-direction: row;
+    align-items: flex-end;
 }
-.myequipment ul li {
-    display: list-item;
-    margin: 40px 80px;
-    padding: 0 5px;
+
+.flexEQ{
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.flex-child:last-child {
+    align-self: flex-end;
+}
+
+.nameEQ{
+    color: #F4F4F5;
+    font-size: .75rem;
+    line-height: 1rem;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    --tw-text-opacity: 1;
     word-spacing: normal;
-    vertical-align: top;
-    list-style: none;
-}
-.myequipment h1 {
-    font-size: 40px;
-    font-family: 'Asap', sans-serif;
-    text-shadow: 2.6px 2.6px 2.6px rgba(0, 0, 0, 0.829);
-    word-wrap: break-word;
-    align-self: center;
-    letter-spacing: 2px;
-}
-.myequipment b {
-    font-size: 20px;
-    font-family: 'Nunito', Light, sans-serif;
-    text-shadow: 2.2px 2.2px 2.2px rgba(0, 0, 0, 0.829);
-    word-wrap: break-word;
-    align-self: center;
-}
-.myequipment p {
-    font-size: 18px;
-    font-family: 'Signika', Medium, sans-serif;
+    font-size: 12px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.829);
     word-wrap: break-word;
     align-self: center;
-    color: white;
 }
-.et{
-    order: 0;
-    flex-wrap: wrap;
-    align-self: auto;
+
+.itemEQ{
+    color: #F4F4F5;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-top: 0.25rem;
+    font-weight: 700;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-spacing: normal;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.829);
+    word-wrap: break-word;
+    align-self: center;
+    letter-spacing: 0.252px;
 }
-.et1{
-    order: 1;
-    flex-wrap: wrap;
-    align-self: auto;
+
+.boxEQ{
+    background-color: #232225;
+    border: 0px solid black;
+    padding: 23px;
+    margin: 80.5px;
+    border-radius: 0.375rem;
+    width: 250px;
+    height: 250px;
+    box-shadow: -2.2px -0.2px 5px black;
+    flex-grow: 1;
 }
-.et2{
-    order: 2;
-    flex-wrap: wrap;
-    align-self: auto;
+
+.boxEQ img{
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    object-position: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.41);
+    display: block;
 }
+
+/*
+.font-sans {
+    font-family: HelveticaNowText, Helvetica, Arial, sans-serif;
+}
+
+.aspect-w-1 {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+    --tw-aspect-w: 1;
+}
+
+element.style {
+    color: transparent;
+}
+
+.object-contain {
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.rounded-section-radius {
+    border-radius: var(--user-section-radius);
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.aspect-w-1>* {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+/*
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+    display: block;
+    vertical-align: middle;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(35 34 37/var(--tw-bg-opacity));
+}
+
+.rounded-section-radius {
+    border-radius: var(--user-section-radius);
+}
+
+.relative {
+    position: relative;
+}
+
+.aspect-h-1 {
+    --tw-aspect-h: 1;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.leading-normal {
+    line-height: 1.5;
+}
+
+.leading-normal {
+    line-height: 1.5;
+}
+
+.text-gray-100 {
+    --tw-text-opacity: 1;
+    color: rgb(244 244 245/var(--tw-text-opacity));
+}
+
+.bg-gray-950 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(10 10 11/var(--tw-bg-opacity));
+}
+
+style atribut {
+    --user-primary-color: 244 244 245;
+    --user-background-color: 10 10 11;
+    --user-gradient-color: 10 10 11;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    border: 0 solid #cbc9cf;
+}
+
+.relative {
+    position: relative;
+}
+
+.box-border {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.scroll-mt-8 {
+    scroll-margin-top: 2rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.rounded-section-radius {
+    border-radius: var(--user-section-radius);
+}
+
+.bg-gray-900\/60 {
+    background-color: rgba(20, 19, 22, .6);
+}
+
+element.style {
+    border: var(--user-section-border);
+    box-shadow: var(--user-section-shadow);
+}
+
+.gap-4 {
+    gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.p-4 {
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+
+}
+
+
+<div id="21"
+class="relative box-border flex scroll-mt-8 flex-col gap-4 rounded-section-radius bg-gray-900/60 p-4 lg:scroll-mt-16 lg:p-6"
+style="border:var(--user-section-border);box-shadow:var(--user-section-shadow)"><div class="flex items-center justify-between"><div class="flex items-center gap-2"><h4 class="font-display text-lg font-medium uppercase">Gaming Setup</h4></div></div><div class="grid gap-4 gap-y-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4"><div tabindex="0" aria-disabled="true" aria-roledescription="sortable"
+class="group/record relative touch-manipulation cursor-default"
+style="transition: transform 0ms linear 0s;"><div class="relative rounded-section-radius bg-gray-800 p-4"><div class="aspect-h-1 aspect-w-1"><img alt="BenQ ZOWIE XL2546 image" loading="lazy" width="164"
+height="164" decoding="async" data-nimg="1"
+class="h-full w-full shrink-0 rounded-section-radius object-contain" style="color:transparent"
+src="https://api.konect.gg/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZUk9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--da458105fb654da1c71c7c58c293da6d1fe8d631/xl2540.png"></div></div><p class="caption-sm mt-2 truncate text-user-primary-color">Monitor</p><p class="mt-1 line-clamp-2 text-sm font-bold">BenQ ZOWIE XL2546</p></div><div tabindex="0" aria-disabled="true" aria-roledescription="sortable"
+class="group/record relative touch-manipulation cursor-default"
+style="transition: transform 0ms linear 0s;"><div class="relative rounded-section-radius bg-gray-800 p-4"><div class="aspect-h-1 aspect-w-1"><img alt="Zowie EC1-A image" loading="lazy" width="164" height="164"
+decoding="async" data-nimg="1"
+class="h-full w-full shrink-0 rounded-section-radius object-contain" style="color:transparent"
+src="https://api.konect.gg/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbFFCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bb68409595e3ec104f51a7ef30f9376f443f9683/ec2.png"></div></div><p class="caption-sm mt-2 truncate text-user-primary-color">Mouse</p><p class="mt-1 line-clamp-2 text-sm font-bold">Zowie EC1-A</p></div><div tabindex="0" aria-disabled="true" aria-roledescription="sortable"
+class="group/record relative touch-manipulation cursor-pointer"
+style="transition: transform 0ms linear 0s;"><div class="pointer-events-none absolute right-3 top-3 z-10 flex h-7 w-7 items-center justify-center rounded-section-radius border-2 border-white/20 bg-black/20 backdrop-blur transition-colors group-hover/record:border-white/40 group-hover/record:bg-black/40"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+class="h-4 w-4 shrink-0"><path d="M17 7l-10 10"></path><path d="M8 7l9 0l0 9"></path></svg></div><div class="relative rounded-section-radius bg-gray-800 p-4 transition-colors group-hover/record:bg-gray-700"><div class="aspect-h-1 aspect-w-1"><img alt="Corsair MM200 PRO Heavy XL image" loading="lazy"
+width="164" height="164" decoding="async" data-nimg="1"
+class="h-full w-full shrink-0 rounded-section-radius object-contain" style="color:transparent"
+src="https://api.konect.gg/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaWdDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--da4ca9f1993bb04d03f33eb7d04c8fc9aef1dbb3/MM200-PRO-Heavy%20XL.png"></div></div><p class="caption-sm mt-2 truncate text-user-primary-color">Mousepad</p><p class="mt-1 line-clamp-2 text-sm font-bold">Corsair MM200 PRO Heavy XL</p></div><div tabindex="0" aria-disabled="true" aria-roledescription="sortable"
+class="group/record relative touch-manipulation cursor-pointer"
+style="transition: transform 0ms linear 0s;"><div class="pointer-events-none absolute right-3 top-3 z-10 flex h-7 w-7 items-center justify-center rounded-section-radius border-2 border-white/20 bg-black/20 backdrop-blur transition-colors group-hover/record:border-white/40 group-hover/record:bg-black/40"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+class="h-4 w-4 shrink-0"><path d="M17 7l-10 10"></path><path d="M8 7l9 0l0 9"></path></svg></div><div class="relative rounded-section-radius bg-gray-800 p-4 transition-colors group-hover/record:bg-gray-700"><div class="aspect-h-1 aspect-w-1"><img alt="Corsair K70 RGB MK.2 image" loading="lazy" width="164"
+height="164" decoding="async" data-nimg="1"
+class="h-full w-full shrink-0 rounded-section-radius object-contain" style="color:transparent"
+src="https://api.konect.gg/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZXc9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4d350b573108e945fd6b08a03e661b6667d676f4/K70_RGB_MK2.png"></div></div><p class="caption-sm mt-2 truncate text-user-primary-color">Keyboard</p><p class="mt-1 line-clamp-2 text-sm font-bold">Corsair K70 RGB MK.2</p></div><div tabindex="0" aria-disabled="true" aria-roledescription="sortable"
+class="group/record relative touch-manipulation cursor-pointer"
+style="transition: transform 0ms linear 0s;"><div class="pointer-events-none absolute right-3 top-3 z-10 flex h-7 w-7 items-center justify-center rounded-section-radius border-2 border-white/20 bg-black/20 backdrop-blur transition-colors group-hover/record:border-white/40 group-hover/record:bg-black/40"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+class="h-4 w-4 shrink-0"><path d="M17 7l-10 10"></path><path d="M8 7l9 0l0 9"></path></svg></div><div class="relative rounded-section-radius bg-gray-800 p-4 transition-colors group-hover/record:bg-gray-700"><div class="aspect-h-1 aspect-w-1"><img alt="Corsair HS60 PRO image" loading="lazy" width="164"
+height="164" decoding="async" data-nimg="1"
+class="h-full w-full shrink-0 rounded-section-radius object-contain" style="color:transparent"
+src="https://api.konect.gg/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYTg9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a565771aa3c7687c8adbadade1246b5671271b98/Corsair%20HS60%20Pro.png"></div></div><p class="caption-sm mt-2 truncate text-user-primary-color">Headset</p><p class="mt-1 line-clamp-2 text-sm font-bold">Corsair HS60 PRO</p></div><div tabindex="0" aria-disabled="true" aria-roledescription="sortable"
+class="group/record relative touch-manipulation cursor-pointer"
+style="transition: transform 0ms linear 0s;"><div class="pointer-events-none absolute right-3 top-3 z-10 flex h-7 w-7 items-center justify-center rounded-section-radius border-2 border-white/20 bg-black/20 backdrop-blur transition-colors group-hover/record:border-white/40 group-hover/record:bg-black/40"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+class="h-4 w-4 shrink-0"><path d="M17 7l-10 10"></path><path d="M8 7l9 0l0 9"></path></svg></div><div class="relative rounded-section-radius bg-gray-800 p-4 transition-colors group-hover/record:bg-gray-700"><div class="aspect-h-1 aspect-w-1"><img alt="Secretlab Titan Evo 2022 image" loading="lazy" width="164"
+height="164" decoding="async" data-nimg="1"
+class="h-full w-full shrink-0 rounded-section-radius object-contain" style="color:transparent"
+src="https://api.konect.gg/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeXpkQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e1f8ce9ffaa4209a03a0f611edc620b9a6573afe/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKZDJWaWNBWTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQzlBRnBBdlFCIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2bc52019761914fb24b6c5ffb49a0dd1ad1fbb3d/secret_lab_vitality-removebg-preview.png"></div></div><p class="caption-sm mt-2 truncate text-user-primary-color">Chair</p><p class="mt-1 line-clamp-2 text-sm font-bold">Secretlab Titan Evo 2022</p></div></div><div id="DndDescribedBy-3" style="display: none;">To pick up a draggable item,
+press the space bar. While dragging,
+use the arrow keys to move the item. Press space again to drop the item in its new position,
+or press escape to cancel. </div><div id="DndLiveRegion-2" role="status" aria-live="assertive" aria-atomic="true"
+style="position: fixed; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(100%); white-space: nowrap;"></div><a class="btn btn-sm btn-link rounded-section-radius text-user-primary-color" href="/apex/gears">View all</a></div><div id="491254"
+class="relative box-border flex scroll-mt-8 flex-col gap-4 rounded-section-radius bg-gray-900/60 p-4 lg:scroll-mt-16 lg:p-6"
+style="border:var(--user-section-border);box-shadow:var(--user-section-shadow)"><div dir="ltr" data-orientation="horizontal"><div class="flex items-center justify-between gap-4"><h4 class="font-display text-lg font-medium uppercase">Settings</h4><div role="tablist" aria-orientation="horizontal" class="flex items-center gap-1.5" tabindex="0"
+data-orientation="horizontal" style="outline:none"><button type="button" role="tab" aria-selected="true"
+aria-controls="radix-:R1fbqauada:-content-CounterStrike2" data-state="active"
+id="radix-:R1fbqauada:-trigger-CounterStrike2"
+class="inline-flex items-center justify-center whitespace-nowrap rounded text-sm font-medium transition-all focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-game-CounterStrike2 h-6 w-6 rounded-section-radius p-0 text-gray-200 hover:bg-white/10 data-[state=active]:text-gray-900"
+tabindex="-1" data-orientation="horizontal" data-radix-collection-item=""><svg viewBox="0 0 24 24"
+fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+class="h-5 w-5 shrink-0"><path fill-rule="evenodd" clip-rule="evenodd"
+d="M19.766 5.561c0 .01.008.017.018.017l-.002-.002h1.15c.021 0 .038.017.038.038v.228c0 .02-.017.037-.037.037h-1.15a.018.018 0 0 0-.018.017v.507a.073.073 0 0 1-.074.075l-2.982-.004a.033.033 0 0 0-.032.026l-.127.58a.225.225 0 0 1-.029.065l-.105.163a.055.055 0 0 0-.007.042l.254 1.075a.053.053 0 0 1-.04.063l-1.078.24a.05.05 0 0 1-.063-.04l-.102-.476c-.002-.012-.018-.013-.023-.002l-.366.856a.305.305 0 0 1-.111.118c-.177.109-.518.231-.725.233a.305.305 0 0 1-.149-.04l-.746-.422a.043.043 0 0 0-.06.017l-.28.303a.07.07 0 0 0 0 .07l.188.233a.076.076 0 0 1 .002.075l-.916 1.724a.074.074 0 0 1-.06.039l-.264.022a.032.032 0 0 0-.028.04l.058.894c.007.028.02.053.04.075a.359.359 0 0 0 .064.058.268.268 0 0 1 .079.088c.174.305.909 1.591 1.027 1.801l.093.163c.197.341.56.969.588 1.136.048.271.072.528 0 .756l-1.52 3.59a.164.164 0 0 1-.039.058l-.494.487a.069.069 0 0 0-.013.078l.253.375c.037.05.09.088.15.107l.945.285a.099.099 0 0 1 .018.009c.001 0 .013.006.024.022l.005.007.002.004a.051.051 0 0 1 .004.008v.001a.18.18 0 0 1 .016.07v.031l-.001.013c-.012.114-.092.203-.162.275a.458.458 0 0 1-.18.104l-.018.006a3.173 3.173 0 0 1-.642.12c-.084.003-.224.005-.227.005h-.001l-2.033-.012a.046.046 0 0 1-.047-.049l.12-.867a.52.52 0 0 1 .066-.213.406.406 0 0 0 .056-.192l.33-1.187a.752.752 0 0 1 .028-.122l.363-1.708.823-1.447a.067.067 0 0 0-.024-.09 1.793 1.793 0 0 0-.124-.065c-.095-.047-.202-.101-.248-.15-.246-.27-.811-1.088-.925-1.254-.053-.078-.13-.199-.209-.326-.124-.198-.258-.411-.331-.5a.135.135 0 0 0-.146-.042l-.087.028a.136.136 0 0 0-.08.07L8.07 17.01a2.142 2.142 0 0 1-.229.36l-2.88 3.386.02.157L4.9 21.95c-.003.128-.107.249-.2.24l-1.512-.002-.074-.149-.025-.056a.08.08 0 0 1 .002-.069l.498-.87c.031-.06.058-.358.057-.425l-.106-.189a.609.609 0 0 1 .063-.257l1.486-3.14a3.84 3.84 0 0 1 .612-.8l.446-.341a.103.103 0 0 0 .027-.045l.126-.726c.006-.032.01-.065.013-.097l.16-1.83a.13.13 0 0 1 .13-.12h.268a.05.05 0 0 0 .049-.037l.477-1.225a.085.085 0 0 1 .029-.047l.347-.306a.162.162 0 0 0 .019-.05l.261-.773a.048.048 0 0 0-.015-.047l-.501-.313a.088.088 0 0 1-.014-.087l.718-2.034c.012-.026.042-.049.07-.049l.462-.001a.058.058 0 0 0 .054-.032l.579-1.24c.506-1.082 1.191-1.458 1.5-1.47.164-.007.497-.016.497-.016.02 0 .037-.013.042-.032l.157-.26-.283-.122a.087.087 0 0 1-.034-.068l-.041-.785c0-.015.03-.175.037-.188l.077-.17c.063-.121.143-.232.24-.327.22-.214.632-.483 1.26-.383 1.292.206 1.56 1.127 1.593 1.265.003.01.01.02.021.023l.182.068a.037.037 0 0 1 .023.044l-.195.79a.047.047 0 0 1-.05.036l-.267-.025a.038.038 0 0 0-.045.038l.01.142c0 .02.018.037.038.037h5.234a.019.019 0 0 0 .015-.009l.11-.159.073-.106a.092.092 0 0 1 .075-.042c.052 0 .094.048.094.108v.041l-.003.298Z"></path></svg></button></div></div><div data-state="active" data-orientation="horizontal" role="tabpanel"
+aria-labelledby="radix-:R1fbqauada:-trigger-CounterStrike2" id="radix-:R1fbqauada:-content-CounterStrike2"
+tabindex="0" class="focus-visible:outline-none mt-4" style="animation-duration:0s"><div dir="ltr" data-orientation="horizontal"><div role="tablist" aria-orientation="horizontal"
+class="flex items-center gap-1 rounded-section-radius bg-gray-800 p-1 ring-1 ring-inset ring-gray-600"
+aria-label="Settings" tabindex="0" data-orientation="horizontal" style="outline:none"><button type="button" role="tab" aria-selected="true" aria-controls="radix-:Rtlfbqauada:-content-config"
+data-state="active" id="radix-:Rtlfbqauada:-trigger-config"
+class="inline-flex w-full items-center justify-center whitespace-nowrap rounded text-sm font-medium transition-all focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 text-gray-200 hover:bg-white/10 data-[state=active]:bg-gray-100 data-[state=active]:text-gray-950 px-4 py-2 rounded-section-radius"
+tabindex="0" data-orientation="horizontal" data-radix-collection-item="">Config</button><button type="button" role="tab" aria-selected="false" aria-controls="radix-:Rtlfbqauada:-content-video"
+data-state="inactive" id="radix-:Rtlfbqauada:-trigger-video"
+class="inline-flex w-full items-center justify-center whitespace-nowrap rounded text-sm font-medium transition-all focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 text-gray-200 hover:bg-white/10 data-[state=active]:bg-gray-100 data-[state=active]:text-gray-950 px-4 py-2 rounded-section-radius"
+tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Video</button><button type="button" role="tab" aria-selected="false"
+aria-controls="radix-:Rtlfbqauada:-content-monitor" data-state="inactive"
+id="radix-:Rtlfbqauada:-trigger-monitor"
+class="inline-flex w-full items-center justify-center whitespace-nowrap rounded text-sm font-medium transition-all focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 text-gray-200 hover:bg-white/10 data-[state=active]:bg-gray-100 data-[state=active]:text-gray-950 px-4 py-2 rounded-section-radius"
+tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Monitor</button></div><div data-state="active" data-orientation="horizontal" role="tabpanel"
+aria-labelledby="radix-:Rtlfbqauada:-trigger-config" id="radix-:Rtlfbqauada:-content-config"
+tabindex="0" class="mt-6 focus-visible:outline-none" style=""><div class="space-y-6"><div class="overflow-hidden rounded-section-radius bg-gray-800 p-4"><div class="mb-4 flex items-center justify-between border-b border-white/10 pb-3"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M6 3m0 4a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-4a4 4 0 0 1 -4 -4z"></path><path d="M12 3v7"></path><path d="M6 10h12"></path></svg><h4 class="font-display text-sm font-medium uppercase">Mouse</h4></div></div><dl class="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6"><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">DPI</dt><dd class="shrink-0 font-bold text-sm md:text-base">400</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Sensitivity</dt><dd class="shrink-0 font-bold text-sm md:text-base">1.6</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">EDPI</dt><dd class="shrink-0 font-bold text-sm md:text-base">640</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Zoom Sensitivity</dt><dd class="shrink-0 font-bold text-sm md:text-base">1</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Hz</dt><dd class="shrink-0 font-bold text-sm md:text-base">1000</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Raw Input</dt><dd class="shrink-0 font-bold text-sm md:text-base">1</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Mouse Acceleration</dt><dd class="shrink-0 font-bold text-sm md:text-base">0</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Windows Sensitivity</dt><dd class="shrink-0 font-bold text-xs uppercase leading-5 text-gray-400">N.A</dd></div></dl></div><div class="overflow-hidden rounded-section-radius bg-gray-800 p-4"><div class="mb-4 flex items-center justify-between border-b border-white/10 pb-3"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path><path d="M12 3l0 4"></path><path d="M12 21l0 -3"></path><path d="M3 12l4 0"></path><path d="M21 12l-3 0"></path><path d="M12 12l0 .01"></path></svg><h4 class="font-display text-sm font-medium uppercase">Crosshair</h4></div><button class="text-gray-300 transition-colors hover:text-gray-100"
+data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path><path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path></svg></button></div><dl class="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6"><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Size</dt><dd class="shrink-0 font-bold text-sm md:text-base">1.5</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Gap</dt><dd class="shrink-0 font-bold text-sm md:text-base">-3</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Thickness</dt><dd class="shrink-0 font-bold text-sm md:text-base">1</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Style</dt><dd class="shrink-0 font-bold text-sm md:text-base">4</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Drawoutline</dt><dd class="shrink-0 font-bold text-sm md:text-base">Off</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Dot</dt><dd class="shrink-0 font-bold text-xs uppercase leading-5 text-gray-400">N.A</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Color</dt><dd class="shrink-0 font-bold text-sm md:text-base">2</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Alpha</dt><dd class="shrink-0 font-bold text-sm md:text-base">255</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Blue,
+Green,
+Red</dt><dd class="shrink-0 font-bold text-sm md:text-base">50 | 250 | 50</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Sniper Width</dt><dd class="shrink-0 font-bold text-sm md:text-base">1</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Follow Recoil</dt><dd class="shrink-0 font-bold text-xs uppercase leading-5 text-gray-400">N.A</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Crosshair Code</dt><dd class="shrink-0 font-bold text-xs uppercase leading-5 text-gray-400">N.A</dd></div></dl></div><div class="overflow-hidden rounded-section-radius bg-gray-800 p-4"><div class="mb-4 flex items-center justify-between border-b border-white/10 pb-3"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M8 13v-7.5a1.5 1.5 0 0 1 3 0v6.5"></path><path d="M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5"></path><path d="M14 5.5a1.5 1.5 0 0 1 3 0v6.5"></path><path d="M17 7.5a1.5 1.5 0 0 1 3 0v8.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"></path></svg><h4 class="font-display text-sm font-medium uppercase">Viewmodel</h4></div><button class="text-gray-300 transition-colors hover:text-gray-100"
+data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path><path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path></svg></button></div><dl class="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6"><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">HUD Scale</dt><dd class="shrink-0 font-bold text-xs uppercase leading-5 text-gray-400">N.A</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Fov</dt><dd class="shrink-0 font-bold text-sm md:text-base">60</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Offset X</dt><dd class="shrink-0 font-bold text-sm md:text-base">2</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Offset Y</dt><dd class="shrink-0 font-bold text-sm md:text-base">2</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Offset Z</dt><dd class="shrink-0 font-bold text-sm md:text-base">-2</dd></div><div class="flex flex-col items-start justify-between gap-1.5"><dt class="text-xs font-bold uppercase text-gray-300">Preset pos</dt><dd class="shrink-0 font-bold text-sm md:text-base">1</dd></div></dl></div></div></div><div data-state="inactive" data-orientation="horizontal" role="tabpanel"
+aria-labelledby="radix-:Rtlfbqauada:-trigger-video" id="radix-:Rtlfbqauada:-content-video"
+tabindex="0" class="mt-6 focus-visible:outline-none" hidden=""></div><div data-state="inactive" data-orientation="horizontal" role="tabpanel"
+aria-labelledby="radix-:Rtlfbqauada:-trigger-monitor" id="radix-:Rtlfbqauada:-content-monitor"
+tabindex="0" class="mt-6 focus-visible:outline-none" hidden=""></div><a class="btn btn-primary mt-6 hidden rounded-section-radius lg:inline-flex lg:w-full"
+href="https://api.konect.gg//counterstrikes/1048/download"><svg xmlns="http://www.w3.org/2000/svg"
+width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path><path d="M7 11l5 5l5 -5"></path><path d="M12 4l0 12"></path></svg>Download config</a></div></div></div></div></div>
+
+*/
 
 /* --  Games and other -- */
 
