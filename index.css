@@ -406,13 +406,18 @@ h1 {
     height: 200px;
     object-fit: scale-down;
     object-position: center;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.41);
+    /*box-shadow: 10px 0px 80px 0px rgba(0, 0, 0, 0.41);*/
     display: block;
+    filter: drop-shadow(3px 3px 3px black);
+    -webkit-filter: drop-shadow(3px 3px 3px #000000); 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .overcolor{
-    background-color: #232225f1;
-    /*background-color: rgba(65, 65, 70, 0.65); */
+    background: linear-gradient(180.2deg, rgba(30, 33, 48, 0.37) 6.8%, rgba(74, 98, 110, 0.76) 131%);
+    /*background-color: #232225f1;
+    background-color: rgba(65, 65, 70, 0.65); #666666 */
 }
 
 /*
