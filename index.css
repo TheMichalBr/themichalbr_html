@@ -1007,7 +1007,7 @@ stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M4 17v2a
 }
 
 .fo {
-    position: relative;
+    position: flex;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -1019,20 +1019,11 @@ stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M4 17v2a
     color: white;
     font-size: 17.2px;
     text-shadow: 1.25px 1.25px 1.25px black;
-}
-/*
-.fo h3{
-    color: white;
-    font-size: 19px;
-    font-style: bold;
-}
-*/
-.fo ul {
-    display: inline-flex;
-    /*max-width: 92vw;*/
+    font-weight: 470;
 }
 
-.fo ul li {
+.fo ul {
+    display: flex;
     list-style: none;
 }
 
@@ -1042,15 +1033,15 @@ stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M4 17v2a
     margin: 0 55px;
 }
 
-.fo ul li a img { /* max byl 36 filter: invert(1);*/
-    max-width: 47.26px;
-    max-height: 47.26px;
+.fo ul li a img {
+    max-width: 50px;
+    max-height: 50px;
     transition-delay: 27.2ms;
 }
 
 .fo ul li a:hover img {
-    opacity: 0.5;
-    height: 50px;
+    opacity: 0.75;
+    transition-delay: 15ms;
 }
 
 .toggle {
@@ -1061,12 +1052,12 @@ stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M4 17v2a
     width: 120px;
     height: 120px;
     box-sizing: border-box;
-    border: 2px rgba(230, 230, 230, 0.13) solid;
+    border: 1.95px rgba(230, 230, 230, 0.13) solid;
     border-radius: 62.7%;
     overflow: hidden;
     box-shadow: 0 5px 15px 0px rgba(255, 255, 255, 0.6);
     transform: translatey(0px);
-    animation: float 13.25s ease-in-out infinite;/* */
+    animation: float 15.25s ease-in-out infinite;
 }
 
 .socialsscale {
