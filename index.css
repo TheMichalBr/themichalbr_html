@@ -289,28 +289,23 @@ h1 {
     opacity: .75;
 }
 
-* {
-    scrollbar-width: auto;
-    scrollbar-color: transparent transparent;
-}
-
 /* --  Scrollbar -- */
 
 ::-webkit-scrollbar {
     width: 0.012px;
-    height: 8px;
-    background: transparent;
+    height: 7.75px;
+    background: transparent transparent;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f2feff;
+    background: #c4c4c4;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    background-color: #888;
+    background: #999;
+    background-color: #999;
     border-radius: 0px;
-    border: 0px;
+    border: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
