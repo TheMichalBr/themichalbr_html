@@ -804,7 +804,7 @@ header.sticky ul li a {
 
 .socials hr {
     margin-top: 0.1em;
-        margin-bottom: 0.1em;
+    margin-bottom: 0.1em;
     border-style: inset;
     border-width: 1px;
 
@@ -814,6 +814,7 @@ header.sticky ul li a {
     color: #fff;
     text-shadow: 1px 1px 1px black;
     margin: auto;
+    font-family: customfont;
 }
 
 .socials h3 {
@@ -836,7 +837,7 @@ header.sticky ul li a {
     margin: 50px 0;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 3em;
-        margin-top: 3em;
+    margin-top: 3em;
 }
 
 .so b {
