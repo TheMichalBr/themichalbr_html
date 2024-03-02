@@ -791,18 +791,19 @@ header.sticky ul li a {
     */
 }
 
-/* --  Socials -- */
+/* --  Links -- */
 
-.socials {
+.links {
     background: #020202d3;
     display: flex;
     position: center;
     margin: 0 auto;
     justify-content: center;
+    overflow: hidden;
 }
 
 
-.socials hr {
+.links hr {
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     border-style: inset;
@@ -810,26 +811,19 @@ header.sticky ul li a {
 
 }
 
-.socials p, b {
+.links p, b {
     color: #fff;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1.2px 1.2px 1.2px black;
     margin: auto;
     font-family: customfont;
 }
 
-.socials h3 {
-    color: #fff;
-    font-size: 42.67px;
-    font-style: normal;
-    text-shadow: 1.5px 1.5px 1.5px black;
-}
-
-.socials img{
+.links img{
     filter: invert(1);
     filter: drop-shadow(6.5);
 }
 
-.so {
+.lin {
     position: flex;
     display: flex;
     justify-content: flex-end;
@@ -840,7 +834,7 @@ header.sticky ul li a {
     margin-top: 3em;
 }
 
-.so b {
+.lin b {
     font-family: customfont;
     color: white;
     font-size: 17.2px;
@@ -850,25 +844,25 @@ header.sticky ul li a {
     position: flex;
 }
 
-.so ul {
+.lin ul {
     display: flex;
     list-style: none;
 }
 
-.so ul li a {
+.lin ul li a {
     text-decoration: none;
     display: inline-block;
     justify-content: center;
-    margin: 0 55px;
+    margin: 0 54px;
 }
 
-.so ul li a img {
+.lin ul li a img {
     max-width: 48px;
     max-height: 48px;
     transition-delay: 27.3ms;
 }
 
-.so ul li a:hover img {
+.lin ul li a:hover img {
     opacity: 0.75;
     transition-delay: 15ms;
 }
