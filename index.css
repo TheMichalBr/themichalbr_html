@@ -837,11 +837,15 @@ header.sticky ul li a {
 .lin b {
     font-family: customfont;
     color: white;
-    font-size: 17.2px;
+    font-size: 17.256px;
     text-shadow: 1.25px 1.25px 1.25px black;
-    font-weight: 470;
+    font-weight: 200;
     justify-content: center;
     position: flex;
+    animation: colorRotate 10.52s linear 0s infinite;
+    letter-spacing: 1.25px;
+    text-align: center;
+    align-content: center;
 }
 
 .lin ul {
@@ -899,6 +903,64 @@ header.sticky ul li a {
 
 .zoom:hover {
     transform: scale(1.1);
+}
+
+.zoomEXT {
+    transition: transform .57s;
+}
+
+.zoomEXT:hover {
+    transform: scale(1.1);
+}
+
+@keyframes colorRotate {
+100%, 0% {
+        color: rgb(255, 0, 0);
+    }
+
+    8% {
+        color: rgb(255, 127, 0);
+    }
+
+    16% {
+        color: rgb(255, 255, 0);
+    }
+
+    25% {
+        color: rgb(127, 255, 0);
+    }
+
+    33% {
+        color: rgb(0, 255, 0);
+    }
+
+    41% {
+        color: rgb(0, 255, 127);
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+    }
+
+    58% {
+        color: rgb(0, 127, 255);
+    }
+
+    66% {
+        color: rgb(0, 0, 255);
+    }
+
+    75% {
+        color: rgb(127, 0, 255);
+    }
+
+    83% {
+        color: rgb(255, 0, 255);
+    }
+
+    91% {
+        color: rgb(255, 0, 127);
+    }
 }
 
 /* --  Media/Resize -- */
