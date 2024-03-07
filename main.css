@@ -565,3 +565,50 @@ b {
         color: rgb(255, 0, 127);
     }
 }
+
+.banner {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.banner p {
+    border-right: solid 3px rgba(0, 255, 0, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    /* line-height: 1em;*/
+    font-family: customfont;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.815);
+    animation: animated-text 3.5s steps(1000, end) 1s 1 normal both, animated-cursor 800ms steps(29, end) infinite;
+}
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 590px;
+    }
+}
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: rgba(0, 255, 0, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@font-face {
+    font-family: customfont;
+    src: url(font.otf);
+}
