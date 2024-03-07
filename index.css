@@ -209,7 +209,7 @@ header ul li a {
     font-weight: 300;
     transition: 0.89s;
     text-shadow: 0.59px 0.59px 0.59px rgb(0, 0, 0, 0.500);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header ul li a:hover,
@@ -741,6 +741,7 @@ header.sticky ul li a {
     word-wrap: break-word;
     align-self: center;
     letter-spacing: 9.5px;
+    animation: colorRotate 15.52s linear 0s infinite;
 }
 
 .aboutme p {
