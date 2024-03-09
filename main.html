@@ -148,57 +148,6 @@
 
 
 
-    window.addEventListener("scroll", function () {
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-
-        function toggle() {
-            var header = document.querySelector("header");
-            header.classList.toggle("active");
-        }
-
-        $(document).ready(function () {
-            var HeightDiv = $("div").height();
-            var HeightTable = $("table").height();
-            if (HeightTable > HeightDiv) {
-                var FontSizeTable = parseInt($("table").css("font-size"), 10);
-                while (HeightTable > HeightDiv && FontSizeTable > 5) {
-                    FontSizeTable--; $("table").css("font-size", FontSizeTable);
-                    HeightTable = $("table").height();
-                }
-            }
-        });
-
-        const container = document.querySelector(".container");
-        const primaryNav = document.querySelector(".nav__list");
-        const toggleButton = document.querySelector(".nav-toggle");
-        hljs.initHighlightingOnLoad();
-
-        toggleButton.addEventListener("click", () => {
-            const isExpanded = primaryNav.getAttribute("aria-expanded");
-            primaryNav.setAttribute("aria-expanded", isExpanded === "false" ? "true" : "false");
-        });
-
-        container.addEventListener("click", (e) => {
-            if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
-                primaryNav.setAttribute("aria-expanded", "false");
-            }
-        });
-
-        /* OPT */
-        var fragment = document.createDocumentFragment();
-        for (var i = 0; i < resultArray.length; i++) {
-            var val = resultArray[i];
-            fragment.appendChild(appendText(val.content, val.id));
-        }
-        document.getElementById("LogArea").appendChild(fragment);
-
-        var text = '';
-        resultArray.forEach(function (val) {
-            text += appendText(val.content);
-        });
-        $('#OutputArea').append(text);
 
 </script>
 
