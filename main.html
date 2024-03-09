@@ -1,54 +1,22 @@
 <!DOCTYPE html>
-<html lang="cs-cz">
+
+<head lang="cs-cz">
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="icon" href="icon.png" type="image/x-icon"><title>MichalBr</title><meta name="MichalBr" content="MichalBr"><link rel='stylesheet' href='main.css'></head>
 
-
-<head>
-    <link rel="apple-touch-icon" type="image/png"
-        href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
-
-    <meta name="apple-mobile-web-app-title" content="CodePen">
-
-    <link rel="shortcut icon" type="image/x-icon"
-        href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
-
-    <link rel="mask-icon" type="image/x-icon"
-        href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg"
-        color="#111" />
-
-
-
-
-    <script
-        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
-
-
-    <title>CodePen - Pure CSS One page vertical navigation</title>
-
-    <link rel="canonical" href="https://codepen.io/hrtzt/pen/pgXMYb">
-    <meta name="author" content="you">
-    <!--Please leave this meta tag untouched-->
-    <meta name="web_author" content="Alberto Hartzet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
-<link rel='stylesheet' href='main.css'>
-    <style>
-
-    </style>
-
-<script>
-    window.console = window.console || function (t) { };
-</script>
-
-
-<body translate="no">
+<body>
 
 <header id="header">
 
-    <a href="#home" class="logo">M</a>
-    <div class="toggle" onclick="toggle()"></div>
+<a href="#home" class="logo">M</a>
+
+<ul><li><a href="#aboutme" onclick="toggle()">About me</a></li>
+<li><a href="#equipment" onclick="toggle()">Equipment</a></li>
+<li><a href="#gamesother" onclick="toggle()">Games</a></li>
+<li><a href="#links" onclick="toggle()">Links</a></li></ul>
+
+<div class="toggle" onclick="toggle()"></div>
+
 </header>
 
     <div class="contenedor">
@@ -73,44 +41,63 @@
                 </label>
                 <label class="Slide" for="Slide2" id="Slide2">
                     <div class="content">
-                        <h1>Features</h1>
-                        <div class="block"><span> <i class="fa fa-hashtag"></i><br /><strong>No JS</strong><br />CSS
-                                Rules!</span><span> <i class="fa fa-keyboard-o"></i><br /><strong>Pure CSS keyboard
-                                    navigation</strong><br />Yep, no kidding</span><span><i
-                                    class="fa fa-bars"></i><br /><strong>Lateral menu</strong></span><span><i
-                                    class="fa fa-codepen"></i><br /><strong>Autogenerate pages</strong><br />Using Jade
-                                & SASS</span></div>
+                        <h1></h1>
+                        <div class="block"><span> <i class="fa fa-hashtag"></i><br /><strong></strong><br /></span><span> <i class="fa fa-keyboard-o"></i><br /><strong></strong><br /></span><span><i
+                                    class="fa fa-bars"></i><br /><strong></strong></span><span><i
+                                    class="fa fa-codepen"></i><br /><strong></strong><br /></span></div>
                     </div>
                 </label>
-                <label class="Slide" for="Slide3" id="Slide3">
-                    <div class="content">
-                        <h1>Adding pages to this template</h1>
-                        <div class="block">
-                            <ol>
-                                <li>Add the pages title in the pageTitle array in the HTML editor to generate pages</li>
-                                <li>Add the number of pages in the $npages variable in the CSS editor</li>
-                            </ol>
-                        </div>
-                    </div>
-                </label>
+
+
+
+
+
+<label class="Slide" for="Slide3" id="Slide3">
+
+<section class="sec aboutme" id="aboutme" class="main-article">
+
+<div class="flexcontainerAM">
+
+<br><br><h1>About me</h1>
+
+<ul><li>
+<p>My name is Michal, 22 years old and I've come from the Czech Republic – live in Brno.</p>
+</li><li>
+<p>I can speak well in Czech, English and bit of German and Spanish.</p>
+</li><li>
+<p>I successfully finished studying Information technology in High school and English language school.</p>
+</li><li>
+<p>Now I studying Information Technologies at the PEF Faculty of Mendel University and trying to survive it.</p>
+</li><li>
+<p>My hobbies are games, technology, programing, creating content, editing, music, films, collecting, chess, exploring, memes and much more.</p>
+</li><li>
+<p>I'm not going to write everything here, but if you have any questions, feel free to just message me @MichalBr on Discord.</p>
+</li></ul>
+
+</div>
+
+</section></label>
+
+
+
                 <label class="Slide" for="Slide4" id="Slide4">
                     <div class="content">
-                        <h1>+More</h1>
-                        <div class="block"><span><a href="https://codepen.io/hrtzt/pen/NPZKRN" target="_blank">One Page
-                                    Navigation CSS Menu</a></span><span><a href="https://codepen.io/hrtzt/pen/YPoeWd"
-                                    target="_blank">The simplest CSS switch</a></span><span><a
-                                    href="https://codepen.io/hrtzt/pen/JdYaEZ" target="_blank">Animated cube slider CSS
-                                    only</a></span><span><a href="https://codepen.io/hrtzt/pen/vGqEJO"
-                                    target="_blank">Google photos album view with only CSS</a></span></div>
+                        <h1></h1>
+                        <div class="block"><span><a href=" target="_blank">
+                                    </a></span><span><a href="
+                                    target="_blank"></a></span><span><a
+                                    href="" target="_blank">
+                                    </a></span><span><a href="
+                                    target="_blank"</a></span></div>
                     </div>
                 </label>
                 <label class="Slide" for="Slide5" id="Slide5">
                     <div class="content">
                         <h1>About</h1>
-                        <div class="block"><span><a href="https://dribbble.com/hrtzt" target="_blank"><i
-                                        class="fa fa-dribbble"> </i>Dribbble me</a></span><span><a
-                                    href="https://twitter.com/hrtzt" target="_blank"><i class="fa fa-twitter"></i>Tweet
-                                    me</a></span></div>
+                        <div class="block"><span><a href="" target="_blank"><i
+                                        class="fa fa-dribbble"> </i></a></span><span><a
+                                    href="h" target="_blank"><i class="fa fa-twitter"></i>
+                                    </a></span></div>
                     </div>
                 </label>
                 <label for="Slide6" id="Slide6">
@@ -153,6 +140,67 @@
             </div>
         </form>
     </div>
+
+
+
+<script type="text/javascript">
+    window.console = window.console || function (t) { };
+
+
+
+    window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+
+        $(document).ready(function () {
+            var HeightDiv = $("div").height();
+            var HeightTable = $("table").height();
+            if (HeightTable > HeightDiv) {
+                var FontSizeTable = parseInt($("table").css("font-size"), 10);
+                while (HeightTable > HeightDiv && FontSizeTable > 5) {
+                    FontSizeTable--; $("table").css("font-size", FontSizeTable);
+                    HeightTable = $("table").height();
+                }
+            }
+        });
+
+        const container = document.querySelector(".container");
+        const primaryNav = document.querySelector(".nav__list");
+        const toggleButton = document.querySelector(".nav-toggle");
+        hljs.initHighlightingOnLoad();
+
+        toggleButton.addEventListener("click", () => {
+            const isExpanded = primaryNav.getAttribute("aria-expanded");
+            primaryNav.setAttribute("aria-expanded", isExpanded === "false" ? "true" : "false");
+        });
+
+        container.addEventListener("click", (e) => {
+            if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
+                primaryNav.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        /* OPT */
+        var fragment = document.createDocumentFragment();
+        for (var i = 0; i < resultArray.length; i++) {
+            var val = resultArray[i];
+            fragment.appendChild(appendText(val.content, val.id));
+        }
+        document.getElementById("LogArea").appendChild(fragment);
+
+        var text = '';
+        resultArray.forEach(function (val) {
+            text += appendText(val.content);
+        });
+        $('#OutputArea').append(text);
+
+</script>
 
 </html>
 

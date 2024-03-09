@@ -2,11 +2,26 @@
         .contenedor {
             width: 100vw;
             height: 100vh;
-            background: deeppink;
+            background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(30, 97, 163) 68%, rgb(131, 15, 123) 98%);
+            animation: gradient 32s ease infinite;
             position: relative;
             display: flex;
             align-items: center;
         }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
 
         .contenedor form {
             box-sizing: border-box;
@@ -112,14 +127,13 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #2B2B38;
+            background-color: #000000cc;
             z-index: 0;
             transition: all 0.75s cubic-bezier(0.75, 0.25, 0, 1.05);
         }
 
         .contenedor form .labels label:nth-child(odd) {
-            background-color: #F5004F;
-            color: white !important;
+            background-color: #00fff200;
         }
 
         /* Fancy style */
@@ -337,7 +351,7 @@
         }
 
         body {
-            background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(30, 97, 163) 68%, rgb(131, 15, 123) 98%);
+           background: linear-gradient(315deg, rgb(131, 15, 123) 3%, rgb(30, 97, 163) 38%, rgb(30, 97, 163) 68%, rgb(131, 15, 123) 98%);
         }
 
                 .video {
@@ -611,4 +625,197 @@ b {
 @font-face {
     font-family: customfont;
     src: url(font.otf);
+}
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.aboutme {
+    background: #000000ab;
+    position: flex;
+    display: flex;
+    margin-top: 40px;
+    color: white;
+}
+
+.flexcontainerAM {
+    background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.329) 131%);
+    background-color: rgba(145, 145, 145, 0.13);
+    border: 0px solid black;
+    box-shadow: -2.2px -0.2px 5px black;
+    text-shadow: 55px 55px 55px rgba(0, 0, 0, 0.815);
+    border-radius: 0.685rem;
+    position: relative;
+    display: flex;
+    row-gap: 7px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;
+    flex-grow: 1;
+    border-radius: 0.55%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.aboutme ul li {
+    list-style: none;
+    margin: 50px 90px;
+}
+
+.aboutme ul li a {
+    text-decoration: none;
+    display: flex;
+    margin: 0 35px;
+}
+
+.aboutme h1 {
+    font-weight: 800;
+    font-size: 65px;
+    font-family: 'Asap', sans-serif;
+    text-shadow: 2.6px 2.6px 2.6px rgba(0, 0, 0, 0.829);
+    word-wrap: break-word;
+    align-self: center;
+    letter-spacing: 9.5px;
+    animation: colorRotate 15.52s linear 0s infinite;
+}
+
+.aboutme p {
+    font-weight: 320;
+    font-size: 18px;
+    font-family: 'Asap', sans-serif;
+    text-shadow: 2.7px 2.7px 2.7px rgba(0, 0, 0, 0.925);
+    word-wrap: break-word;
+    align-self: center;
 }
