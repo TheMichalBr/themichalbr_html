@@ -779,7 +779,6 @@ header.sticky ul li a {
     word-wrap: break-word;
     align-self: center;
     letter-spacing: 9.5px;
-    animation: colorRotate 15.52s linear 0s infinite;
 }
 
 .aboutme p {
