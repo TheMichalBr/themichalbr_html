@@ -17,7 +17,7 @@ only screen and (max-width: 1080px) {
 /* --  Body -- */
 
 body {
-    overflow: hidden;
+    overflow: overlay;
 
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -62,7 +62,7 @@ body {
 }
 
 /* ---------  NEW SYSTEM IMPLEMENTED --------------- */
-
+/*
 .contenedor {
     width: 100vw;
     height: 100vh;
@@ -73,7 +73,6 @@ body {
 
 .contenedor form {
     box-sizing: border-box;
-    text-align: center;
     padding: 22px;
     display: inline-flex;
     flex-direction: column;
@@ -142,10 +141,6 @@ body {
     transform: translateY(-500%);
 }
 
-.contenedor form input:nth-of-type(7):checked~.labels label {
-    transform: translateY(-600%);
-}
-
 .contenedor form .labels {
     position: absolute;
     top: 0;
@@ -154,7 +149,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-}
+}*/
 
 .contenedor form .labels label {
     min-width: 100vw;
@@ -337,6 +332,26 @@ header.sticky ul li a {
     text-shadow: 0.27px 0.27px 0.27px rgb(0, 0, 0, 0.500);
 }
 
+.DEVlinks{
+
+}
+
+
+
+
+
+PRACOVAT NA TOM 
+
+
+
+
+
+
+
+
+
+
+
 header.sticky ul li a:hover,
 header.sticky ul li a:focus {
     background-color: #000000e0;
@@ -357,6 +372,16 @@ header .logo {
     text-shadow: 0.87px -0.19px 2.82px rgba(0, 0, 0, 0.475);
 }
 
+@keyframes colorRotateLOGO {
+100%, 0% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(30, 200, 230);
+    }
+}
+
 header .logo span {
     position: relative;
     font-weight: 500;
@@ -374,6 +399,7 @@ header ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: colorRotateLOGO 15.52s linear 0s infinite;
 }
 
 header ul li {
@@ -408,7 +434,7 @@ header.sticky ul li a {
     font-size: 100px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.815);
-    animation: animated-text 3.5s steps(1000, end) 1s 1 normal both, animated-cursor 800ms steps(29, end) infinite;
+    animation: animated-text 3.5s steps(1000, end) 1s 1 normal both, animated-cursor 800ms steps(29, end) infinite, colorRotateLOGO 15.52s linear 5s infinite;
 }
 
 @keyframes animated-text {
@@ -930,14 +956,6 @@ header.sticky ul li a {
 
 }
 
-.links p,
-b {
-    color: #fff;
-    text-shadow: 1.2px 1.2px 1.2px black;
-    margin: auto;
-    font-family: customfont;
-}
-
 .links img {
     filter: invert(1);
     filter: drop-shadow(6.5);
@@ -1025,11 +1043,11 @@ b {
     transform: scale(1.1);
 }
 
-.zoomEXT {
+.zoomLOGO {
     transition: transform .57s;
 }
 
-.zoomEXT:hover {
+.zoomLOGO:hover {
     transform: scale(1.1);
 }
 
