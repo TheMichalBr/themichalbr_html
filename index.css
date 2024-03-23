@@ -314,7 +314,7 @@ header.sticky ul li a {
     }
 
     50% {
-        color: rgb(30, 200, 230);
+        color: rgb(225, 255, 253);
     }
 }
 
@@ -338,13 +338,14 @@ header.sticky ul li a {
     }
 }
 
-.bannerUnderText {
+.homeUT {
     color: white;
     position: absolute;
     bottom: 30px;
     left: 0;
     right: 0;
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 300;
     text-align: center;
     line-height: 1.5;
     display: flex;
@@ -395,6 +396,7 @@ header.sticky ul li a {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-end;
+    margin-bottom: 1.2%;
 }
 
 .flexEQ {
@@ -947,6 +949,16 @@ header.sticky ul li a {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* --  Footer -- */
 
 .footer {
@@ -1041,6 +1053,14 @@ header.sticky ul li a {
 }
 
 .MZoom:hover {
+    transform: scale(1.1);
+}
+
+.HZoom {
+    transition: transform 5.6s;
+}
+
+.HZoom:hover {
     transform: scale(1.1);
 }
 
