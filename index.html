@@ -1,31 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Copyright by MichalBr 2024. The whole web was created by https://github.com/TheMichalBr. -->
 
 <head lang="cs-cz">
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<link rel="icon" href="icon.png" type="image/x-icon"><link rel="stylesheet" href="index.css"><title>MichalBr</title><meta name="MichalBr" content="MichalBr"></head>
+<link rel="icon" href="icon.png" type="image/x-icon"><link rel="stylesheet" href="index.css"><title>MichalBr</title><meta name="MichalBr" content="MichalBr"></head><body>
 
-<!-- Copyright by MichalBr 2024. The whole web was created by https://github.com/TheMichalBr. -->
-
-<body class="website">
-
-<!-- Logo / Header menu -->
-
-<header id="header">
-
-<a title="MichalBr" href="#home" class="logo zoomLOGO">M</a>
+<!-- Logo / Header menu --> <header id="header">
+<!-- UPDATE - START LINE aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+<a title="MichalBr" href="#home" class="logo MZoom">M</a>
 
 <ul><li><a href="#aboutme" onclick="toggle()">About me</a></li>
 <li><a href="#equipment" onclick="toggle()">Equipment</a></li>
-<li><a href="#gamesother" onclick="toggle()">Games</a></li>
-<li><a href="#links" onclick="toggle()">Links</a></li></ul>
+<li><a href="#gamesother" onclick="toggle()">Games and other</a></li>
+<li><a href="#footer" onclick="toggle()">Additional links</a></li></ul>
 
 <div class="toggle" onclick="toggle()"></div>
 
 </header>
 
-<!-- Landing section -->
-
-<section class="banner TFS" id="home">
+<!-- Landing section --> <section class="banner TFS" id="home">
 
 <p>Welcome.</p>
 
@@ -33,17 +25,13 @@
 
 </section>
 
-<!-- Video section -->
-
-<section class="sec video">
+<!-- Video section --> <section class="sec video">
 
 <iframe frameborder="0" allow="autoplay; encrypted-media" src="https://www.youtube.com/embed?list=PLM7nr_aMrHrOgrDdwty5W2orkGLgpzLyc&index=1?autoplay=1&mute=1&controls=1&loop=1" title="My Latest Videos"></iframe>
 
 </section>
 
-<!-- About me -->
-
-<section class="sec aboutme" id="aboutme" class="main-article">
+<!-- About me --> <section class="sec aboutme" id="aboutme" class="main-article">
 
 <div class="flexcontainerAM">
 
@@ -67,9 +55,7 @@
 
 </section>
 
-<!-- Equipment -->
-
-<section class="sec equipment" id="equipment">
+<!-- Equipment --> <section class="sec equipment" id="equipment">
 
 <div class="flexcontainerEQ">
 
@@ -137,9 +123,7 @@
 
 </section>
 
-<!-- Games / Other -->
-
-<section class="sec gamesother" id="gamesother">
+<!-- Games / Other --> <section class="sec gamesother" id="gamesother">
 
 <h1>About games and other</h1>
 
@@ -192,32 +176,23 @@
 <br><p><b><a href="https://steamcommunity.com/id/misakbr2/recommended/782330/" class="odkaz"><span>↺ Nová DOOM Eternal recenze – (CZ)</span></a></p></b><br>
 
 </section>
+<!-- UPDATE - END LINE aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
 
-<!-- Links -->
+<!-- Footer (Links) --> <section class="footer" id="footer">
 
-<section class="links" id="links">
+<div class="ft">
 
-<div class="lin zoomLOGO">
-<li title="HAVE A NICE DAY! :) < Copyright by MichalBr © 2024. > " style="list-style: none;"><b>MichalBr</b></li>
-</div>
-
-<div class="lin">
-<ul><br>
-<li><a href="https://www.youtube.com/@MichalBr"><img src="./media/S_Youtube.svg" height="48" width="48" alt="Youtube" title="Youtube" id="Youtube" class="zoom"></a></li><hr>
-<li><a href="https://www.threads.net/@brmichl"><img src="./media/S_Instagram.svg" height="48" width="48" alt="Instagram" title="Instagram" id="Instagram" class="zoom"></a></li><hr>
-<li><a href="https://steamcommunity.com/id/misakbr2"><img src="./media/S_Steam.svg" height="48" width="48" alt="Steam" title="Steam" id="Steam" class="zoom"></a></li><hr>
-<li><a href="https://github.com/TheMichalBr"><img src="./media/S_GitHub.svg" height="48" width="48" alt="GitHub" title="GitHub" id="GitHub" class="zoom"></a></li>
-</ul><br>
+<ul><li><b class="MZoom" title="© 2024 MichalBr" alt="MichalBr">MichalBr</b></li>
+<li><a href="https://www.youtube.com/@MichalBr"><img src="./media/S_Youtube.svg" height="50" width="50" alt="Youtube" title="Youtube" id="Youtube" class="LZoom"></a></li><hr>
+<li><a href="https://www.threads.net/@brmichl"><img src="./media/S_Instagram.svg" height="50" width="50" alt="Instagram" title="Instagram" id="Instagram" class="LZoom"></a></li><hr>
+<li><a href="https://steamcommunity.com/id/misakbr2"><img src="./media/S_Steam.svg" height="50" width="50" alt="Steam" title="Steam" id="Steam" class="LZoom"></a></li><hr>
+<li><a href="https://github.com/TheMichalBr"><img src="./media/S_GitHub.svg" height="50" width="50" alt="GitHub" title="GitHub" id="GitHub" class="LZoom"></a></li></ul>
 
 </div>
 
 </section>
 
-<!-- Scripts -->
-
-<script type="text/javascript">
-
-window.console = window.console || function (t) { };
+<!-- Scripts --> <script type="text/javascript">
 
 window.addEventListener("scroll", function () {
 var header = document.querySelector("header");
@@ -232,7 +207,7 @@ var HeightDiv = $("div").height();
 var HeightTable = $("table").height();
 if (HeightTable > HeightDiv) {
 var FontSizeTable = parseInt($("table").css("font-size"), 10);
-while (HeightTable > HeightDiv && FontSizeTable > 5) {FontSizeTable--; $("table").css("font-size", FontSizeTable); 
+while (HeightTable > HeightDiv && FontSizeTable > 5) {FontSizeTable--; $("table").css("font-size", FontSizeTable);
 HeightTable = $("table").height();}}});
 
 const container = document.querySelector(".container");
@@ -248,20 +223,17 @@ container.addEventListener("click", (e) => {
 if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
 primaryNav.setAttribute("aria-expanded", "false");}});
 
-/* OPT */
+window.console = window.console || function (t) { };
 var fragment = document.createDocumentFragment();
-for(var i =0 ;i<resultArray.length;i++){
-var val = resultArray[i];
-fragment.appendChild(appendText(val.content, val.id));}            
+for(var i =0 ;i<resultArray.length;i++) { var val = resultArray[i];
+fragment.appendChild(appendText(val.content, val.id));}
 document.getElementById("LogArea").appendChild(fragment);
 
 var text = '';
 resultArray.forEach(function (val) {
-text += appendText(val.content);
-});
+text += appendText(val.content);});
 $('#OutputArea').append(text);
 
 </script>
 
-</body>
-</html>
+</body> </html>
