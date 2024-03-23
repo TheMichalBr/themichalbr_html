@@ -829,178 +829,6 @@ header.sticky ul li a {
     */
 }
 
-/* --  Links -- */
-
-.links {
-    background: #020202d3;
-    display: flex;
-    position: center;
-    margin: 0 auto;
-    justify-content: center;
-    overflow: hidden;
-}
-
-
-.links hr {
-    margin-top: 0.1em;
-    margin-bottom: 0.1em;
-    border-style: inset;
-    border-width: 1px;
-
-}
-
-.links p, b {
-    color: #fff;
-    text-shadow: 1.2px 1.2px 1.2px black;
-    margin: auto;
-    font-family: customfont;
-}
-
-.links img{
-    filter: invert(1);
-    filter: drop-shadow(6.5);
-}
-
-.lin {
-    position: flex;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 50px 0;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 3em;
-    margin-top: 3em;
-}
-
-.lin b {
-    font-family: customfont;
-    color: white;
-    font-size: 17.256px;
-    text-shadow: 1.25px 1.25px 1.25px black;
-    font-weight: 200;
-    justify-content: center;
-    position: flex;
-    animation: colorRotate 15.52s linear 0s infinite;
-    letter-spacing: 1.25px;
-    text-align: center;
-    align-content: center;
-}
-
-.lin ul {
-    display: flex;
-    list-style: none;
-}
-
-.lin ul li a {
-    text-decoration: none;
-    display: inline-block;
-    justify-content: center;
-    margin: 0 54px;
-}
-
-.lin ul li a img {
-    max-width: 48px;
-    max-height: 48px;
-    transition-delay: 27.3ms;
-}
-
-.lin ul li a:hover img {
-    opacity: 0.75;
-    transition-delay: 15ms;
-}
-
-#Youtube:hover {
-    opacity: 0.75;
-    transition-delay: 15ms;
-    filter: invert(11%) sepia(90%) saturate(7479%) hue-rotate(359deg) brightness(94%) contrast(115%);
-}
-
-#Instagram:hover {
-    opacity: 0.75;
-    transition-delay: 15ms;
-    filter: invert(30%) sepia(78%) saturate(3392%) hue-rotate(318deg) brightness(90%) contrast(94%);
-}
-
-#Steam:hover {
-    opacity: 0.75;
-    transition-delay: 15ms;
-    filter: invert(42%) sepia(43%) saturate(4391%) hue-rotate(202deg) brightness(89%) contrast(91%);
-}
-
-#GitHub:hover {
-    opacity: 0.75;
-    transition-delay: 15ms;
-    filter: invert(53%) sepia(12%) saturate(231%) hue-rotate(172deg) brightness(91%) contrast(96%);
-}
-
-/* Thanks! https://isotropic.co/tool/hex-color-to-css-filter/ */
-
-.zoom {
-    transition: transform .26s;
-}
-
-.zoom:hover {
-    transform: scale(1.1);
-}
-
-.zoomLOGO {
-    transition: transform .57s;
-}
-
-.zoomLOGO:hover {
-    transform: scale(1.1);
-}
-
-@keyframes colorRotate {
-100%, 0% {
-        color: rgb(255, 0, 0);
-    }
-
-    8% {
-        color: rgb(255, 127, 0);
-    }
-
-    16% {
-        color: rgb(255, 255, 0);
-    }
-
-    25% {
-        color: rgb(127, 255, 0);
-    }
-
-    33% {
-        color: rgb(0, 255, 0);
-    }
-
-    41% {
-        color: rgb(0, 255, 127);
-    }
-
-    50% {
-        color: rgb(0, 255, 255);
-    }
-
-    58% {
-        color: rgb(0, 127, 255);
-    }
-
-    66% {
-        color: rgb(0, 0, 255);
-    }
-
-    75% {
-        color: rgb(127, 0, 255);
-    }
-
-    83% {
-        color: rgb(255, 0, 255);
-    }
-
-    91% {
-        color: rgb(255, 0, 127);
-    }
-}
-
 /* --  Media/Resize -- */
 
 @media (max-width: 992px) {
@@ -1119,24 +947,172 @@ header.sticky ul li a {
 
 
 
+/* --  Footer -- */
 
+.footer {
+    background: #020202d3;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
 
+.footer hr {
+    margin-top: 0.1em;
+    margin-bottom: 0.15em;
+    border-style: inset;
+    border-width: 1.15px;
+    filter: drop-shadow(1px 2px 1.12px #000000);
+}
 
+.footer img {
+    filter: invert(1); /* SVG Manual */
+    max-width: 50px;
+    max-height: 50px;
+    justify-self: center;
+}
 
+.ft {
+    position: flex;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 50px 0;
+}
 
+.ft li b {
+    font-family: customfont;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 1.225px 1.225px 1.225px black;
+    font-weight: 100;
+    letter-spacing: 1.25px;
+    display: flex;
+    padding-top: 9.875%;
+    animation: colorRotate 15.52s linear 0s infinite;
+}
 
+.ft ul {
+    display: flex;
+    list-style: none;
+}
 
+.ft ul li {
+    justify-content: center;
+}
 
+.ft ul li a {
+    display: inline-block;
+    margin: 0 54px;
+    width: 0%;
+    height: 0%;
+}
 
+.ft ul li a:hover img {
+    opacity: 0.80;
+    transition-delay: 25.25ms;
+}
 
+#Youtube:hover {
+    opacity: 0.75;
+    transition-delay: 25.25ms;
+    filter: invert(27%) sepia(93%) saturate(7472%) hue-rotate(0deg) brightness(90%) contrast(128%) drop-shadow(1px 2px 1.12px #000000);
+}
 
+#Instagram:hover {
+    opacity: 0.75;
+    transition-delay: 25.25ms;
+    filter: invert(30%) sepia(78%) saturate(3392%) hue-rotate(318deg) brightness(90%) contrast(94%) drop-shadow(1px 2px 1.12px #000000);
+}
 
+#Steam:hover {
+    opacity: 0.75;
+    transition-delay: 25.25ms;
+    filter: invert(29%) sepia(91%) saturate(1488%) hue-rotate(203deg) brightness(92%) contrast(88%) drop-shadow(1px 2px 1.12px #000000);
+}
 
+#GitHub:hover {
+    opacity: 0.75;
+    transition-delay: 25.25ms;
+    filter: invert(53%) sepia(12%) saturate(231%) hue-rotate(172deg) brightness(91%) contrast(96%) drop-shadow(1px 2px 1.12px #000000);
+}
 
+.MZoom {
+    transition: transform .62s;
+}
 
+.MZoom:hover {
+    transform: scale(1.1);
+}
 
+.LZoom {
+    transition: transform .2525s;
+}
 
+.LZoom:hover {
+    transform: scale(1.1);
+}
 
+@keyframes colorRotate {
+100%, 0% {
+        color: rgba(255, 0, 0, 0.445);
+        opacity: 98.9%;
+    }
+
+    8% {
+        color: rgb(255, 127, 0);
+        opacity: 98.9%;
+    }
+
+    16% {
+        color: rgb(255, 255, 0);
+        opacity: 98.9%;
+    }
+
+    25% {
+        color: rgb(127, 255, 0);
+        opacity: 98.9%;
+    }
+
+    33% {
+        color: rgb(0, 255, 0);
+        opacity: 98.9%;
+    }
+
+    41% {
+        color: rgb(0, 255, 127);
+        opacity: 98.9%;
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+        opacity: 98.9%;
+    }
+
+    58% {
+        color: rgb(0, 127, 255);
+        opacity: 98.9%;
+    }
+
+    66% {
+        color: rgb(0, 0, 255);
+        opacity: 98.9%;
+    }
+
+    75% {
+        color: rgb(127, 0, 255);
+        opacity: 98.9%;
+    }
+
+    83% {
+        color: rgb(255, 0, 255);
+        opacity: 98.9%;
+    }
+
+    91% {
+        color: rgb(255, 0, 127);
+        opacity: 98.9%;
+    }
+}
 
 
 
