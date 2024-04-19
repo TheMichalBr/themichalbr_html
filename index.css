@@ -193,7 +193,7 @@ header ul li a nav {
 header ul li a {
     flex: 1;
     background-color: #33333300;
-    color: #fff;
+    color: #ffffff;
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.404);
     padding: 0.5rem;
@@ -204,7 +204,6 @@ header ul li a {
     position: relative;
     margin: 0 15px;
     text-decoration: none;
-    color: #fff;
     letter-spacing: 2px;
     font-weight: 300;
     transition: 0.89s;
@@ -214,14 +213,14 @@ header ul li a {
 
 header ul li a:hover,
 header ul li a:focus {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000000;
     /* #333 */
 }
 
 header.sticky {
     padding: 5px 100px;
-    background: #f2feff;
+    background: #ffffff;
     border-bottom: 5px solid (0, 0, 0, .1);
     align-items: center;
     border-color: rgb(0, 0, 0);
@@ -235,7 +234,7 @@ header.sticky ul li a {
 header.sticky ul li a:hover,
 header.sticky ul li a:focus {
     background-color: #000000e0;
-    color: #ffffff;
+    color: #fffffffa;
 }
 
 header .logo {
@@ -243,7 +242,7 @@ header .logo {
     text-decoration: underline;
     position: relative;
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
@@ -255,7 +254,7 @@ header .logo {
 header .logo span {
     position: relative;
     font-weight: 500;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: .5em;
     text-transform: capitalize;
@@ -339,7 +338,7 @@ header.sticky ul li a {
 }
 
 .homeUT {
-    color: white;
+    color: #ffffff;
     position: absolute;
     bottom: 30px;
     left: 0;
@@ -837,9 +836,12 @@ header.sticky ul li a {
     .toggle {
         display: block;
         position: relative;
-        width: 30px;
+        width: 33.5px;
         height: 20px;
         cursor: pointer;
+        margin-top: 12.25px;
+        margin-bottom: auto;
+        perspective: 2500px;
     }
 
     .toggle:before {
@@ -869,7 +871,7 @@ header.sticky ul li a {
     header,
     header.sticky {
         padding: 16px 50px;
-        background: #f2feff;
+        background: #ffffff;
         text-shadow: 0.25px 0.25px 0.25px rgb(0, 0, 0, 0.500);
     }
 
@@ -881,7 +883,7 @@ header.sticky ul li a {
         height: 100vh;
         text-align: center;
         overflow: auto;
-        background: #f2feff;
+        background: #fffffffa;
         visibility: hidden;
         opacity: 0;
     }
@@ -890,10 +892,10 @@ header.sticky ul li a {
         visibility: visible;
         opacity: 1;
         display: block;
-        padding-top: 40px;
-        max-height: 405px;
-        transition: ease-out 1025ms;
-        background-color: #f2feff;
+        border-radius: 5%;
+        padding-top: 19px;
+        max-height: 365px;
+        transition: cubic-bezier(0.65, 0.05, 0.36, 1) 1025ms;
     }
 
     header.active ul li a {
@@ -1054,6 +1056,22 @@ header.sticky ul li a {
 
 .MZoom:hover {
     transform: scale(1.1);
+}
+
+.LGZoom {
+    transition: transform .62s;
+}
+
+.LGZoom:hover {
+    transform: scale(95.65%);
+}
+
+.TZoom {
+    transition: transform .62s;
+}
+
+.TZoom:hover {
+    transform: scale(66.45%);
 }
 
 .HZoom {
