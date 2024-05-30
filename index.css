@@ -1263,6 +1263,16 @@ header.sticky ul li a {
 }
 
 .card:nth-child(2):before {
+    background-image: url(media/GO_CSConfig.png);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-position: left;
+    filter: blur(0.8px);
+}
+
+.card:nth-child(3):before {
     background-image: url(media/GO_VALConfig.png);
     display: flex;
     margin-left: auto;
@@ -1272,18 +1282,8 @@ header.sticky ul li a {
     filter: blur(0.8px);
 }
 
-.card:nth-child(3):before {
-    background-image: url(media/GO_R6Config.png);
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background-position: center;
-    filter: blur(0.8px);
-}
-
 .card:nth-child(4):before {
-    background-image: url(media/S_Steam.svg);
+    background-image: url(media/GO_R6Config.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1395,6 +1395,105 @@ header.sticky ul li a {
 
 
 
+
+.table-container {
+    width: 80%;
+    overflow-x: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: #f3f4f6;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #333;
+}
+
+.modern-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.modern-table th,
+.modern-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modern-table th {
+    background: linear-gradient(135deg, #141142, #798da0);
+    color: #ffffff;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.modern-table tbody tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.modern-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.modern-table tbody tr:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modern-table tbody td:hover {
+    transform: scale(1.02);
+    background: linear-gradient(135deg, #ffffff, #e0e0e0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modern-table tbody tr.selected {
+    background-color: #d1e7ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modern-table tbody td {
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.table-icon {
+    font-size: 24px;
+    color: #6c63ff;
+    transition: color 0.3s ease, transform 0.3s ease;
+    filter: drop-shadow(0 1mm 1mm rgba(36, 36, 36, 0.185));;
+    vertical-align: middle;
+}
+
+.table-icon:hover {
+    color: #836fff;
+    transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+
+    .modern-table th,
+    .modern-table td {
+        padding: 8px 10px;
+    }
+
+    .modern-table tbody td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .modern-table tbody tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
 
 
 /* --------------------- ONLY DEV BUILD --------------------- 
