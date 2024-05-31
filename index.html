@@ -207,11 +207,10 @@
             <td>MichalBr</td>
             <td>
                 <ul class="settings">
-                    <li><b>Sensitivity:</b> </li>
-                    <li><b>Resolution:</b> </li>
-                    <li><b>Crosshair:</b> CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D</li>
-                    <li><b>Viewmodel:</b> viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0;</li>
-                    <li><b>Config:</b> <a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/G_CSConfig.cfg">autoexec.cfg</a></li>
+                    <li>Crosshair <input type="text" class="tlacitkohry" value="CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
+                    <li>Viewmodel <input type="text" class="tlacitkohry" value="viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0;" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
+                    <li>Mouse sens. <input type="text" class="tlacitkohry" value="1.82" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
+                    <li>Config <a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/G_CSConfig.cfg">autoexec.cfg</a></li>
                 </ul>
             </td>
         </tr>
@@ -220,11 +219,6 @@
             <td><img src="media/m_games/MG_CSFaceit.png" alt="Level 7" class="table-icon rank-img">&nbsp; <b>Level 7</b></td>
             <td>michalbr-</td>
             <td>
-                <ul class="settings">
-                    <li>Sensitivity: </li>
-                    <li>Resolution: </li>
-                    <li>Crosshair: </li>
-                </ul>
             </td>
         </tr>
         <tr>
@@ -234,7 +228,7 @@
             <td>
                 <ul class="settings">
                     <li>Sensitivity: </li>
-                    <li>Resolution: </li>
+                    <li>Resolution: 2560x1440</li>
                     <li>Crosshair: </li>
                 </ul>
             </td>
@@ -246,7 +240,7 @@
             <td>
                 <ul class="settings">
                     <li>Sensitivity: </li>
-                    <li>Resolution: </li>
+                    <li>Resolution: 2560x1440</li>
                     <li>Crosshair: </li>
                 </ul>
             </td>
@@ -380,6 +374,22 @@ var text = '';
 resultArray.forEach(function (val) {
 text += appendText(val.content);});
 $('#OutputArea').append(text);
+
+
+function myFunctionC() {
+  // Get the text field
+var copyText = document.getElementById("myInput");
+
+  // Select the text field
+copyText.select();
+copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+alert("Copied the text: " + copyText.value);
+}
 
 </script>
 
