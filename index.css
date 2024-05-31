@@ -1482,7 +1482,23 @@ header.sticky ul li a {
                     animation: fadeIn 1s ease;
                 }
 
+.containerRR section b {
+    color: #1d1d1d;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease;
+}
 
+.containerRR section h2 {
+    color: #323441;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease;
+}
+
+.containerRR section h5 {
+    color: #666;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease;
+}
 
 /* --  Herní účty -- */
 
