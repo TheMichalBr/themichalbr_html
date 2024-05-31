@@ -1,143 +1,11 @@
 <!DOCTYPE html>
 <html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MichalBr LOGIN</title>
-    <style>
-        /* Základní styly */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            line-height: 1.6;
-            animation: changeBackground 20s linear infinite alternate;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        /* Hlavička */
-        header {
-            background-color: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-            letter-spacing: 2px;
-        }
-        /* Navigace */
-        nav {
-            background-color: rgba(0, 0, 0, 0.3);
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            transition: background-color 0.3s;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-        }
-        /* Obsah */
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        section {
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-            transition: transform 0.3s ease, box-shadow 0.3s;
-        }
-        section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        }
-        section h2 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-        section p {
-            color: #666;
-            margin-bottom: 20px;
-        }
-        /* Zápatí */
-        footer {
-            background-color: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        /* Animace změny pozadí */
-        @keyframes changeBackground {
-            0% {
-                background-color: #ff9a9e;
-            }
-            25% {
-                background-color: #fad0c4;
-            }
-            50% {
-                background-color: #a18cd1;
-            }
-            75% {
-                background-color: #fbc2eb;
-            }
-            100% {
-                background-color: #ff9a9e;
-            }
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>MichalBr LOGIN</h1>
-    </header>
-    <nav>
-        <a href="#">Domů</a>
-        <a href="#">WEB DEV</a>
-        <a href="#">VRÁTIT</a>
-        <a href="#">Login</a>
-    </nav>
-    <div class="container">
-        <section>
-            <h2>Vítej na naší stránce!</h2>
-            <p>Prosím přihlaš se.</p>
-            <p></p>
-        </section>
-    </div>
-    <footer>
-        &copy; 2024 MichalBr | Všechna práva vyhrazena
-    </footer>
-</body>
-</html>
-
-
-
-<!--
-
-<!DOCTYPE html>
-<html lang="cs">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moderní Stránka</title>
+    <title>blog.MichalBr</title>
+    <link rel="icon" href="./S_GitHub.svg" type="image/x-icon">
     <style>
         /* Základní styly */
         body {
@@ -186,6 +54,7 @@
         nav {
             display: inline-block;
             vertical-align: middle;
+            align-self: right;
             margin-left: 20px;
         }
 
@@ -392,48 +261,63 @@
 
 <body>
     <header>
-        <h1>Moderní Stránka</h1>
+        <h1>BLOG MichalBr</h1>
         <nav>
-            <a href="#">Domů</a>
-            <a href="#">O nás</a>
-            <a href="#">Služby</a>
-            <a href="#">Kontakt</a>
+            <a href="#home">Home</a>
+            <a href="#">LOGIN</a>
         </nav>
     </header>
     <div class="container">
-        <section>
-            <h2>Vítej na naší stránce!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit consequat metus, et scelerisque elit
-                ullamcorper nec. Fusce posuere magna vitae leo malesuada, id convallis quam posuere. Phasellus euismod
-                libero vel tincidunt molestie.</p>
-            <p>Praesent ac gravida leo. Vivamus ut fermentum mi. Nunc molestie luctus volutpat. Ut interdum lacinia
-                tellus, sit amet hendrerit tortor malesuada nec. Integer maximus velit nec dui dictum, id facilisis
-                lacus fermentum.</p>
+        <section id="home">
+            <h2>Vítej na mém blogu!</h2>
+            <p></p>
         </section>
         <section>
+            <h2>Herní konference a jejich data v červnu:</h2>
+            <p>
+            pátek 31. květen 2024 0:00 Marvelous Game Showcase<br>
+            pátek 31. květen 2024 1:00 Silent Hill Transmission<br>
+            úterý 4. červen 2024 17:00 Best Indie Games Summer Showcase<br>
+            úterý 4. červen 2024 21:00 OTK Games Expo<br>
+            čtvrtek 6. červen 2024 19:00 Guerrilla Collective Showcase<br>
+            pátek 7. červen 2024 17:00 Access-Ability Summer Showcase<br>
+            <b>pátek 7. červen 2024 23:00 Summer Game Fest</b><br>
+            sobota 8. červen 2024 1:00 Day of the Devs: Summer Game Fest Edition<br>
+            sobota 8. červen 2024 2:00 Devolver Direct<br>
+            sobota 8. červen 2024 17:00 Future of Play Direct<br>
+            sobota 8. červen 2024 18:00 Wholesome Direct<br>
+            sobota 8. červen 2024 19:00 Latin American Games Showcase<br>
+            sobota 8. červen 2024 20:30 Women-Led Games: Summer Game Fest<br>
+            <b>sobota 8. červen 2024 21:00 Future Games Show Summer Showcase</b><br>
+            <b>neděle 9. červen 2024 19:00 Xbox Games Showcase + Call of Duty: Black Ops 6 Direct</b><br>
+            <b>neděle 9. červen 2024 22:00 PC Gaming Show</b><br>
+            <b>pondělí 10. červen 2024 21:00 Ubisoft Forward</b></p>
+        </section>
+      <!--      <section>
             <h2>Naše Služby</h2>
             <p>Nulla vestibulum lectus quis ipsum varius pharetra. Duis euismod nulla ut nibh lobortis varius.
                 Suspendisse potenti. Phasellus nec sapien et neque tempor semper a ac justo. Ut ac libero sit amet elit
                 dictum scelerisque. Praesent luctus nisl nec tellus rhoncus, nec efficitur orci aliquam. Fusce
                 ullamcorper venenatis magna.</p>
         </section>
-        <div class="feature">
-            <img src="https://via.placeholder.com/100" alt="Feature">
-            <div class="feature-content">
-                <h3>Moderní Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit consequat metus.</p>
-            </div>
-        </div>
-        <div class="feature">
-            <img src="https://via.placeholder.com/100" alt="Feature">
-            <div class="feature-content">
-                <h3>Responsivní Rozložení</h3>
-                <p>Integer maximus velit nec dui dictum, id facilisis lacus fermentum.</p>
-            </div>
+            <section>
+            <h2>Naše Služby</h2>
+            <p>Nulla vestibulum lectus quis ipsum varius pharetra. Duis euismod nulla ut nibh lobortis varius.
+                Suspendisse potenti. Phasellus nec sapien et neque tempor semper a ac justo. Ut ac libero sit amet elit
+                dictum scelerisque. Praesent luctus nisl nec tellus rhoncus, nec efficitur orci aliquam. Fusce
+                ullamcorper venenatis magna.</p>
+        </section>
+            <section>
+            <h2>Naše Služby</h2>
+            <p>Nulla vestibulum lectus quis ipsum varius pharetra. Duis euismod nulla ut nibh lobortis varius.
+                Suspendisse potenti. Phasellus nec sapien et neque tempor semper a ac justo. Ut ac libero sit amet elit
+                dictum scelerisque. Praesent luctus nisl nec tellus rhoncus, nec efficitur orci aliquam. Fusce
+                ullamcorper venenatis magna.</p>
+        </section>-->
         </div>
     </div>
     <footer>
-        &copy; 2024 Moderní Stránka | Všechna práva vyhrazena
+        &copy; 2024 MichalBr | Všechna práva vyhrazena
     </footer>
     <script>
         // JavaScript pro zjištění scroll pozice
