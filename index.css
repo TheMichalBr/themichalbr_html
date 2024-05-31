@@ -1283,7 +1283,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(4):before {
-    background-image: url(media/GO_R6Config.png);
+    background-image: url(media/m_games/GB_Review.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1394,7 +1394,64 @@ header.sticky ul li a {
 }
 
 
+/* --  Herní ranky a nastavení -- */
 
+        .gameR {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            overflow: hidden;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to right, #141e30, #243b55);
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+
+        .gameR th,
+        .gameR td {
+            border: none;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .gameR th {
+            background-color: rgba(0, 0, 0, 0.8);
+            font-size: 1.2em;
+        }
+
+        .gameR tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .gameR tr:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s;
+        }
+
+        .gameR .rank-img {
+            width: 60px;
+            height: auto;
+            filter: drop-shadow(0.5mm 0.5mm 0.5mm black);
+            border-radius: 4%;
+        }
+
+        .gameR .settings {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .gameR .settings li {
+            margin: 5px 0;
+        }
+
+
+
+/* --  Herní účty -- */
 
 .table-container {
     width: 80%;
@@ -1493,8 +1550,76 @@ header.sticky ul li a {
         display: block;
         margin-bottom: 10px;
     }
+
+
+/*
+        .table-container {
+            width: 100%;
+            padding: 10px;
+            box-shadow: none;
+            border-radius: 0;
+        }
+    
+        .modern-table {
+            border-spacing: 0 10px;
+            min-width: 100%;
+        }
+    
+        .modern-table th,
+        .modern-table td {
+            padding: 10px;
+            margin: 0;
+            font-size: 14px;
+        }
+    
+        .modern-table tbody tr {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+*/
+
+
+
+}
+/*
+.table-container {
+    background: linear-gradient(135deg, #ffffff, #f0f4f8);
 }
 
+.modern-table th,
+.modern-table td {
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.modern-table th {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.modern-table tbody tr {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.modern-table tbody td {
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.modern-table tbody tr:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modern-table tbody td:hover {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modern-table tbody tr {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;*
+}
+*/
 
 /* --------------------- ONLY DEV BUILD --------------------- 
 
