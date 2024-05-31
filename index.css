@@ -1273,7 +1273,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(3):before {
-    background-image: url(media/B_Blog.png);
+    background-image: url(media/m_games/GB_R6.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1448,6 +1448,39 @@ header.sticky ul li a {
         .gameR .settings li {
             margin: 5px 0;
         }
+
+
+/* --  blog -- */
+
+                /* Obsah */
+                .containerRR {
+                    max-width: 1200px;
+                    margin: 100px auto 50px auto;
+                    padding: 0 20px;
+                    animation: fadeIn 1s ease;
+                }
+        
+                .containerRR section {
+                    background-color: rgba(255, 255, 255, 0.9);
+                    border-radius: 10px;
+                    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+                    padding: 40px;
+                    margin-bottom: 40px;
+                    transition: transform 0.3s ease, box-shadow 0.3s;
+                    animation: fadeInLeft 1s ease;
+                }
+        
+                .containerRR section:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+                }
+        
+        
+                .containerRR section p {
+                    color: #666;
+                    margin-bottom: 20px;
+                    animation: fadeIn 1s ease;
+                }
 
 
 
