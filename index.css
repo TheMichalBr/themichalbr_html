@@ -1449,6 +1449,22 @@ header.sticky ul li a {
             margin: 5px 0;
         }
 
+        .tlacitkohry{
+                background-color: #04AA6D;
+                    border: none;
+                    color: white;
+                    padding: 7px 8px;
+                    text-decoration: none;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    border-radius: 5%;
+        }
+
+input[type=text] {
+    background-color: #606da88e;
+    color: rgb(37, 36, 36);
+    border-radius: 5%;
+}
 
 /* --  blog -- */
 
