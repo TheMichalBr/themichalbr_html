@@ -14,7 +14,7 @@
             padding: 0;
             color: #333;
             line-height: 1.6;
-            background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            background: linear-gradient(120deg, #69ebcf 0%, #1b4266 100%);
             background-size: 200% 200%;
             animation: gradientShift 10s ease infinite;
         }
@@ -165,106 +165,11 @@
                 transform: translateY(0);
             }
         }
-
-        @keyframes fadeInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes fadeInRight {
-            from {
-                opacity: 0;
-                transform: translateX(50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-
-            50% {
-                transform: scale(1.1);
-            }
-
-            100% {
-                transform: scale(1);
-            }
-        }
-
-        @keyframes rotate {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        /* Tlačítko */
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-            animation: pulse 2s ease infinite;
-            margin-bottom: 20px;
-        }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-
-        /* Další vylepšení */
-        .feature {
-            display: flex;
-            align-items: center;
-            margin-bottom: 40px;
-            animation: fadeInRight 1s ease;
-        }
-
-        .feature img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-right: 20px;
-            animation: rotate 2s linear infinite;
-        }
-
-        .feature-content {
-            flex: 1;
-        }
-
-        .feature h3 {
-            margin: 0;
-            color: #333;
-            font-size: 24px;
-        }
-
-        .feature p {
-            color: #666;
-        }
-    </style>
+</style>
 </head>
-
 <body>
     <header>
         <h1>BLOG MichalBr</h1>
-        <nav>
-            <a href="#home">Home</a>
-        </nav>
     </header>
     <div class="container">
         <section id="home">
@@ -292,43 +197,17 @@
             <b>neděle 9. červen 2024 22:00 PC Gaming Show</b><br>
             <b>pondělí 10. červen 2024 21:00 Ubisoft Forward</b></p>
         </section>
-      <!--      <section>
-            <h2>Naše Služby</h2>
+        <section>
+            <h2>OMEGALUL</h2>
             <p>Nulla vestibulum lectus quis ipsum varius pharetra. Duis euismod nulla ut nibh lobortis varius.
                 Suspendisse potenti. Phasellus nec sapien et neque tempor semper a ac justo. Ut ac libero sit amet elit
                 dictum scelerisque. Praesent luctus nisl nec tellus rhoncus, nec efficitur orci aliquam. Fusce
                 ullamcorper venenatis magna.</p>
         </section>
-            <section>
-            <h2>Naše Služby</h2>
-            <p>Nulla vestibulum lectus quis ipsum varius pharetra. Duis euismod nulla ut nibh lobortis varius.
-                Suspendisse potenti. Phasellus nec sapien et neque tempor semper a ac justo. Ut ac libero sit amet elit
-                dictum scelerisque. Praesent luctus nisl nec tellus rhoncus, nec efficitur orci aliquam. Fusce
-                ullamcorper venenatis magna.</p>
-        </section>
-            <section>
-            <h2>Naše Služby</h2>
-            <p>Nulla vestibulum lectus quis ipsum varius pharetra. Duis euismod nulla ut nibh lobortis varius.
-                Suspendisse potenti. Phasellus nec sapien et neque tempor semper a ac justo. Ut ac libero sit amet elit
-                dictum scelerisque. Praesent luctus nisl nec tellus rhoncus, nec efficitur orci aliquam. Fusce
-                ullamcorper venenatis magna.</p>
-        </section>-->
         </div>
     </div>
     <footer>
         &copy; 2024 MichalBr | Všechna práva vyhrazena
     </footer>
-    <script>
-        // JavaScript pro zjištění scroll pozice
-        window.addEventListener('scroll', function () {
-            var header = document.querySelector('header');
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
-    </script>
 </body>
-
 </html>
