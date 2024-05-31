@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST WEBSITE</title>
+    <style>
+        /* Základní styly */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            animation: changeBackground 20s linear infinite alternate;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        /* Hlavička */
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+        /* Navigace */
+        nav {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        /* Obsah */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        section h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        section p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        /* Zápatí */
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        /* Animace změny pozadí */
+        @keyframes changeBackground {
+            0% {
+                background-color: #ff9a9e;
+            }
+            25% {
+                background-color: #fad0c4;
+            }
+            50% {
+                background-color: #a18cd1;
+            }
+            75% {
+                background-color: #fbc2eb;
+            }
+            100% {
+                background-color: #ff9a9e;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Moderní Stránka</h1>
+    </header>
+    <nav>
+        <a href="#">Domů</a>
+        <a href="#">O nás</a>
+        <a href="#">Služby</a>
+        <a href="#">Kontakt</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Vítej na naší stránce!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit consequat metus, et scelerisque elit ullamcorper nec. Fusce posuere magna vitae leo malesuada, id convallis quam posuere. Phasellus euismod libero vel tincidunt molestie.</p>
+            <p>Praesent ac gravida leo. Vivamus ut fermentum mi. Nunc molestie luctus volutpat. Ut interdum lacinia tellus, sit amet hendrerit tortor malesuada nec. Integer maximus velit nec dui dictum, id facilisis lacus fermentum.</p>
+        </section>
+        <section>
+            <h2>xxx</h2>
+            <p>Nulla vestibulum lectus quis ipsum varius pharetra. Duis euismod nulla ut nibh lobortis varius. Suspendisse potenti. Phasellus nec sapien et neque tempor semper a ac justo. Ut ac libero sit amet elit dictum scelerisque. Praesent luctus nisl nec tellus rhoncus, nec efficitur orci aliquam. Fusce ullamcorper venenatis magna.</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Moderní Stránka | Všechna práva vyhrazena
+    </footer>
+</body>
+</html>
+
+
+
+<!--
+
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moderní Stránka</title>
+    <style>
+        /* Základní styly */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            background-size: 200% 200%;
+            animation: gradientShift 10s ease infinite;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        /* Hlavička */
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, padding 0.3s;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            top: 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 2px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        nav {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Obsah */
+        .container {
+            max-width: 1200px;
+            margin: 100px auto 50px auto;
+            padding: 0 20px;
+            animation: fadeIn 1s ease;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-bottom: 40px;
+            transition: transform 0.3s ease, box-shadow 0.3s;
+            animation: fadeInLeft 1s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease;
+        }
+
+        section p {
+            color: #666;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease;
+        }
+
+        /* Zápatí */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeInUp 1s ease;
+        }
+
+        /* Animace změny pozadí */
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Další animace */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes rotate {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Tlačítko */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            animation: pulse 2s ease infinite;
+            margin-bottom: 20px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Další vylepšení */
+        .feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            animation: fadeInRight 1s ease;
+        }
+
+        .feature img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            animation: rotate 2s linear infinite;
+        }
+
+        .feature-content {
+            flex: 1;
+        }
+
+        .feature h3 {
+            margin: 0;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .feature p {
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Moderní Stránka</h1>
+        <nav>
+            <a href="#">Domů</a>
+            <a href="#">O nás</a>
+            <a href="#">Služby</a>
+            <a href="#">Kontakt</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Vítej na naší stránce!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit consequat metus, et scelerisque elit
+                ullamcorper nec. Fusce posuere magna vitae leo malesuada, id convallis quam posuere. Phasellus euismod
+                libero vel tincidunt molestie.</p>
+            <p>Praesent ac gravida leo. Vivamus ut fermentum mi. Nunc molestie luctus volutpat. Ut interdum lacinia
+                tellus, sit amet hendrerit tortor malesuada nec. Integer maximus velit nec dui dictum, id facilisis
+                lacus fermentum.</p>
+        </section>
+        <section>
+            <h2>Naše Služby</h2>
+            <p>Nulla vestibulum lectus quis ipsum varius pharetra. Duis euismod nulla ut nibh lobortis varius.
+                Suspendisse potenti. Phasellus nec sapien et neque tempor semper a ac justo. Ut ac libero sit amet elit
+                dictum scelerisque. Praesent luctus nisl nec tellus rhoncus, nec efficitur orci aliquam. Fusce
+                ullamcorper venenatis magna.</p>
+        </section>
+        <div class="feature">
+            <img src="https://via.placeholder.com/100" alt="Feature">
+            <div class="feature-content">
+                <h3>Moderní Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit consequat metus.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/100" alt="Feature">
+            <div class="feature-content">
+                <h3>Responsivní Rozložení</h3>
+                <p>Integer maximus velit nec dui dictum, id facilisis lacus fermentum.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Moderní Stránka | Všechna práva vyhrazena
+    </footer>
+    <script>
+        // JavaScript pro zjištění scroll pozice
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
