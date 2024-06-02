@@ -9,8 +9,8 @@
 <a title="MichalBr" href="#home" class="logo MZoom">M</a>
 <ul><li><a href="#aboutme" onclick="toggle()">About me</a></li>
 <li><a href="#equipment" onclick="toggle()">Equipment</a></li>
-<li><a href="#games" onclick="toggle()">Reviews and other</a></li>
-<li><a href="#other" onclick="toggle()">Game settings</a></li></ul>
+<li><a href="#gamesother" onclick="toggle()">Games and other</a></li>
+<li><a href="#blog" onclick="toggle()">Blog</a></li></ul>
 
 <div class="toggle TZoom" onclick="toggle()"></div>
 
@@ -122,9 +122,63 @@
 
 </section>
 
-<!-- Accounts info and reviews --> <section class="sec gamesother" id="games">
+<!-- Games, accounts, reviews, game settings and other --> <section class="sec gamesother" id="gamesother">
 
-<br><br><br>
+
+<br><table class="gameR">
+        <tr>
+            <th>Games</th>
+            <th>Ranks</th>
+            <th>Accounts</th>
+            <th>Settings</th>
+        </tr>
+        <tr>
+            <td><img src="media/m_games/G_CS2.png" class="table-icon rank-img" alt="CS2 rank" width="32">&nbsp; &nbsp;<b>Counter-Strike 2</b></td>
+            <td><img src="media/m_games/MG_CSRank.png" alt="Global Elite" class="table-icon rank-img">&nbsp; <b>18 000+ ELO (Global Elite)</b></td>
+            <td><a href=https://steamcommunity.com/id/misakbr2>MichalBr</a></td>
+            <td>
+                <ul class="settings">
+                    <li>Crosshair <input type="text" class="tlacitkohry" value="CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
+                    <li>Viewmodel <input type="text" class="tlacitkohry" value="viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0;" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
+                    <li>Mouse sens. <input type="text" class="tlacitkohry" value="1.82" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
+                    <li>Config <a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/G_CSConfig.cfg">autoexec.cfg</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="media/m_games/G_FACEIT.png" class="table-icon rank-img" alt="FACEIT rank" width="32">&nbsp; &nbsp;<b>FACEIT</b></td>
+            <td><img src="media/m_games/MG_CSFaceit.png" alt="Level 7" class="table-icon rank-img">&nbsp; <b>Level 7</b></td>
+            <td><a href=https://faceit.com/en/players/michalbr->michalbr-</a></td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="media/m_games/G_Valorant.png" class="table-icon rank-img" alt="VALORANT rank" width="32">&nbsp; &nbsp;<b>Valorant</b></td>
+            <td><img src="media/m_games/MG_VALRank.png" alt="Plat" class="table-icon rank-img">&nbsp; <b>Platina II</b></td>
+            <td>MichalBr#UwU</td>
+            <td>
+                <ul class="settings">
+                    <li>Sensitivity: <b>In-Game sensitivity</b> – 0.82 / 1 / 1</li>
+                    <li>Resolution: 2560x1440</li>
+                    <li>Crosshair: <b>Crosshair</b> – Cyan / Static Resolution and quality settings</b> – 2560x1440 270Hz, FPS limit - 500, All graphic set to low, only Bloom, MT and NVRB are ON<b>Misc.</b> – FPS counter - enabled, Enemy highlight color - red, Map rotate - On (1.16 0.72)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="media/m_games/G_R6.png" class="table-icon rank-img" alt="R6 rank" width="32">&nbsp; &nbsp;<b>Rainbow Six Siege</b></td>
+            <td><img src="media/m_games/MG_R6Rank.png" alt="Plat" class="table-icon rank-img">&nbsp; <b>Platina III</b></td>
+            <td>TheMichalBr</td>
+            <td>
+                <ul class="settings">
+                    <li>Sensitivity: </li>
+                    <li>Resolution: 2560x1440</li>
+                    <li>Crosshair: </li>
+                </ul>
+            </td>
+        </tr>
+</table>
+
+<br><br>
 
 <main class="page-content">
     <div class="card">
@@ -192,130 +246,41 @@
 
 </section>
 
-<!-- Game ranks and settings --> <section class="sec gamesother" id="other">
+<!-- Blog --> <section class="sec gamesother" id="blog">
 
-    <table class="gameR">
-        <tr>
-            <th>Games</th>
-            <th>Ranks</th>
-            <th>Accounts</th>
-            <th>Settings</th>
-        </tr>
-        <tr>
-            <td><img src="media/m_games/G_CS2.png" class="table-icon rank-img" alt="CS2" width="52">&nbsp; &nbsp;<b>Counter-Strike 2</b></td>
-            <td><img src="media/m_games/MG_CSRank.png" alt="Global Elite" class="table-icon rank-img">&nbsp; <b>18 000+ ELO (Global Elite)</b></td>
-            <td>MichalBr</td>
-            <td>
-                <ul class="settings">
-                    <li>Crosshair <input type="text" class="tlacitkohry" value="CSGO-bimys-eFkyb-icw9q-Sfrmo-XKH8D" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
-                    <li>Viewmodel <input type="text" class="tlacitkohry" value="viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0;" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
-                    <li>Mouse sens. <input type="text" class="tlacitkohry" value="1.82" id="myInput"><button class="tlacitkohry" onclick="myFunctionC()">Copy</button></li>
-                    <li>Config <a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/G_CSConfig.cfg">autoexec.cfg</a></li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="media/m_games/G_FACEIT.png" class="table-icon rank-img" alt="FACEIT" width="52">&nbsp; &nbsp;<b>FACEIT</b></td>
-            <td><img src="media/m_games/MG_CSFaceit.png" alt="Level 7" class="table-icon rank-img">&nbsp; <b>Level 7</b></td>
-            <td>michalbr-</td>
-            <td>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="media/m_games/G_Valorant.png" class="table-icon rank-img" alt="VALORANT" width="52">&nbsp; &nbsp;<b>Valorant</b></td>
-            <td><img src="media/m_games/MG_VALRank.png" alt="Plat" class="table-icon rank-img">&nbsp; <b>Platina II</b></td>
-            <td>MichalBr#UwU</td>
-            <td>
-                <ul class="settings">
-                    <li>Sensitivity: </li>
-                    <li>Resolution: 2560x1440</li>
-                    <li>Crosshair: </li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="media/m_games/G_R6.png" class="table-icon rank-img" alt="R6" width="52">&nbsp; &nbsp;<b>Rainbow Six Siege</b></td>
-            <td><img src="media/m_games/MG_R6Rank.png" alt="Plat" class="table-icon rank-img">&nbsp; <b>Platina III</b></td>
-            <td>TheMichalBr</td>
-            <td>
-                <ul class="settings">
-                    <li>Sensitivity: </li>
-                    <li>Resolution: 2560x1440</li>
-                    <li>Crosshair: </li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+<div class="containerBLOG" id="blog">
 
-<br><br><br>
+<section><h5 class="nameBLOG">blog.MichalBr (in Czech)</h5>
 
-<table class="gamestabulka1">
-<thead>
-<tr><th>
-<h1>Counter-Strike 2 – Premier Rank</h1>
-</th><th>
-<h1>Counter-Strike 2 – FACEIT Rank</h1>
-</th><th>
-<h1>Valorant – Rank</h1>
-</th></tr>
-</thead>
-<tbody><tr>
-<td><img src="./media/G_CSRank.png" weight="65" height="65" alt="csrank"></td>
-<td><img src="./media/G_CSFaceit.png" weight="65" height="65" alt="csfaceit"></td>
-<td><img src="./media/G_VALRank.png" weight="95" height="95" alt="valrank"></td>
-</tr><tr>
-<td><b>18000+ ELO (bef. Global Elite) – </b><br><a href=https://steamcommunity.com/id/misakbr2>MichalBr</a></td>
-<td><b>Level 7 – </b><br><a href=https://faceit.com/en/players/michalbr->michalbr-</a></td>
-<td><b>Platina II – </b><br><a href=https://www.riotgames.com/cs>MichalBr#UwU</a></td>
-<ul>
-<li class="ft"><p><b>Viewmodel</b> – viewmodel_fov 68; viewmodel_offset_x 2; viewmodel_offset_y 2; viewmodel_offset_z -2; cl_righthand 1; viewmodel_presetpos 0;</li>
-</ul>
-</td><td>
-<ul>
-<li><p><b>Crosshair</b> – Cyan / Static</li>
-<li><p><b>In-Game sensitivity</b> – 0.82 / 1 / 1</li>
-<li><p><b>Resolution and quality settings</b> – 2560x1440 270Hz, FPS limit - 500, All graphic set to low, only Bloom, MT and NVRB are ON</li>
-<li><p><b>Misc.</b> – FPS counter - enabled, Enemy highlight color - red, Map rotate - On (1.16 0.72)</li>
-</ul></td>
-</tr></tbody></table>
+<h2 class="titleBLOG">Letošní herní konference a jejich data</h2><br>
+<p class="inBLOG">
+    úterý 4. červen 2024 17:00 Best Indie Games Summer Showcase<br>
+    úterý 4. červen 2024 21:00 OTK Games Expo<br>
+    čtvrtek 6. červen 2024 19:00 Guerrilla Collective Showcase<br>
+    pátek 7. červen 2024 17:00 Access-Ability Summer Showcase<br>
+    <b>pátek 7. červen 2024 23:00 Summer Game Fest</b><br>
+    sobota 8. červen 2024 1:00 Day of the Devs: Summer Game Fest Edition<br>
+    sobota 8. červen 2024 2:00 Devolver Direct<br>
+    sobota 8. červen 2024 17:00 Future of Play Direct<br>
+    sobota 8. červen 2024 18:00 Wholesome Direct<br>
+    sobota 8. červen 2024 19:00 Latin American Games Showcase<br>
+    sobota 8. červen 2024 20:30 Women-Led Games: Summer Game Fest<br>
+    <b>sobota 8. červen 2024 21:00 Future Games Show Summer Showcase</b><br>
+    <b>neděle 9. červen 2024 19:00 Xbox Games Showcase + Call of Duty: Black Ops 6 Direct</b><br>
+    <b>neděle 9. červen 2024 22:00 PC Gaming Show</b><br>
+    <b>pondělí 10. červen 2024 21:00 Ubisoft Forward</b>
+</p>
 
 </section>
+<section><h5 class="nameBLOG">blog.MichalBr (in Czech)</h5>
 
-<!-- Blogs --> <section class="sec gamesother" id="blog">
+<h2 class="titleBLOG">Co aktuálně vytvářím</h2><br>
+<p class="inBLOG">
+    Stále pracuji na mé vlastní mapě v CS2. Již brzy ukážu víc! Stále totiž řeším spoustu problémů. Jedna z nich bude aim mapa.
+</p>
+</section>
 
-    <div class="containerRR">
-        <section><h5>blog.MichalBr (in Czech)</h5><br>
-
-            <h2>Akutální herní konference a jejich data v červnu:</h2><br><br>
-            <p>
-                pátek 31. květen 2024 0:00 Marvelous Game Showcase<br>
-                pátek 31. květen 2024 1:00 Silent Hill Transmission<br>
-                úterý 4. červen 2024 17:00 Best Indie Games Summer Showcase<br>
-                úterý 4. červen 2024 21:00 OTK Games Expo<br>
-                čtvrtek 6. červen 2024 19:00 Guerrilla Collective Showcase<br>
-                pátek 7. červen 2024 17:00 Access-Ability Summer Showcase<br>
-                <b>pátek 7. červen 2024 23:00 Summer Game Fest</b><br>
-                sobota 8. červen 2024 1:00 Day of the Devs: Summer Game Fest Edition<br>
-                sobota 8. červen 2024 2:00 Devolver Direct<br>
-                sobota 8. červen 2024 17:00 Future of Play Direct<br>
-                sobota 8. červen 2024 18:00 Wholesome Direct<br>
-                sobota 8. červen 2024 19:00 Latin American Games Showcase<br>
-                sobota 8. červen 2024 20:30 Women-Led Games: Summer Game Fest<br>
-                <b>sobota 8. červen 2024 21:00 Future Games Show Summer Showcase</b><br>
-                <b>neděle 9. červen 2024 19:00 Xbox Games Showcase + Call of Duty: Black Ops 6 Direct</b><br>
-                <b>neděle 9. červen 2024 22:00 PC Gaming Show</b><br>
-                <b>pondělí 10. červen 2024 21:00 Ubisoft Forward</b>
-            </p>
-        </section>
-
-        <section><h5>blog.MichalBr (in Czech)</h5><br>
-
-            <h2>Co aktuálně kutám:</h2><br><br>
-            <p>
-                Pracuji na dvou mapách v CS2. Brzy ukážu víc!
-            </p>
-        </section>
-    </div>
+</div>
 
 </section>
 
