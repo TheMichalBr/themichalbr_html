@@ -448,7 +448,8 @@ header.sticky ul li a {
 }
 
 .boxEQ {
-    background: linear-gradient(180.2deg, rgba(30, 33, 48, 0.37) 6.8%, rgba(74, 98, 110, 0.76) 131%);
+    background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.329) 131%);
+    /*background: linear-gradient(180.2deg, rgba(30, 33, 48, 0.37) 6.8%, rgba(74, 98, 110, 0.76) 131%);*/
     border: 0px solid black;
     padding: 23px;
     margin: 80.5px;
@@ -1449,6 +1450,19 @@ input[type=text] {
 .table-icon:hover {
     color: #836fff;
     transform: scale(1.2);
+}
+
+.table-icon-eqitems{
+    color: #6c63ff;
+    transition: color 0.3s ease, transform 0.3s ease;
+    filter: drop-shadow(0 1mm 1mm rgba(36, 36, 36, 0.185));;
+    vertical-align: middle;
+    transform: scale(1);
+}
+
+.table-icon-eqitems:hover {
+    color: #836fff;
+    transform: scale(1.085);
 }
 
 @media (max-width: 600px) {
