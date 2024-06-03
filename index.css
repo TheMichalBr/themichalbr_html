@@ -1496,7 +1496,6 @@ input[type=text] {
         margin-bottom: 10px;
     }
 
-
 /*
         .table-container {
             width: 100%;
@@ -1527,16 +1526,11 @@ input[type=text] {
         }
 
 */
-
-
-
-
 }
 
 * {
     -webkit-font-smoothing: antialiased;
 }
-
 
 /*
 .table-container {
