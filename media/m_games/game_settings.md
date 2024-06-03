@@ -1,5 +1,36 @@
 # Game Settings and Ranks
 
+
+
+
+
+
+
+
+
+
+
+
+WIP !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # TEST
 
 
@@ -56,3 +87,14 @@
             </td>
         </tr>
 </table>
+
+
+
+https://fortnite.gg/stats?player=MichalBr
+https://fortnitetracker.com/profile/all/MichalBr
+
+https://r6.tracker.network/profile/pc/TheMichalBr
+
+https://csstats.gg/player/76561198115132041
+
+https://faceit.com/en/players/michalbr-
