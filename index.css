@@ -183,6 +183,7 @@ header {
     transition-delay: 0.325s;
     transition-duration: 0.325s;
     transition-property: all;
+    animation: fadetop 3s ease;
 }
 
 header ul li a nav {
@@ -349,6 +350,7 @@ header.sticky ul li a {
     line-height: 1.5;
     display: flex;
     flex-direction: column;
+    animation: fadein 10s ease;
 }
 
 /* --  Scrollbar -- */
@@ -396,6 +398,7 @@ header.sticky ul li a {
     flex-direction: row;
     align-items: flex-end;
     margin-bottom: 1.2%;
+    animation: fadein 1.5s ease
 }
 
 .flexEQ {
@@ -651,6 +654,7 @@ header.sticky ul li a {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    animation: fadein 1.5s ease
 }
 
 .aboutme ul li {
@@ -720,6 +724,7 @@ header.sticky ul li a {
     min-width: 1920px;
     rgba(180, 180, 180, 0.562)
     */
+    animation: fadein 1.5s ease;
 }
 
 .contenedorr {
@@ -899,6 +904,7 @@ header.sticky ul li a {
     justify-content: flex-end;
     align-items: center;
     margin: 50px 0;
+    animation: fadein 1.5s ease
 }
 
 .ft li b {
@@ -1107,6 +1113,7 @@ header.sticky ul li a {
     color: whitesmoke;
     background-color: whitesmoke;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+    animation: fadein 1.5s ease
 }
 
 @media (min-width: 600px) {
@@ -1302,9 +1309,10 @@ header.sticky ul li a {
             text-align: center;
             margin-bottom: 20px;
             font-family: 'Nunito', Light, sans-serif;
-                
-                    font-size: 1em;
-                    text-align: center;
+            font-size: 1em;
+            text-align: center;
+            animation: fadein 1.5s ease;
+            max-width: 95rem;
         }
 
         .gameR th {
@@ -1331,14 +1339,6 @@ header.sticky ul li a {
         .gameR tr:hover {
             background-color: rgba(255, 255, 255, 0.2);
             transition: background-color 0.3s;
-        }
-
-        .gameR .rank-img {
-            width: 60px;
-            height: auto;
-            filter: drop-shadow(0.5mm 0.5mm 0.5mm black);
-            border-radius: 4%;
-            align-self: center;
         }
 
         .gameR .settings {
@@ -1381,6 +1381,8 @@ input[type=text] {
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #333;
+    animation: fadein 1.5s ease;
+    max-width: 75rem;
 }
 
 .modern-table {
@@ -1443,8 +1445,19 @@ input[type=text] {
     font-size: 24px;
     color: #6c63ff;
     transition: color 0.3s ease, transform 0.3s ease;
-    filter: drop-shadow(0 1mm 1mm rgba(36, 36, 36, 0.185));;
+    filter: drop-shadow(0 1mm 1mm rgba(36, 36, 36, 0.185));
     vertical-align: middle;
+}
+
+.g-gm{
+    position: relative;
+    width: 20px;
+    border-radius: 12%;
+    filter: drop-shadow(0.5mm 0.5mm 0.5mm rgba(0, 0, 0, 0.315));
+}
+
+.modern-table a{
+    text-decoration: none;
 }
 
 .table-icon:hover {
@@ -1517,7 +1530,14 @@ input[type=text] {
 
 
 
+
 }
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+
 /*
 .table-container {
     background: linear-gradient(135deg, #ffffff, #f0f4f8);
@@ -1563,7 +1583,6 @@ input[type=text] {
     max-width: 1250px;
     margin: 100px auto 50px auto;
     padding: 0 20px;
-    animation: fadeIn 1s ease;
 }
 .containerBLOG section {
     background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.329) 131%);
@@ -1572,7 +1591,7 @@ input[type=text] {
     padding: 40px;
     margin-bottom: 40px;
     transition: transform 0.3s ease, box-shadow 0.3s;
-    animation: fadeleft 1.1s ease;
+    animation: fadein 1.25 ease;
 }
 .containerBLOG section:hover {
     transform: translateY(-5px);
@@ -1581,13 +1600,13 @@ input[type=text] {
 .nameBLOG{
     color: #7a7a7ac0;
     margin-bottom: 18px;
-    animation: fadetop 2.5s ease;
+    animation: fadein 2.5s ease;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 .titleBLOG{
     color: #aaaaaa;
     margin-bottom: 17px;
-    animation: fadetop 3s ease;
+    animation: fadein 3s ease;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 .inBLOG{
