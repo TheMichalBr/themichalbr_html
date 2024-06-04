@@ -149,6 +149,7 @@ h1 {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 .toggle {
@@ -1152,17 +1153,17 @@ header.sticky ul li a {
 }
 
 .card:nth-child(1):before {
-    background-image: url(media/m_games/GB_CS2O.png);
+    background-image: url(media/GB_CS2B.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-position: left;
+    background-position: right;
     filter: blur(0.8px);
 }
 
 .card:nth-child(2):before {
-    background-image: url(media/m_games/GB_CS2B.png);
+    background-image: url(media/GB_CS2B.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1172,7 +1173,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(3):before {
-    background-image: url(media/m_games/GB_R6.png);
+    background-image: url(media/GB_CS2B.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1182,7 +1183,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(4):before {
-    background-image: url(media/m_games/GB_Review.png);
+    background-image: url(media/GB_Reviews.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1293,84 +1294,7 @@ header.sticky ul li a {
 }
 
 
-/* --  Herní ranky a nastavení --    */
-
-        .gameR {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: rgba(0, 0, 0, 0.6);
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-            border-radius: 10px;
-            overflow: hidden;
-            color: #ffffff;
-            margin: 0;
-            padding: 20px;
-            background: linear-gradient(to right, #141e30, #243b55);
-            text-align: center;
-            margin-bottom: 20px;
-            font-family: 'Nunito', Light, sans-serif;
-            font-size: 1em;
-            text-align: center;
-            animation: fadein 1.5s ease;
-            max-width: 95rem;
-        }
-
-        .gameR th {
-            color: #c3c9cc;
-                font-weight: bold;
-        }
-
-        .gameR th,
-        .gameR td {
-            border: none;
-            padding: 15px;
-            text-align: left;
-        }
-
-        .gameR th {
-            background-color: rgba(0, 0, 0, 0.8);
-            font-size: 1.2em;
-        }
-
-        .gameR tr:nth-child(even) {
-            background-color: rgba(255, 255, 255, 0.1);
-        }
-
-        .gameR tr:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-            transition: background-color 0.3s;
-        }
-
-        .gameR .settings {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .gameR .settings li {
-            margin: 5px 0;
-        }
-
-        .tlacitkohry{
-                background-color: #04AA6D;
-                    border: none;
-                    color: white;
-                    padding: 7px 8px;
-                    text-decoration: none;
-                    margin: 4px 2px;
-                    cursor: pointer;
-                    border-radius: 5%;
-        }
-
-input[type=text] {
-    background-color: #606da88e;
-    color: rgb(37, 36, 36);
-    border-radius: 5%;
-}
-
-
-
-
-/* --  Herní účty -- */
+/* --  All about games, accounts, rank, settings, reviews and other -- */
 
 .table-container {
     width: 80%;
@@ -1384,13 +1308,11 @@ input[type=text] {
     animation: fadein 1.5s ease;
     max-width: 75rem;
 }
-
 .modern-table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0 8px;
 }
-
 .modern-table th,
 .modern-table td {
     padding: 12px 15px;
@@ -1399,7 +1321,6 @@ input[type=text] {
     border-radius: 8px;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 .modern-table th {
     background: linear-gradient(135deg, #141142, #798da0);
     color: #ffffff;
@@ -1408,39 +1329,31 @@ input[type=text] {
     top: 0;
     z-index: 1;
 }
-
 .modern-table tbody tr {
     background-color: #ffffff;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    
 }
-
 .modern-table tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
-
 .modern-table tbody tr:hover {
     background-color: #f1f1f1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .modern-table tbody td:hover {
     transform: scale(1.02);
     background: linear-gradient(135deg, #ffffff, #e0e0e0);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
 .modern-table tbody tr.selected {
     background-color: #d1e7ff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 .modern-table tbody td {
     background: linear-gradient(135deg, #ffffff, #f9f9f9);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
-
 .table-icon {
     font-size: 24px;
     color: #6c63ff;
@@ -1448,23 +1361,19 @@ input[type=text] {
     filter: drop-shadow(0 1mm 1mm rgba(36, 36, 36, 0.185));
     vertical-align: middle;
 }
-
 .g-gm{
     position: relative;
     width: 20px;
     border-radius: 12%;
     filter: drop-shadow(0.5mm 0.5mm 0.5mm rgba(0, 0, 0, 0.315));
 }
-
 .modern-table a{
     text-decoration: none;
 }
-
 .table-icon:hover {
     color: #836fff;
     transform: scale(1.2);
 }
-
 .table-icon-eqitems{
     color: #6c63ff;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -1472,104 +1381,90 @@ input[type=text] {
     vertical-align: middle;
     transform: scale(1);
 }
-
 .table-icon-eqitems:hover {
     color: #836fff;
     transform: scale(1.085);
 }
+/*.table-container {
+    background: linear-gradient(135deg, #ffffff, #f0f4f8);
+}
+.modern-table th,
+.modern-table td {
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+.modern-table th {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.modern-table tbody tr {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.modern-table tbody td {
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.modern-table tbody tr:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.modern-table tbody td:hover {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.modern-table tbody tr {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;*
+}*/
+.tlacitkohry {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 7px 8px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+input[type=text] {
+    background-color: #606da88e;
+    color: rgb(37, 36, 36);
+    border-radius: 5%;
+}
 
 @media (max-width: 600px) {
-
     .modern-table th,
     .modern-table td {
         padding: 8px 10px;
     }
-
     .modern-table tbody td {
         display: block;
         width: 100%;
         box-sizing: border-box;
     }
-
     .modern-table tbody tr {
         display: block;
         margin-bottom: 10px;
     }
-
-/*
-        .table-container {
-            width: 100%;
-            padding: 10px;
-            box-shadow: none;
-            border-radius: 0;
-        }
-    
-        .modern-table {
-            border-spacing: 0 10px;
-            min-width: 100%;
-        }
-    
+    /*.table-container {
+        width: 100%;
+        padding: 10px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .modern-table {
+        border-spacing: 0 10px;
+        min-width: 100%;
+    }
         .modern-table th,
         .modern-table td {
-            padding: 10px;
-            margin: 0;
-            font-size: 14px;
-        }
-    
+        padding: 10px;
+        margin: 0;
+        font-size: 14px;
+    }
         .modern-table tbody tr {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin-bottom: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-*/
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }*/
 }
-
-* {
-    -webkit-font-smoothing: antialiased;
-}
-
-/*
-.table-container {
-    background: linear-gradient(135deg, #ffffff, #f0f4f8);
-}
-
-.modern-table th,
-.modern-table td {
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-}
-
-.modern-table th {
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-.modern-table tbody tr {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.modern-table tbody td {
-    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05);
-}
-
-.modern-table tbody tr:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.modern-table tbody td:hover {
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.modern-table tbody tr {
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;*
-}
-*/
-
-
-
-
 
 /* --  Blog -- */
 
@@ -1616,7 +1511,7 @@ input[type=text] {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-/* --  Blog - Effects -- */
+/* --  Effects -- */
 
 @keyframes fadein {
     from {
