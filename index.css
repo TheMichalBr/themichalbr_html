@@ -432,6 +432,7 @@ header.sticky ul li a {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.829);
     word-wrap: break-word;
     align-self: center;
+    animation: fadein 2s ease;
 }
 
 .itemEQ {
@@ -449,6 +450,7 @@ header.sticky ul li a {
     word-wrap: break-word;
     align-self: center;
     letter-spacing: 0.252px;
+    animation: fadein 3s ease;
 }
 
 .boxEQ {
@@ -632,6 +634,7 @@ header.sticky ul li a {
     display: flex;
     margin-top: 40px;
     color: white;
+    flex-direction: column;
 }
 
 .flexcontainerAM {
@@ -650,17 +653,30 @@ header.sticky ul li a {
     overflow: hidden;
     word-wrap: break-word;
     flex-grow: 1;
-    border-radius: 0.55%;
+    border-radius: 10px; /*border-radius: 0.55%;*/
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    animation: fadein 1.5s ease
+    animation: fadein 1.5s ease;
+
+    /*new*/
+    max-width: 1250px;
+    margin: 85px auto 55px auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 4px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.flexcontainerAM:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .aboutme ul li {
     list-style: none;
-    margin: 50px 90px;
+    margin: 49.5px 90px;
 }
 
 .aboutme ul li a {
@@ -677,6 +693,8 @@ header.sticky ul li a {
     word-wrap: break-word;
     align-self: center;
     letter-spacing: 9.5px;
+    color: #d1d1d1;
+    animation: fadein 3s ease;
 }
 
 .aboutme p {
@@ -686,6 +704,7 @@ header.sticky ul li a {
     text-shadow: 2.7px 2.7px 2.7px rgba(0, 0, 0, 0.925);
     word-wrap: break-word;
     align-self: center;
+    animation: fadein 4s ease;
 }
 
 /* --  Video section -- */
@@ -818,7 +837,7 @@ header.sticky ul li a {
         display: block;
         border-radius: 5%;
         padding-top: 19px;
-        max-height: 365px;
+        max-height: 282px;
         transition: cubic-bezier(0.65, 0.05, 0.36, 1) 1025ms;
     }
 
@@ -1173,12 +1192,12 @@ header.sticky ul li a {
 }
 
 .card:nth-child(3):before {
-    background-image: url(media/GB_CS2B.png);
+    background-image: url(media/GB_Chess.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-position: right;
+    background-position: center;
     filter: blur(0.8px);
 }
 
@@ -1306,7 +1325,7 @@ header.sticky ul li a {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #333;
     animation: fadein 1.5s ease;
-    max-width: 75rem;
+    max-width: 78rem;
 }
 .modern-table {
     width: 100%;
@@ -1464,55 +1483,6 @@ input[type=text] {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
     }*/
-}
-
-/* --  Blog -- */
-
-.containerBLOG {
-    max-width: 1250px;
-    margin: 100px auto 50px auto;
-    padding: 0 20px;
-}
-.containerBLOG section {
-    background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.329) 131%);
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    margin-bottom: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s;
-    animation: fadein 1.25 ease;
-}
-.containerBLOG section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-.containerBLOG h6{
-    color: rgba(168, 168, 168, 0.849);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-}
-.nameBLOG{
-    color: #7a7a7ac0;
-    margin-bottom: 18px;
-    animation: fadein 2.5s ease;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-}
-.titleBLOG{
-    color: #aaaaaa;
-    margin-bottom: 17px;
-    animation: fadein 3s ease;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-.inBLOG{
-    color: #70faffbe;
-    margin-bottom: 20px;
-    animation: fadein 5s ease;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-.containerBLOG section b {
-    color: #7ad8bc;
-    margin-bottom: 19px;
-    animation: pulse 1.5s infinite;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* --  Effects -- */
