@@ -399,7 +399,7 @@ header.sticky ul li a {
     flex-direction: row;
     align-items: flex-end;
     margin-bottom: 1.2%;
-    animation: fadein 1.5s ease
+    animation: fadein 1.5s ease;
 }
 
 .flexEQ {
@@ -478,6 +478,8 @@ header.sticky ul li a {
     margin-left: auto;
     margin-right: auto;
     animation: float 5.25s ease-in-out infinite;
+    transform: translate3d(0, 0, 1px);
+    backface-visibility: hidden;
 }
 
 .TFS {
@@ -1370,12 +1372,16 @@ header.sticky ul li a {
     transition: color 0.3s ease, transform 0.3s ease;
     filter: drop-shadow(0 1mm 1mm rgba(36, 36, 36, 0.185));
     vertical-align: middle;
+    transform: translate3d(0, 0, 1px);
+    backface-visibility: hidden;
 }
 .g-gm{
     position: relative;
     width: 20px;
     border-radius: 12%;
     filter: drop-shadow(0.5mm 0.5mm 0.5mm rgba(0, 0, 0, 0.315));
+    transform: translate3d(0, 0, 1px);
+    backface-visibility: hidden;
 }
 .modern-table a{
     text-decoration: none;
