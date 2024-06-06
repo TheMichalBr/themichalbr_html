@@ -1173,7 +1173,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(1):before {
-    background-image: url(media/GB_Reviews.png);
+    background-image: url(media/GB_Reviews.webp);
     display: flex;
     margin-left: auto;
     margin-right: auto;
