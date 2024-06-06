@@ -1101,7 +1101,8 @@ header.sticky ul li a {
 }
 
 .page-content {
-    display: grid;
+    display: flex;
+    /*display: grid;*/
     grid-gap: 1rem;
     padding: 1rem;
     max-width: 1024px;
@@ -1172,27 +1173,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(1):before {
-    background-image: url(media/GB_CS2B.png);
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background-position: right;
-    filter: blur(0.8px);
-}
-
-.card:nth-child(2):before {
-    background-image: url(media/GB_CS2B.png);
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background-position: right;
-    filter: blur(0.8px);
-}
-
-.card:nth-child(3):before {
-    background-image: url(media/GB_Chess.png);
+    background-image: url(media/GB_Reviews.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1201,8 +1182,18 @@ header.sticky ul li a {
     filter: blur(0.8px);
 }
 
-.card:nth-child(4):before {
-    background-image: url(media/GB_Reviews.png);
+.card:nth-child(2):before {
+    background-image: url();
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-position: center;
+    filter: blur(0.8px);
+}
+
+.card:nth-child(3):before {
+    background-image: url();
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1325,7 +1316,7 @@ header.sticky ul li a {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #333;
     animation: fadein 1.5s ease;
-    max-width: 78rem;
+    max-width: 82rem;
 }
 .modern-table {
     width: 100%;
