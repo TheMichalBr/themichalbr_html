@@ -25,7 +25,23 @@
 
 <!-- Video --> <section class="sec video">
 
-<iframe frameborder="0" allow="autoplay; encrypted-media" src="https://www.youtube.com/embed?list=PLM7nr_aMrHrOgrDdwty5W2orkGLgpzLyc&index=1?autoplay=1&mute=1&controls=1&loop=1" title="Latest videos"></iframe>
+<!--https://www.youtube.com/embed?list=PLM7nr_aMrHrOgrDdwty5W2orkGLgpzLyc&index=1?autoplay=1&mute=1&controls=1&loop=1
+
+<div class="video-container">
+      <div title="Latest videos" class="thumbnail" id="thumbnail" onclick="loadVideo('VIDEO_ID')">
+        <img id="thumbnailImg" src="" alt="Video Thumbnail">
+        <div class="play-button"></div>
+      </div>
+      <div class="video-frame" id="videoFrame"></div>
+    </div>-->
+
+<div class="video-container" onclick="loadVideo('VIDEO_ID')">
+      <div class="thumbnail" id="thumbnail">
+        <img id="thumbnailImg" src="" alt="Video Thumbnail">
+        <div class="play-button"></div>
+      </div>
+      <div class="video-frame" id="videoFrame"></div>
+    </div>
 
 </section>
 
@@ -252,7 +268,7 @@
 
 </section>
 
-<!-- Scripts --> <script type="text/javascript">
+<!-- Scripts --> <script src="index.js"></script><script type="text/javascript">
 
 window.addEventListener("scroll", function () {
 var header = document.querySelector("header");
