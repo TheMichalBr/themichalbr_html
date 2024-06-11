@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var videoID = 'VgQDsqOi2wo'; // Replace VIDEO_ID with your YouTube video ID
+    var videoID = 'VgQDsqOi2wo'; // Replace YOUR_VIDEO_ID with your YouTube video ID
     var thumbnailImg = document.getElementById('thumbnailImg');
     thumbnailImg.src = 'https://img.youtube.com/vi/' + videoID + '/maxresdefault.jpg';
 });
@@ -7,13 +7,20 @@ document.addEventListener('DOMContentLoaded', function () {
 function loadVideo(videoID) {
     var videoFrame = document.getElementById('videoFrame');
     var thumbnail = document.getElementById('thumbnail');
+    var overlay = document.getElementById('overlay');
 
     var loader = document.createElement('div');
     loader.className = 'loader';
     videoFrame.appendChild(loader);
 
+    var closeButton = document.createElement('div');
+    closeButton.className = 'close-button';
+    closeButton.addEventListener('click', function () {
+        closeVideo();
+    });
+
     var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + videoID + '?autoplay=1&rel=0&showinfo=0';
+    iframe.src = 'https://www.youtube.com/embed/' + videoID + '?autoplay=1&rel=0&showinfo=0&loop=1&mute=1&autoplay=1';
     iframe.width = '1590';
     iframe.height = '902';
     iframe.frameBorder = '0';
@@ -26,6 +33,18 @@ function loadVideo(videoID) {
 
     videoFrame.innerHTML = '';
     videoFrame.appendChild(iframe);
+    videoFrame.appendChild(closeButton);
 
     thumbnail.style.display = 'none';
+    overlay.classList.add('show');
+}
+
+function closeVideo() {
+    var videoFrame = document.getElementById('videoFrame');
+    var thumbnail = document.getElementById('thumbnail');
+    var overlay = document.getElementById('overlay');
+
+    videoFrame.innerHTML = '';
+    thumbnail.style.display = 'block';
+    overlay.classList.remove('show');
 }
