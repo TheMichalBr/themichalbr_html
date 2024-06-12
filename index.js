@@ -2,12 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
     var videoID = 'VgQDsqOi2wo'; // Replace YOUR_VIDEO_ID with your YouTube video ID
     var thumbnailImg = document.getElementById('thumbnailImg');
     thumbnailImg.src = 'https://img.youtube.com/vi/' + videoID + '/maxresdefault.jpg';
-});
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
         closeVideo();
-    }
+    }});
 });
 
 function loadVideo(videoID) {
