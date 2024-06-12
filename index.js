@@ -4,6 +4,12 @@ document.addEventListener('DOMContentLoaded', function () {
     thumbnailImg.src = 'https://img.youtube.com/vi/' + videoID + '/maxresdefault.jpg';
 });
 
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+        closeVideo();
+    }
+});
+
 function loadVideo(videoID) {
     var videoFrame = document.getElementById('videoFrame');
     var thumbnail = document.getElementById('thumbnail');
@@ -11,6 +17,7 @@ function loadVideo(videoID) {
 
     var loader = document.createElement('div');
     loader.className = 'loader';
+    videoFrame.innerHTML = '';
     videoFrame.appendChild(loader);
 
     var closeButton = document.createElement('div');
@@ -31,7 +38,6 @@ function loadVideo(videoID) {
         videoFrame.removeChild(loader);
     };
 
-    videoFrame.innerHTML = '';
     videoFrame.appendChild(iframe);
     videoFrame.appendChild(closeButton);
 
