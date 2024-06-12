@@ -802,6 +802,11 @@ header.sticky ul li a {
     border: 9.5px solid rgba(37, 78, 168, 0.144);
     background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.096) 131%);
     filter: blur(50px) grayscale(0.15);
+    transition: transform 0.3s ease;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.05);
 }
 
 .play-button {
@@ -845,7 +850,6 @@ header.sticky ul li a {
     0% {
         transform: translate(-50%, -50%) rotate(0deg);
     }
-
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
     }
@@ -1272,7 +1276,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(1):before {
-    background-image: url(media/GB_Reviews.webp);
+    background-image: url(media/GB_ReviewN.webp);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1282,8 +1286,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(2):before {
-    background-image: url();
-    background: linear-gradient(180.2deg, rgba(199, 82, 35, 0.212) 6.8%, rgba(197, 77, 47, 0.329) 131%);
+    background-image: url(media/GB_ReviewC.webp);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1293,8 +1296,7 @@ header.sticky ul li a {
 }
 
 .card:nth-child(3):before {
-    background-image: url();
-    background: linear-gradient(180.2deg, rgba(199, 82, 35, 0.212) 6.8%, rgba(197, 77, 47, 0.329) 131%);
+    background-image: url(https://w7.pngwing.com/pngs/131/233/png-transparent-configuration-file-computer-software-installation-version-control-others-angle-ribbon-text.png);
     display: flex;
     margin-left: auto;
     margin-right: auto;
