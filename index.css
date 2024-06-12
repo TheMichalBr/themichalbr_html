@@ -304,7 +304,7 @@ header.sticky ul li a {
     font-size: 100px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.815);
-    animation: animated-text 3.5s steps(1000, end) 1s 1 normal both, animated-cursor 800ms steps(29, end) infinite, colorRotateLOGO 15.52s linear 5s infinite;
+    animation: animated-text 2.05s steps(2000, end) 1s 1 normal both, animated-cursor 800ms steps(29, end) infinite, colorRotateLOGO 15.52s linear 5s infinite;
 }
 
 @keyframes colorRotateLOGO {
