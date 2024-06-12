@@ -1323,11 +1323,11 @@ header.sticky ul li a {
 }
 
 .card a:link {
-    color: rgb(255, 95, 95);
+    color: rgb(164, 95, 255);
 }
 
 .card a:visited {
-    color: rgb(255, 159, 159);
+    color: rgb(220, 159, 255);
 }
 
 .card a:hover {
