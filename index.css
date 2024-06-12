@@ -805,7 +805,7 @@ header.sticky ul li a {
 }
 
 .play-button {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     width: 100px;
@@ -814,6 +814,7 @@ header.sticky ul li a {
     background-size: contain;
     transform: translate(-50%, -50%);
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.7));
+    cursor: pointer;
     transition: fadein 1.85s ease, transform 1.86s ease, filter 1.87s ease;
 }
 
@@ -848,6 +849,27 @@ header.sticky ul li a {
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
     }
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.overlay.show {
+    display: block;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url('https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/V_R.webp') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    filter: invert(1);
 }
 
 /* --  Media/Resize -- */
