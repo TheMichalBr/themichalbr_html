@@ -1487,7 +1487,7 @@ header.sticky ul li a {
     overflow-x: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    background-color: #f3f4f6;
+    background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.329) 131%);
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #333;
@@ -1503,12 +1503,12 @@ header.sticky ul li a {
 .modern-table td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #423c9bd3;
     border-radius: 8px;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .modern-table th {
-    background: linear-gradient(135deg, #141142, #798da0);
+    background: linear-gradient(135deg, #423c9bd3, rgba(166, 180, 209, 0.329));
     color: #ffffff;
     font-weight: bold;
     position: sticky;
