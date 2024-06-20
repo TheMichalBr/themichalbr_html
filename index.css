@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&family=Cabin+Sketch&family=Cardo:ital,wght@0,400;0,700;1,400&family=Diplomata&family=Hind+Guntur:wght@300;400;500&family=Itim&family=JetBrains+Mono:wght@300;500&family=Keania+One&family=Kenia&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Miltonian&family=Mirza:wght@400;500;600;700&family=Monoton&family=Nabla&family=Nunito:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;700&family=Quicksand:wght@300;500&family=Raleway:wght@100;200;300;400;600;700&family=Reenie+Beanie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Marker+Hatch&family=Rubik:wght@300;400;500;600;700;800;900&family=Saira:wght@100;300;500&family=Signika+Negative:wght@300;400;500;600;700&family=Signika:wght@300;400;500;600;700&family=Source+Code+Pro:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&family=Cabin+Sketch&family=Cardo:ital,wght@0,400;0,700;1,400&family=Diplomata&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hind+Guntur:wght@300;400;500&family=Itim&family=JetBrains+Mono:wght@300;500&family=Keania+One&family=Kenia&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Miltonian&family=Mirza:wght@400;500;600;700&family=Monoton&family=Nabla&family=Nunito:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;700&family=Quicksand:wght@300;500&family=Raleway:wght@100;200;300;400;600;700&family=Reenie+Beanie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Marker+Hatch&family=Rubik:wght@300;400;500;600;700;800;900&family=Saira:wght@100;300;500&family=Signika+Negative:wght@300;400;500;600;700&family=Signika:wght@300;400;500;600;700&family=Source+Code+Pro:wght@200;300;400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&family=Cabin+Sketch&family=Cardo:ital,wght@0,400;0,700;1,400&family=Diplomata&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hind+Guntur:wght@300;400;500&family=Itim&family=JetBrains+Mono:wght@300;500&family=Keania+One&family=Kenia&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Miltonian&family=Mirza:wght@400;500;600;700&family=Monoton&family=Nabla&family=Nunito:wght@300;500;700&family=Playwrite+FR+Moderne:wght@100..400&family=Poppins:wght@100;200;300;400;500;700&family=Quicksand:wght@300;500&family=Raleway:wght@100;200;300;400;600;700&family=Reenie+Beanie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Marker+Hatch&family=Rubik:wght@300;400;500;600;700;800;900&family=Saira:wght@100;300;500&family=Signika+Negative:wght@300;400;500;600;700&family=Signika:wght@300;400;500;600;700&family=Source+Code+Pro:wght@200;300;400;500&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
     font-family: customfont;
@@ -32,7 +32,7 @@ body {
     background-size: 400% 400%;
     background-attachment: fixed;
     min-height: 1000px;
-    min-width: 800px;
+    min-width: 1050px;
     width: 100%;
 
     overflow: overlay;
@@ -1040,6 +1040,7 @@ header.sticky ul li a {
     display: flex;
     padding-top: 9.875%;
     animation: colorRotate 15.52s linear 0s infinite;
+    cursor: pointer;
 }
 
 .ft ul {
@@ -1085,6 +1086,12 @@ header.sticky ul li a {
     opacity: 0.75;
     transition-delay: 25.25ms;
     filter: invert(53%) sepia(12%) saturate(231%) hue-rotate(172deg) brightness(91%) contrast(96%) drop-shadow(1px 2px 1.12px #000000);
+}
+
+#Twitter:hover {
+    opacity: 0.75;
+    transition-delay: 25.25ms;
+    filter: invert(51%) sepia(39%) saturate(2178%) hue-rotate(175deg) brightness(97%) contrast(96%);
 }
 
 .MZoom {
@@ -1237,7 +1244,29 @@ header.sticky ul li a {
     color: whitesmoke;
     background-color: whitesmoke;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
-    animation: fadein 1.5s ease
+    animation: fadein 1.5s ease;
+}
+
+.card h2 {
+    text-shadow: 1.56px 1.56px 1.56px rgba(0, 0, 0, 0.829);
+    letter-spacing: 2.1px;
+}
+
+.card h6{
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    text-shadow: 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.829);
+}
+
+.card h6 a{
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.829);
 }
 
 @media (min-width: 600px) {
@@ -1296,7 +1325,8 @@ header.sticky ul li a {
 }
 
 .card:nth-child(3):before {
-    background-image: url(https://w7.pngwing.com/pngs/131/233/png-transparent-configuration-file-computer-software-installation-version-control-others-angle-ribbon-text.png);
+    background-image: url();
+    background: rgb(164, 95, 255);;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -1616,7 +1646,7 @@ input[type=text] {
     border-radius: 5%;
 }*/
 
-@media (max-width: 600px) {
+@media (max-width: 100px) {
     .modern-table th,
     .modern-table td {
         padding: 8px 10px;
@@ -1699,6 +1729,17 @@ input[type=text] {
         transform: scale(1);
     }
 }
+
+
+
+.framer-text[data-text-fill] {
+    display: inline-block;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: max(0em, calc(calc(1.3em - var(--framer-line-height, 1.3em)) / 2));
+    margin: min(0em, calc(calc(1.3em - var(--framer-line-height, 1.3em)) / -2));
+}
+
 
 /* ------------------------------------------ 
 
