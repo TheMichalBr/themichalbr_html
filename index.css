@@ -643,7 +643,7 @@ header.sticky ul li a {
     background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.329) 131%);
     background-color: rgba(145, 145, 145, 0.13);
     border: 0px solid black;
-    box-shadow: -2.2px -0.2px 5px black;
+    box-shadow: -2.2px -0.2px 5px rgba(0, 0, 0, 0.555);
     text-shadow: 55px 55px 55px rgba(0, 0, 0, 0.815);
     border-radius: 0.375rem;
     position: relative;
@@ -659,7 +659,6 @@ header.sticky ul li a {
     align-content: center;
     align-items: center;
     animation: fadein 2s ease;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s;
     max-width: 84%;
 }
@@ -667,7 +666,7 @@ header.sticky ul li a {
 .flexcontainerAM:hover{
     transform: translateY(-5px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.95s ease;
+    transition: transform 0.135s ease;
 }
 
 .aboutme ul li {
