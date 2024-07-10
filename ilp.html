@@ -2,7 +2,6 @@
 <head lang="cs-cz"><link rel="icon" href="icon.png" type="image/x-icon"><title>MichalBr</title><meta name="MichalBr" content="MichalBr"></head><section class="showcase">
 <div class="video-container"><video src="./index_land.mov" autoplay muted loop></video></div>
 <div class="content"><h1>MichalBr</h1><a href="index.html" class="btn">Check out my website</a></div></section>
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');@font-face {font-family: customfont;src: url(font_creattion.otf);}
 
@@ -28,6 +27,7 @@ h1 {
 	line-height: 1.2;
 	margin-bottom: 5px;
     font-family: customfont;
+	animation: fadein 12s ease;
 }
 .showcase {
 	height: 100vh;
@@ -35,7 +35,8 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	color: #fff;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.795);
 	padding: 0 20px;
 	overflow: hidden;
 }
@@ -46,7 +47,8 @@ h1 {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	background: var(--primary-color) url('./index_land.mov') no-repeat center center/cover;
+	background: url('./index_land.mov') no-repeat center center/cover; /*var(--primary-color),*/
+	animation: fadein 3.5s ease;
 }
 .video-container video {
 	min-width: 100%;
@@ -80,11 +82,19 @@ h1 {
 	margin-top: 25px;
 	opacity: 0.7;
 	font-weight: 500;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.795);
+	animation: fadein 15s ease;
 }
 .btn:hover {
 	transform: scale(0.975);
 	background-color: rgba(23, 50, 92, 0.322);
 }
-
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }}
 </style>
 </html>
