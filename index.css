@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: customfont;
-    src: url(font.otf);
+    src: url(font_yulio.otf);
 }
 
 @media only screen and (device-width: 1920px),
@@ -1803,6 +1803,53 @@ input[type=text] {
     color: grey;
     margin-top: 40px;
     text-align: center;
+}
+
+
+
+
+.CC45 {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.CC45 .content {
+    margin-right: 20px;
+}
+
+.CC45 .content h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.CC45 .content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.CC45 #cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CC45 #cta-button:hover {
+    background-color: #0056b3;
+}
+
+.CC45 .image-container img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* ------------------------------------------ 
