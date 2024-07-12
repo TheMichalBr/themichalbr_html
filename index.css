@@ -243,10 +243,10 @@ header .logo {
     font-family: customfont;
     text-decoration: underline;
     position: relative;
-    font-weight: 700;
+    font-weight: 600;
     color: #ffffff;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 3.256em;
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
@@ -301,10 +301,10 @@ header.sticky ul li a {
     text-align: center;
     /* line-height: 1em;*/
     font-family: customfont;
-    font-size: 100px;
+    font-size: 162.5px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.815);
-    animation: animated-text 2.25s steps(1500, end) 1s 1 normal both, animated-cursor 800ms steps(29, end) infinite, colorRotateLOGO 15.52s linear 5s infinite;
+    animation: animated-text 2.25s steps(2000, end) 1s 1 normal both, animated-cursor 825ms steps(29, end) infinite, colorRotateLOGO 15.52s linear 5s infinite;
 }
 
 @keyframes colorRotateLOGO {
@@ -325,7 +325,7 @@ header.sticky ul li a {
     }
 
     to {
-        width: 590px;
+        width: 600px;
     }
 }
 
@@ -917,7 +917,7 @@ header.sticky ul li a {
 
     header ul {
         position: absolute;
-        top: 60px;
+        top: 74px;
         left: 0;
         width: 100%;
         height: 100vh;
@@ -1027,7 +1027,7 @@ header.sticky ul li a {
 .ft li b {
     font-family: customfont;
     color: #fff;
-    font-size: 18px;
+    font-size: 28px;
     text-shadow: 1.225px 1.225px 1.225px black;
     font-weight: 100;
     letter-spacing: 1.25px;
