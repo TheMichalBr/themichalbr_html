@@ -53,3 +53,55 @@ function closeVideo() {
     thumbnail.style.display = 'block';
     overlay.classList.remove('show');
 }
+
+// EQ - CPU AND COOLER
+
+var cpuandcooler = ["./media/E_4.webp", "./media/E_5.webp"]
+
+var indexcpu = 0;
+setInterval(function () {
+    if (indexcpu === cpuandcooler.length) {
+        indexcpu = 0;
+    }
+    document.getElementById("imageC").src = cpuandcooler[indexcpu];
+    indexcpu++;
+}, 4100);
+
+// EQ - DRIVES
+
+var drives = ["./media/E_8.webp", "./media/E_9.webp"]
+
+var indexdrives = 0;
+setInterval(function () {
+    if (indexdrives === drives.length) {
+        indexdrives = 0;
+    }
+    document.getElementById("imageD").src = drives[indexdrives];
+    indexdrives++;
+}, 4200);
+
+// EQ - MONITORS
+
+var monitors = ["./media/E_11.webp", "./media/E_12.webp"]
+
+var indexmonitors = 0;
+setInterval(function () {
+    if (indexmonitors === monitors.length) {
+        indexmonitors = 0;
+    }
+    document.getElementById("imageMS").src = monitors[indexmonitors];
+    indexmonitors++;
+}, 4300);
+
+// EQ - MOBILE AND OTHER
+
+var mobileother = ["./media/E_18.webp", "./media/E_19.webp"]
+
+var indexmobil = 0;
+setInterval(function () {
+    if (indexmobil === mobileother.length) {
+        indexmobil = 0;
+    }
+    document.getElementById("imageM").src = mobileother[indexmobil];
+    indexmobil++;
+}, 4400);
