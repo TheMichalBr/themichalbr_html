@@ -1883,6 +1883,18 @@ input[type=text] {
 	position: absolute;
 }
 
+
+
+.imageT {
+    animation: change-img-anim 5s infinite;
+}
+@keyframes change-img-anim {
+	0%{ opacity: 0;}
+	10%{ opacity: 1;}
+	90%{ opacity: 1;}
+	100%{ opacity: 0;}
+}
+
 /* ------------------------------------------ 
 
 </style><main class="page-content"><div class="card"><div class="content"><h2 class="title">CS settings</h2>&emsp;
