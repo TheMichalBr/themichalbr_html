@@ -105,3 +105,29 @@ setInterval(function () {
     document.getElementById("imageM").src = mobileother[indexmobil];
     indexmobil++;
 }, 4400);
+
+// CR1
+
+var workshop = ["./media/GB_ReviewC.webp", "./media/GB_ReviewN.webp"]
+
+var indexworkshop = 0;
+setInterval(function () {
+    if (indexworkshop === workshop.length) {
+        indexworkshop = 0;
+    }
+    document.getElementById("imageCRG").src = workshop[indexworkshop];
+    indexworkshop++;
+}, 5500);
+
+// CR2
+
+var workshopDVA = ["./media/GB_ReviewC.webp", "./media/GB_ReviewN.webp"]
+
+var indexworkshopDVA = 0;
+setInterval(function () {
+    if (indexworkshopDVA === workshopDVA.length) {
+        indexworkshopDVA = 0;
+    }
+    document.getElementById("imageCRG2").src = workshopDVA[indexworkshopDVA];
+    indexworkshopDVA++;
+}, 5700);
