@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+    background: linear-gradient(180.2deg, rgb(29, 30, 32) 6.8%, rgb(14, 50, 75) 131%);
 }
 
 ::selection {
