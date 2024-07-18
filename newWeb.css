@@ -149,6 +149,7 @@ section {
     background: linear-gradient(180.2deg, rgb(29, 30, 32) 6.8%, rgb(14, 50, 75) 131%);
     height: 100vh;
     display: flex;
+    color: white;
 }
 
 section .title {
