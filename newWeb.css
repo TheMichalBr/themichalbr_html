@@ -144,7 +144,7 @@ nav li.slide {
 }
 
 section {
-    background-color: #1b1b1b;
+    background: linear-gradient(180.2deg, rgb(29, 30, 32) 6.8%, rgb(14, 50, 75) 131%);
     height: 100vh;
     display: flex;
 }
@@ -312,5 +312,67 @@ section .title span a::after {
 
     100% {
         width: 30px;
+    }
+}
+
+@keyframes colorRotate {
+100%, 0% {
+        color: rgba(255, 0, 0, 0.445);
+        opacity: 98.9%;
+    }
+
+    8% {
+        color: rgb(255, 127, 0);
+        opacity: 98.9%;
+    }
+
+    16% {
+        color: rgb(255, 255, 0);
+        opacity: 98.9%;
+    }
+
+    25% {
+        color: rgb(127, 255, 0);
+        opacity: 98.9%;
+    }
+
+    33% {
+        color: rgb(0, 255, 0);
+        opacity: 98.9%;
+    }
+
+    41% {
+        color: rgb(0, 255, 127);
+        opacity: 98.9%;
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+        opacity: 98.9%;
+    }
+
+    58% {
+        color: rgb(0, 127, 255);
+        opacity: 98.9%;
+    }
+
+    66% {
+        color: rgb(0, 0, 255);
+        opacity: 98.9%;
+    }
+
+    75% {
+        color: rgb(127, 0, 255);
+        opacity: 98.9%;
+    }
+
+    83% {
+        color: rgb(255, 0, 255);
+        opacity: 98.9%;
+    }
+
+    91% {
+        color: rgb(255, 0, 127);
+        opacity: 98.9%;
     }
 }
