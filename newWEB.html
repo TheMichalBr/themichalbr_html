@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head lang="cs-cz"><meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="icon" href="icon.webp" type="image/x-icon"><title>MichalBr</title><link rel="stylesheet" href="newWeb.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script></head><body>
+
+<nav><ul><li><a href="Salfia.co">Home</a></li>
+<li>About me</li>
+<li>Equipment</li>
+<li>Games and other</li>
+<li>Links</li>
+<li class="slide"></li></ul></nav>
+
+<section>
+<div class="title"><span>MichalBr</span><span>blabla blabla and<a target="_blanck" href="salfia.com">bla    blablabla</a></span></div>
+</section>
+
+<script>
+
+(function($){
+elementWidth = $('ul').width(),
+containerWidth = $('nav').width(),
+difference = elementWidth-containerWidth,
+finalWidth = difference * 1.5,
+element = $('ul');
+
+$('li').on('click', function(){
+$('li').removeClass('active');
+$(this).addClass('active');
+});})(jQuery);
+
+</script>
+
+</body>
+</html>
