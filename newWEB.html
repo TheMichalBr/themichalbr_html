@@ -4,16 +4,63 @@
 <link rel="icon" href="icon.webp" type="image/x-icon"><title>MichalBr</title><link rel="stylesheet" href="newWeb.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script></head><body>
 
-<nav><ul><li><a href="#home">Home</a></li>
-<li><a href="#aboutme">About me</a></li>
-<li><a href="#equipment">Equipment</a></li>
-<li><a href="#games">Games</a></li>
-<li><a href="#socials">Socials</a></li>
+<nav><ul><li href="#home" onclick="changeContent('section1')"><a>Home</a></li>
+<li href="#aboutme" onclick="changeContent('section2')"><a>About me</a></li>
+<li href="#equipment" onclick="changeContent('section3')"><a>Equipment</a></li>
+<li href="#games" onclick="changeContent('section4')"><a>Games</a></li>
+<li href="#socials" onclick="changeContent('section5')"><a>Socials</a></li>
 <li class="slide"></li></ul></nav>
 
-<section id="home">
-<div class="title"><span class="customfont">MichalBr</span><span>Content creator, Developer and<a target="_blanck" href="salfia.com">Gamer</a></span></div>
-</section>
+<div id="content">
+
+        <div id="section1" class="content-section active">
+        <section id="home">
+        <div class="title"><span class="customfont">MichalBr</span><span>Content creator, Developer and<a target="_blanck" href="salfia.com">Gamer</a></span></div>
+        </section>
+        </div>
+
+        <div id="section2" class="content-section">
+            <h2>AM</h2>
+            <p>Tgwagawgawgawg.</p>
+            <p>about me proste</p>
+        </div>
+
+        <div id="section3" class="content-section">
+            <h2>E</h2>
+            <p>Tgwagawgawgawgawgelgawgawnty.</p>
+            <p>ten equipment.</p>
+        </div>
+
+        <div id="section4" class="content-section">
+            <h2>GO</h2>
+            <p>Tgawgawgawgawgawgawgenty.</p>
+            <p>o hrách je toho hodně a dat tam i to creations scroll bude asi potreba?</p>
+        </div>
+
+        <div id="section5" class="content-section">
+            <h2>LV</h2>
+            <p>Tgwagawgawgawy.</p>
+            <p>prvni aktuální video potom podtím linky</p>
+        </div>
+
+</div>
+
+<style>
+#content {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+#content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.content-section {
+    display: none;
+}
+.content-section.active {
+    display: block;
+}
+</style>
 
 <script>
 
@@ -28,6 +75,21 @@ $('li').on('click', function(){
 $('li').removeClass('active');
 $(this).addClass('active');
 });})(jQuery);
+
+document.addEventListener('DOMContentLoaded', () => {
+document.getElementById('content').classList.add('visible');
+document.getElementById('section1').classList.add('active');});
+
+function changeContent(sectionId) {
+const contentElement = document.getElementById('content');
+const sections = document.querySelectorAll('.content-section');
+contentElement.classList.remove('visible');
+
+setTimeout(() => {
+sections.forEach(section => {
+section.classList.remove('active');});
+document.getElementById(sectionId).classList.add('active');
+contentElement.classList.add('visible');}, 500);}
 
 </script>
 
