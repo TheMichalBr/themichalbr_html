@@ -701,7 +701,7 @@ section .title span a::after {
     overflow: hidden;
     margin-bottom: 100px;
     background-color: rgba(11, 11, 11, 0.955);
-    animation: fadein 1s ease;
+    animation: fadein 1.5s ease;
 }
 
 .soc-footer hr {
