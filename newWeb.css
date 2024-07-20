@@ -165,9 +165,11 @@ nav li.slide {
 }
 
 section {
-    background: linear-gradient(180.2deg, rgb(29, 30, 32) 6.8%, rgb(14, 50, 75) 131%);
     height: 100vh;
+    min-height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 
@@ -547,29 +549,22 @@ section .title span a::after {
 
 /* --  SOCIALS - Video  -- */
 
-.sec {
-    /*min-height: 100vh;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 50px 60px 50px;
-}
-
-.sec .content {
-    position: relative;
-    text-align: center;
-    width: 100%;
+.vidpad {
+    padding: 0px 50px 0px 50px;
+    margin-top: -55px;
+    margin-bottom: -45px;
 }
 
 .video {
     display: flex;
-    position: center;
+    position: flex;
     justify-content: center;
     align-items: center;
     object-fit: cover;
     overflow: hidden;
     transition: 0.25s;
     width: auto;
+    background-color: rgba(11, 11, 11, 0.82);
 }
 
 .video iframe {
@@ -589,8 +584,8 @@ section .title span a::after {
     padding: 0;
     border: 9.5px solid rgba(37, 78, 168, 0.144);
     background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.096) 131%);
-    width: 1590px;
-    height: 902px;
+    width: 1920px;
+    height: 1080px;
     /*min-height: 1080px;
     min-width: 1920px;
     rgba(180, 180, 180, 0.562)
@@ -598,36 +593,10 @@ section .title span a::after {
     animation: fadein 1.5s ease;
 }
 
-.contenedorr {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.contenedorr form {
-    box-sizing: border-box;
-    padding: 22px;
-    display: inline-flex;
-    flex-direction: column;
-    position: fixed;
-    height: 100vh;
-    justify-content: center;
-}
-
-.Pactive {
-    border-bottom: 2px solid #1161ed;
-}
-
-.Pnonactive {
-    color: rgba(255, 255, 255, 0.2);
-}
-
 .video-container {
     position: relative;
-    width: 1590px;
-    height: 902px;
+    width: 1920px;
+    height: 1080px;
     cursor: pointer;
     animation: fadein 1.75s ease;
 }
@@ -652,10 +621,6 @@ section .title span a::after {
     background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.096) 131%);
     filter: blur(12.5px) grayscale(0.15);
     transition: transform 0.3s ease;
-}
-
-.thumbnail img:hover {
-    transform: scale(1.05);
 }
 
 .play-button {
@@ -717,31 +682,29 @@ section .title span a::after {
 
 .close-button {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 18px;
+    right: 2px;
     width: 40px;
     height: 40px;
     background: url('https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/V_R.webp') no-repeat center center;
     background-size: contain;
     cursor: pointer;
-    filter: invert(1);
+    filter: invert(1), drop-shadow(1);
 }
 
 /* --  SOCIALS - Footer  -- */
 
-.ft {
-    position: flex;
+.soc-footer {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
-    animation: fadein 1.5s ease;
-    z-index: 1;
-    /*overflow: hidden;*/
+    overflow: hidden;
+    margin-bottom: 100px;
+    background-color: rgba(11, 11, 11, 0.955);
+    animation: fadein 1s ease;
 }
 
-.ft hr {
+.soc-footer hr {
     margin-top: 0.1em;
     margin-bottom: 0.15em;
     border-style: inset;
@@ -749,15 +712,14 @@ section .title span a::after {
     filter: drop-shadow(1px 2px 1.12px #000000);
 }
 
-.ft img {
+.soc-footer img {
     filter: invert(1);
-    /* SVG Manual */
     max-width: 50px;
     max-height: 50px;
     justify-self: center;
 }
 
-.ft li b {
+.soc-footer li b {
     font-family: customfont;
     color: #fff;
     font-size: 29px;
@@ -765,28 +727,24 @@ section .title span a::after {
     font-weight: 100;
     letter-spacing: 1.25px;
     display: flex;
-    padding-top: 9.872%;
+    padding-top: 9.87%;
     animation: colorRotate 15.52s linear 0s infinite;
     cursor: pointer;
 }
 
-.ft ul {
+.soc-footer ul {
     display: flex;
     list-style: none;
 }
 
-.ft ul li {
-    justify-content: center;
-}
-
-.ft ul li a {
+.soc-footer ul li a {
     display: inline-block;
-    margin: 0 54px;
+    margin: 0 55px;
     width: 0%;
     height: 0%;
 }
 
-.ft ul li a:hover img {
+.soc-footer ul li a:hover img {
     opacity: 0.80;
     transition-delay: 25.25ms;
 }
