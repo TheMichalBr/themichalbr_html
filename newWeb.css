@@ -34,7 +34,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    background: linear-gradient(180.2deg, rgb(29, 30, 32) 6.8%, rgb(14, 50, 75) 131%);
+    background: linear-gradient(180.2deg, rgb(29, 30, 32) 6.8%, rgb(14, 50, 75) 230%);
+    min-width: 1000px;
+    min-height: 1110px;
 }
 
 ::selection {
@@ -549,10 +551,31 @@ section .title span a::after {
 
 /* --  SOCIALS - Video  -- */
 
+/*  TEST!!!!!!!!!!!!
+@media (max-width: 992px) {
+    .soc-footer {
+        margin-top: 12.25px;
+        margin-bottom: auto;
+        perspective: 2500px;
+    }
+}
+
+@media (max-width: 1500px){
+    .video iframe {
+    perspective: 1590px;
+    width: 1590px;
+    height: 960px;
+    }
+    .video-container{
+    width: 1590px;
+    height: 960px;
+    }
+}*/
+
 .vidpad {
     padding: 0px 50px 0px 50px;
-    margin-top: -55px;
-    margin-bottom: -45px;
+    margin-top: -102px;
+    margin-bottom: -84px;
 }
 
 .video {
@@ -584,21 +607,21 @@ section .title span a::after {
     padding: 0;
     border: 9.5px solid rgba(37, 78, 168, 0.144);
     background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.096) 131%);
-    width: 1920px;
-    height: 1080px;
+    width: 1590px;
+    height: 902px;
     /*min-height: 1080px;
     min-width: 1920px;
     rgba(180, 180, 180, 0.562)
     */
-    animation: fadein 1.5s ease;
+    animation: fadein 1s ease;
 }
 
 .video-container {
     position: relative;
-    width: 1920px;
-    height: 1080px;
+    width: 1590px;
+    height: 902px;
     cursor: pointer;
-    animation: fadein 1.75s ease;
+    animation: fadein 1.25s ease;
 }
 
 .thumbnail,
@@ -634,13 +657,13 @@ section .title span a::after {
     transform: translate(-50%, -50%);
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.7));
     cursor: pointer;
-    transition: fadein 1.85s ease, transform 1.86s ease, filter 1.87s ease;
+    transition: fadein 1.55s ease, transform 1.86s ease, filter 1.87s ease;
 }
 
 .play-button:hover {
     transform: translate(-50%, -50%) scale(1.1);
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
-    transition: fadein 1.85s ease;
+    transition: fadein 1.55s ease;
 }
 
 .video-frame iframe {
@@ -701,7 +724,7 @@ section .title span a::after {
     overflow: hidden;
     margin-bottom: 100px;
     background-color: rgba(11, 11, 11, 0.955);
-    animation: fadein 1.5s ease;
+    animation: fadein 10ms ease;
 }
 
 .soc-footer hr {
@@ -895,4 +918,54 @@ section .title span a::after {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #111111bb;
+}
+
+/* --  Effects -- */
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeleft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadetop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
