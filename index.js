@@ -1,58 +1,60 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var videoID = 'VgQDsqOi2wo'; // YouTube video ID
-    var thumbnailImg = document.getElementById('thumbnailImg');
-    thumbnailImg.src = 'https://img.youtube.com/vi/' + videoID + '/maxresdefault.jpg';
+    var videoContainer = document.getElementById('videoContainer');
+    var videoId = videoContainer.getAttribute('data-video-id');
+    var thumbnailUrl = 'https://img.youtube.com/vi/' + videoId + '/maxresdefault.jpg';
 
-document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape') {
-        closeVideo();
-    }});
-});
+    var thumbnailElement = videoContainer.querySelector('.video-thumbnail');
+    var playButton = videoContainer.querySelector('.play-button');
+    var loadingSpinner = videoContainer.querySelector('.loading-spinner');
+    var closeButton = videoContainer.querySelector('.close-button');
 
-function loadVideo(videoID) {
-    var videoFrame = document.getElementById('videoFrame');
-    var thumbnail = document.getElementById('thumbnail');
-    var overlay = document.getElementById('overlay');
+    thumbnailElement.style.backgroundImage = 'url(' + thumbnailUrl + ')';
 
-    var loader = document.createElement('div');
-    loader.className = 'loader';
-    videoFrame.innerHTML = '';
-    videoFrame.appendChild(loader);
+    function loadIframe() {
+        thumbnailElement.style.opacity = '0';
+        playButton.style.opacity = '0';
+        loadingSpinner.style.display = 'flex';
+        var iframe = document.createElement('iframe');
+        iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1');
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+        iframe.setAttribute('allowfullscreen', 'true');
+        // &rel=0&showinfo=0&loop=1&mute=0
+        // iframe.width = '1590'; iframe.height = '902';
 
-    var closeButton = document.createElement('div');
-    closeButton.className = 'close-button';
-    closeButton.addEventListener('click', function () {
-        closeVideo();
+        iframe.onload = function () {
+            loadingSpinner.style.display = 'none';
+            closeButton.style.display = 'block';
+            videoContainer.style.transform = 'scale(1)';
+        };
+
+        videoContainer.innerHTML = '';
+        videoContainer.appendChild(iframe);
+        videoContainer.appendChild(closeButton);
+    }
+
+    function closeIframe() {
+        videoContainer.style.transform = 'scale(0.9)';
+        setTimeout(() => {
+            videoContainer.innerHTML = '';
+            videoContainer.appendChild(thumbnailElement);
+            videoContainer.appendChild(playButton);
+            videoContainer.appendChild(loadingSpinner);
+            videoContainer.appendChild(closeButton);
+            closeButton.style.display = 'none';
+            thumbnailElement.style.opacity = '1';
+            playButton.style.opacity = '1';
+        }, 500);
+    }
+
+    videoContainer.addEventListener('click', function (event) {
+        if (event.target === playButton || event.target === thumbnailElement) {
+            loadIframe();
+        } else if (event.target === closeButton) {
+            closeIframe();
+        }
     });
-
-    var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + videoID + '?autoplay=1&rel=0&showinfo=0&loop=1&mute=1&autoplay=1';
-    iframe.width = '1590';
-    iframe.height = '902';
-    iframe.frameBorder = '0';
-    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-    iframe.allowFullscreen = true;
-
-    iframe.onload = function () {
-        videoFrame.removeChild(loader);
-    };
-
-    videoFrame.appendChild(iframe);
-    videoFrame.appendChild(closeButton);
-
-    thumbnail.style.display = 'none';
-    overlay.classList.add('show');
-}
-
-function closeVideo() {
-    var videoFrame = document.getElementById('videoFrame');
-    var thumbnail = document.getElementById('thumbnail');
-    var overlay = document.getElementById('overlay');
-
-    videoFrame.innerHTML = '';
-    thumbnail.style.display = 'block';
-    overlay.classList.remove('show');
-}
+});
 
 // EQ - CPU AND COOLER
 
