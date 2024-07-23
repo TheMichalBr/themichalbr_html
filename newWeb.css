@@ -168,11 +168,11 @@ nav li.slide {
 
 section {
     height: 100vh;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    overflow: hidden;
 }
 
 section .title {
@@ -551,98 +551,62 @@ section .title span a::after {
 
 /* --  SOCIALS - Video  -- */
 
-/*  TEST!!!!!!!!!!!!
-@media (max-width: 992px) {
-    .soc-footer {
-        margin-top: 12.25px;
-        margin-bottom: auto;
-        perspective: 2500px;
-    }
-}
-
-@media (max-width: 1500px){
-    .video iframe {
-    perspective: 1590px;
-    width: 1590px;
-    height: 960px;
-    }
-    .video-container{
-    width: 1590px;
-    height: 960px;
-    }
-}*/
-
-.vidpad {
-    padding: 0px 50px 0px 50px;
-    margin-top: -102px;
-    margin-bottom: -84px;
-}
-
 .video {
-    display: flex;
-    position: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-    overflow: hidden;
     transition: 0.25s;
-    width: auto;
     background-color: rgba(11, 11, 11, 0.82);
+    padding: 0px 50px 0px 50px;
+    margin-top: -100px;
+    margin-bottom: -10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.video iframe {
-    opacity: 0.995;
-    border-radius: 0.375rem;
-    position: flex;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    perspective: 1920px;
-    transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1);
-    vertical-align: top;
-    padding: 0;
-    border: 9.5px solid rgba(37, 78, 168, 0.144);
-    background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.096) 131%);
-    width: 1590px;
-    height: 902px;
-    /*min-height: 1080px;
-    min-width: 1920px;
-    rgba(180, 180, 180, 0.562)
-    */
-    animation: fadein 1s ease;
-}
-
-.video-container {
+.video-wrapper {
     position: relative;
-    width: 1590px;
-    height: 902px;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    max-width: 90vw;
+    max-height: 90vh;
+    background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.096) 131%);
     cursor: pointer;
-    animation: fadein 1.25s ease;
+    border: 9.5px solid rgba(59, 60, 65, 0.145);
+    border-radius: 0.375rem;
+    transition: transform 0.5s ease;
+    animation: fadein 1.5s ease;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
-.thumbnail,
-.video-frame {
+.video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    border: 0;
 }
 
-.thumbnail img {
+.video-thumbnail,
+.loading-spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem;
+    transition: opacity 0.5s ease;
+}
+
+.video-thumbnail {
     opacity: 0.995;
-    border-radius: 22.5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 9.5px solid rgba(37, 78, 168, 0.144);
-    background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.096) 131%);
-    filter: blur(12.5px) grayscale(0.15);
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.3s ease-in-out;
+    filter: blur(10.52px) grayscale(0.15);
     transition: transform 0.3s ease;
 }
 
@@ -650,38 +614,33 @@ section .title span a::after {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100px;
-    height: 100px;
-    background: url('https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/V_P.webp') no-repeat center center;
-    background-size: contain;
     transform: translate(-50%, -50%);
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.7));
+    width: 64px;
+    height: 64px;
+    background: url('https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/V_P.webp') no-repeat center center;
+    background-size: 64px 64px;
     cursor: pointer;
-    transition: fadein 1.55s ease, transform 1.86s ease, filter 1.87s ease;
+    opacity: 0.8;
+    transition: transform 0.3s, opacity 0.3s;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.7));
 }
 
-.play-button:hover {
+.video-wrapper:hover .play-button {
     transform: translate(-50%, -50%) scale(1.1);
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
-    transition: fadein 1.55s ease;
+    opacity: 1;
+    filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.7));
 }
 
-.video-frame iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.loading-spinner {
+    display: none;
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
     width: 50px;
     height: 50px;
-    border: 5px solid #f3f3f3;
-    border-top: 5px solid #3498db;
-    border-radius: 50%;
+    top: 50%;
+    left: 50%;
     animation: spin 1s linear infinite;
-    transform: translate(-50%, -50%);
 }
 
 @keyframes spin {
@@ -694,37 +653,30 @@ section .title span a::after {
     }
 }
 
-.overlay {
-    background: rgba(0, 0, 0, 0.7);
-    display: none;
-}
-
-.overlay.show {
-    display: block;
-}
-
 .close-button {
     position: absolute;
-    top: 18px;
-    right: 2px;
-    width: 40px;
-    height: 40px;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
     background: url('https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/V_R.webp') no-repeat center center;
-    background-size: contain;
+    background-size: 32px 32px;
     cursor: pointer;
-    filter: invert(1), drop-shadow(1);
+    display: none;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.7));
 }
 
 /* --  SOCIALS - Footer  -- */
 
 .soc-footer {
+    position: static;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-bottom: 100px;
     background-color: rgba(11, 11, 11, 0.955);
     animation: fadein 10ms ease;
+    margin-top: 1%;
 }
 
 .soc-footer hr {
@@ -732,26 +684,23 @@ section .title span a::after {
     margin-bottom: 0.15em;
     border-style: inset;
     border-width: 1.15px;
-    filter: drop-shadow(1px 2px 1.12px #000000);
 }
 
 .soc-footer img {
     filter: invert(1);
-    max-width: 50px;
-    max-height: 50px;
-    justify-self: center;
+    max-width: 47px;
+    max-height: 47px;
 }
 
 .soc-footer li b {
     font-family: customfont;
-    color: #fff;
     font-size: 29px;
     text-shadow: 1.225px 1.225px 1.225px black;
     font-weight: 100;
     letter-spacing: 1.25px;
     display: flex;
     padding-top: 9.87%;
-    animation: colorRotate 15.52s linear 0s infinite;
+    animation: colorRotate 18.5s linear 0s infinite;
     cursor: pointer;
 }
 
@@ -762,9 +711,7 @@ section .title span a::after {
 
 .soc-footer ul li a {
     display: inline-block;
-    margin: 0 55px;
-    width: 0%;
-    height: 0%;
+    margin: 0 45px;
 }
 
 .soc-footer ul li a:hover img {
