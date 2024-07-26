@@ -423,7 +423,6 @@ section .title span a::after {
     align-self: center;
     align-items: center;
     overflow: hidden;
-    margin-top: 40px;
     height: auto;
     width: auto;
     justify-content: space-between;
@@ -437,6 +436,7 @@ section .title span a::after {
     align-items: flex-end;
     margin-bottom: 1.2%;
     animation: fadein 1.5s ease;
+    margin-block-end: 10%;
 }
 
 .flexEQ {
@@ -456,7 +456,6 @@ section .title span a::after {
     color: #F4F4F5;
     font-size: .75rem;
     line-height: 1rem;
-    margin-top: 4rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -501,7 +500,7 @@ section .title span a::after {
     border-radius: 0.375rem;
     width: 250px;
     height: 250px;
-    box-shadow: -2.2px -0.2px 5px black;
+    box-shadow: 0.8px 1.8px 9px rgb(5, 6, 7);
     flex-grow: 1;
 }
 
@@ -519,6 +518,7 @@ section .title span a::after {
     animation: float 5.25s ease-in-out infinite;
     transform: translate3d(0, 0, 1px);
     backface-visibility: hidden;
+    padding: 24px;
 }
 
 .TFS {
