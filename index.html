@@ -1,103 +1,284 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Copyright by MichalBr 2024. The whole web was created by https://github.com/TheMichalBr. Versions: https://github.com/TheMichalBr/themichalbr/commits/main/ -->
 
-<body><link rel="stylesheet" href="index.css">
+<head lang="cs-cz"><meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="icon" href="icon.webp" type="image/x-icon"><title>MichalBr</title><link rel="stylesheet" href="index.css"></head><body>
 
-<section class="sec video" id="video">
+<nav><ul><li href="#home" onclick="changeContent('section1')"><a>Home</a></li>
+<li href="#aboutme" onclick="changeContent('section2')"><a>About me</a></li>
+<li href="#equipment" onclick="changeContent('section3')"><a>Equipment</a></li>
+<li href="#games" onclick="changeContent('section4')"><a>Games</a></li>
+<li href="#socials" onclick="changeContent('section5')"><a>Socials</a></li>
+<li class="slide"></li></ul></nav>
 
-<div class="video-container" id="videoContainer" onclick="loadVideo('VgQDsqOi2wo')">
-<div class="thumbnail" id="thumbnail">
-<img id="thumbnailImg" src="" alt="Video Thumbnail" loading="lazy">
-<div class="play-button" id="playButton"></div></div>
-<div class="video-frame" id="videoFrame"></div>
-<div class="overlay" id="overlay"></div></div>
+<div id="content">
 
-</section>
+<div id="section1" class="content-section active">
+<section id="home">
+<div class="title"><span class="customfont">MichalBr</span><span>Content creator, Developer and<a target="_blanck" href="salfia.com">Gamer</a></span></div>
+</section></div>
 
-<!-- Scripts --> <script type="text/javascript">
+<!-- About me --> <div id="section2" class="content-section">
+<section class="sec aboutme" id="aboutme">
+<div class="flexcontainerAM">
 
-alert("A new site is coming soon! The current version is only an emergency version.");
+<dl><h1>About me</h1></dl>
 
-/*
-window.addEventListener("scroll", function () {
-var header = document.querySelector("header");
-header.classList.toggle("sticky", window.scrollY > 0);})
+<ul><li>
+<p>My name is Michal, 22 years old and I've come from the Czech Republic – live in Brno.</p>
+</li><li>
+<p>I can speak well in Czech, English and bit of German and Spanish.</p>
+</li><li>
+<p>I successfully finished studying Information technology in High school and English language school.</p>
+</li><li>
+<p>Now I studying Information Technologies at the PEF Faculty of Mendel University and trying to survive it.</p>
+</li><li>
+<p>My hobbies are games, technology, programing, creating content, editing, music, films, collecting, chess, exploring, memes and much more.</p>
+</li><li>
+<p>I'm not going to write everything here, but if you have any questions, feel free to just message me @MichalBr on Discord.</p>
+</li></ul>
 
-function toggle() {
-var header = document.querySelector("header");
-header.classList.toggle("active");}
+</div></section></div>
 
-$(document).ready(function () {
-var HeightDiv = $("div").height();
-var HeightTable = $("table").height();
-if (HeightTable > HeightDiv) {
-var FontSizeTable = parseInt($("table").css("font-size"), 10);
-while (HeightTable > HeightDiv && FontSizeTable > 5) {FontSizeTable--; $("table").css("font-size", FontSizeTable);
-HeightTable = $("table").height();}}});
+<!-- Equipment --> <div id="section3" class="content-section">
+<section id="equipment" class="sec equipment">
+<div class="flexcontainerEQ">
 
-const container = document.querySelector(".container");
-const primaryNav = document.querySelector(".nav__list");
-const toggleButton = document.querySelector(".nav-toggle");
-hljs.initHighlightingOnLoad();
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_1.webp" alt="case" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">COMPUTER CASE</p>
+<p class="itemEQ">Fractal Design Define 7 Black TG Dark Tint</p></div>
 
-toggleButton.addEventListener("click", () => {
-const isExpanded = primaryNav.getAttribute("aria-expanded");
-primaryNav.setAttribute("aria-expanded", isExpanded === "false" ? "true" : "false");});
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_2.webp" alt="psu" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">POWER SUPPLY</p>
+<p class="itemEQ">Corsair HX1000</p></div>
 
-container.addEventListener("click", (e) => {
-if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
-primaryNav.setAttribute("aria-expanded", "false");}});
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_3.webp" alt="mb" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">MOTHERBOARD</p>
+<p class="itemEQ">MSI MPG B550 GAMING CARBON WIFI</p></div>
 
-window.console = window.console || function (t) { };
-var fragment = document.createDocumentFragment();
-for(var i =0 ;i<resultArray.length;i++) { var val = resultArray[i];
-fragment.appendChild(appendText(val.content, val.id));}
-document.getElementById("LogArea").appendChild(fragment);
+<div class="flexEQ boxEQ table-icon-eqitems"><img class="imageT" id="imageC" src="./media/E_4.webp" alt="cpuandcooler" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">PROCESSOR AND COOLER</p>
+<p class="itemEQ">AMD Ryzen 7 5800X<br>Noctua NH-U9S chromax.black</p></div>
 
-var text = '';
-resultArray.forEach(function (val) {
-text += appendText(val.content);});
-$('#OutputArea').append(text);
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_6.webp" alt="gpu" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">GRAPHICS CARD</p>
+<p class="itemEQ">NVIDIA MSI GeForce RTX 2070 GAMING Z 8GB GDDR6</p></div>
 
-function myFunctionC() {
-var copyText = document.getElementById("myInput");
-copyText.select();
-copyText.setSelectionRange(0, 99999);
-navigator.clipboard.writeText(copyText.value);
-alert("Copied the text: " + copyText.value);}
-*/
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_7.webp" alt="ram" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">COMPUTER MEMORY</p>
+<p class="itemEQ">Kingston Fury Renegade RGB 32GB (2x16GB) DDR4 3600 CL16</p></div>
 
-document.addEventListener('DOMContentLoaded', function () {
-    var videoID = 'VgQDsqOi2wo'; // YouTube video ID
-    var thumbnailImg = document.getElementById('thumbnailImg');
-    thumbnailImg.src = 'https://img.youtube.com/vi/' + videoID + '/maxresdefault.jpg';
+<div class="flexEQ boxEQ table-icon-eqitems"><img class="imageT" id="imageD" src="./media/E_8.webp" alt="drives" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">DRIVES (HDD, SSD)</p>
+<p class="itemEQ">WD Ultrastar DC HC320 - 8TB<br>Samsung SSD 990 PRO - 1TB</div>
 
-document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape') {
-        closeVideo();
-    }});
-});
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_10.webp" alt="os" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">OPERATING SYSTEM</p>
+<p class="itemEQ">Windows 11 Pro - Insider Dev</p></div>
 
-function loadVideo(videoID) {
-    var videoFrame = document.getElementById('videoFrame');
-    var thumbnail = document.getElementById('thumbnail');
-    var overlay = document.getElementById('overlay');
+<div class="flexEQ boxEQ table-icon-eqitems"><img class="imageT" id="imageMS" src="./media/E_11.webp" alt="monitors" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">MONITORS (MAIN, SIDEs)</p>
+<p class="itemEQ">Acer Predator XB273UNX<br>ZOWIE by BenQ XL2720<br>IIYAMA PLE2209HDS-B1</p></div>
 
-    var loader = document.createElement('div');
-    loader.className = 'loader';
-    videoFrame.innerHTML = '';
-    videoFrame.appendChild(loader);
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_13.webp" alt="keyboard" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">KEYBOARD</p>
+<p class="itemEQ">Logitech G915 LIGHTSPEED TKL</p></div>
 
-    var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + videoID + '?autoplay=1&rel=0&showinfo=0&loop=1&mute=1&autoplay=1';
-    iframe.allowFullscreen = true;
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_14.webp" alt="mouse" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">MOUSE</p>
+<p class="itemEQ">Logitech G Pro X Superlight - 400 DPI, 1000Hz</p></div>
 
-    iframe.onload = function () {
-        videoFrame.removeChild(loader);
-    };
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_15.webp" alt="mousepad" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">MOUSEPAD</p>
+<p class="itemEQ">Logitech G640</p></div>
 
-    videoFrame.appendChild(iframe);
-    thumbnail.style.display = 'none';
-    overlay.classList.add('show');
-}
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_16.webp" alt="headset" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">HEADSET</p>
+<p class="itemEQ">Logitech G Pro X 2 LIGHTSPEED</p></div>
 
-</script> </body> </html>
+<div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_17.webp" alt="microphone" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">MICROPHONE</p>
+<p class="itemEQ">HyperX Quadcast</p></div>
+
+<div class="flexEQ boxEQ table-icon-eqitems"><img class="imageT" id="imageM" src="./media/E_18.webp" alt="mobile" loading="lazy" decoding="async"><br><br>
+<p class="nameEQ">MOBILE, CONSOLE AND OTHER</p>
+<p class="itemEQ">Samsung S20 FE<br>Xbox 360, Mobile VR, Electric Table, Monitor Lamp</p></div>
+
+</div></section></div>
+
+<!-- Games and other --> <div id="section4" class="content-section">
+
+<section class="sec gamesother" id="gamesother"><main class="page-content">
+
+<div class="card" loading="lazy">
+<div class="content">
+<h2 class="title">Latest review</h2>
+<h6>Reviews are mainly in Czech language.</h6>
+&emsp;<br><p><b>× <a href="https://steamcommunity.com/id/misakbr2/recommended/782330/" class="odkazy"><span>DOOM Eternal</span></a></p></b><br>
+<h6>Or check my older <a href="https://steamcommunity.com/id/misakbr2/recommended/" class="odkazy"> Steam Reviews</a>.</h6>
+
+</div></div>
+
+<div class="card" loading="lazy">
+<div class="content">
+<h2 class="title">Upcoming review</h2>
+<h6>Reviews are mainly in Czech language.</h6>
+&emsp;<br><p><b>× <a href="" class="odkazy"><span>Cyberpunk 2077 + PL</span></a></p></b><br>
+<h6>Or check my older <a href="https://steamcommunity.com/id/misakbr2/recommended/" class="odkazy"> Steam Reviews</a>.</h6>
+
+</div></div>
+
+<div class="card" loading="lazy">
+<div class="content">
+<h2 class="title">Upcoming review</h2>
+<h6>Reviews are mainly in Czech language.</h6>
+&emsp;<br><p><b>× <a href="" class="odkazy"><span>Raft</span></a></p></b><br>
+<h6>Or check my older <a href="https://steamcommunity.com/id/misakbr2/recommended/" class="odkazy"> Steam Reviews</a>.</h6>
+
+</div></div></main>
+
+<br><br><br>
+
+<div class="table-container"><table class="modern-table">
+
+<thead><tr>
+<th>Platforms</th>
+<th>Account names</th>
+<th>Highlighted game with settings</th>
+<th>Game rank</th>
+<th>Links</th>
+</tr></thead>
+
+<tbody><tr>
+<td>&nbsp<img class="table-icon" src="./media/G_Steam.webp" width="42" alt="steam" loading="lazy"><b>&nbsp &nbsp Steam</b></td>
+<td>&nbsp MichalBr</td>
+<td>&nbsp<img src="media/G_Steam_CS2.webp" class="g-gm" alt="CS2">&nbsp Counter-Strike 2<a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/GM_Settings.cfg"><img class="table-icon" src="./media/GL_Settings.webp" width="25" alt="settings"></a></td>
+<td>&nbsp<a href=https://faceit.com/en/players/michalbr-><img src="media/G_Steam_CS2_F.webp" alt="CS2 faceit rank" class="g-gm"></a><img src="media/G_Steam_CS2_P.webp" alt="CS2 rank" class="g-gm">&nbsp Global Elite (19k+)</td>
+<td>&nbsp <a href="https://steamcommunity.com/id/misakbr2/"><img class="fas fa-apple-alt table-icon" src="./media/GL_Link.webp" width="55" alt="link"></a></td>
+</tr><tr>
+<td>&nbsp<img class="table-icon" src="./media/G_Battlenet.webp" width="42" alt="battlenet" loading="lazy"><b>&nbsp &nbsp Battle.net</b></td>
+<td>&nbsp MichalBr#2144</td>
+<td>&nbsp<img src="media/G_Battlenet_Overwatch2.webp" class="g-gm" alt="Overwatch2">&nbsp Overwatch 2<a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/GM_Settings.cfg"><img class="table-icon" src="./media/GL_Settings.webp" width="25" alt="settings"></a></td>
+<td>&nbsp<img src="media/G_Battlenet_Overwatch2_R.webp" alt="Overwatch2 rank" class="g-gm">&nbsp Platinum III</td>
+<td>&nbsp <a href="https://www.blizzard.com/en-us/"><img class="fas fa-apple-alt table-icon" src="./media/GL_Link.webp" width="55" alt="link"></a></td>
+</tr><tr>
+<td>&nbsp<img class="table-icon" src="./media/G_EA.webp" width="42" alt="ea" loading="lazy"><b>&nbsp &nbsp EA</b></td>
+<td>&nbsp TheMichalBr</td>
+<td>&nbsp<img src="media/G_EA_Apex.webp" class="g-gm" alt="Apex">&nbsp Apex Legends<a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/GM_Settings.cfg"><img class="table-icon" src="./media/GL_Settings.webp" width="25" alt="settings"></a></td>
+<td>&nbsp<img src="media/G_EA_Apex_R.webp" alt="Apex rank" class="g-gm">&nbsp Platinum IV</td>
+<td>&nbsp <a href="https://www.ea.com/"><img class="fas fa-apple-alt table-icon" src="./media/GL_Link.webp" width="55" alt="link"></a></td>
+</tr><tr>
+<td>&nbsp<img class="table-icon" src="./media/G_EpicGames.webp" width="42" alt="epicgames" loading="lazy"><b>&nbsp &nbsp Epic Games</b></td>
+<td>&nbsp MichalBr</td>
+<td>&nbsp<img src="media/G_EpicGames_Fortnite.webp" class="g-gm" alt="Fornite">&nbsp Fortnite<a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/GM_Settings.cfg"><img class="table-icon" src="./media/GL_Settings.webp" width="25" alt="settings"></a></td>
+<td>&nbsp<img src="media/G_EpicGames_Fortnite_R.webp" alt="Fortnite rank" class="g-gm">&nbsp Champion</td>
+<td>&nbsp <a href="https://store.epicgames.com/en-US/u/f5d33343204a4420966a3fa7f2d8ae09"><img class="fas fa-apple-alt table-icon" src="./media/GL_Link.webp" width="55" alt="link"></a></td>
+</tr><tr>
+<td>&nbsp<img class="table-icon" src="./media/G_RiotGames.webp" width="42" alt="riotgames" loading="lazy"><b>&nbsp &nbsp Riot Games</b></td>
+<td>&nbsp MichalBr#UwU</td>
+<td>&nbsp<img src="media/G_RiotGames_Valorant.webp" class="g-gm" alt="Valorant">&nbsp Valorant<a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/GM_Settings.cfg"><img class="table-icon" src="./media/GL_Settings.webp" width="25" alt="settings"></a></td>
+<td>&nbsp<img src="media/G_RiotGames_Valorant_R.webp" alt="Valorant rank" class="g-gm">&nbsp Platinum II</td>
+<td>&nbsp <a href="https://www.riotgames.com/en"><img class="fas fa-apple-alt table-icon" src="./media/GL_Link.webp" width="55" alt="link"></a></td>
+</tr><tr>
+<td>&nbsp<img class="table-icon" src="./media/G_Ubisoft.webp" width="42" alt="ubisoft" loading="lazy"><b>&nbsp &nbsp Ubisoft</b></td>
+<td>&nbsp TheMichalBr</td>
+<td>&nbsp<img src="media/G_Ubisoft_R6.webp" class="g-gm" alt="R6">&nbsp Rainbow Six: Siege<a href="https://raw.githubusercontent.com/TheMichalBr/themichalbr/main/media/GM_Settings.cfg"><img class="table-icon" src="./media/GL_Settings.webp" width="25" alt="settings"></a></td>
+<td>&nbsp<img src="media/G_Ubisoft_R6_R.webp" alt="R6 rank" class="g-gm">&nbsp Platinum IV</td>
+<td>&nbsp <a href="https://www.ubisoft.com/en-gb/"><img class="fas fa-apple-alt table-icon" src="./media/GL_Link.webp" width="55" alt="link"></a></td>
+</tr><tr>
+<td>&nbsp<img class="table-icon" src="./media/G_Chesscom.webp" width="42" alt="chesscom" loading="lazy"><b>&nbsp &nbsp Chess.com</b></td>
+<td>&nbsp MichalBr13</td>
+<td>&nbsp<img src="media/G_Chesscom_Chess.webp" class="g-gm" alt="Chess">&nbsp Chess</td>
+<td>&nbsp 700+ Rating</td>
+<td>&nbsp <a href="https://www.chess.com/member/michalbr13"><img class="fas fa-apple-alt table-icon" src="./media/GL_Link.webp" width="55" alt="link"></a></td>
+</tr></tbody></table></div></section>
+
+<!-- Creations --> <!--<section class="sec creations" id="creations">
+
+<div class="CCE"><div class="image-section">
+<img class="imageCR" id="imageCRG" style="animation: 1s fadein; transition-delay: 2s" src="media/GB_ReviewC.webp"></div>
+<div class="text-section bgvideoloop"><video src="./media/V_PZ.mov" autoplay muted loop></video>
+<div class="label">My creations - CS2 map</div>
+<p>
+<div class="stack" style="--stacks: 3;">
+<span style="--index: 0;">aim_blueline</span>
+<span style="--index: 1;">aim_blueline</span>
+<span style="--index: 2;">aim_blueline</span></div>
+</p>
+<p>You just want to have a blast with your friends? Or have a thrilling duel up to 5v5 on one aim map and compare who is
+the bigger shooter? Then this map is right choice for you. Inspired by the legendary aim_redline map.</p>
+<div class="features-button">
+<a href="#"><button>PLAY - WIP <span>&#10132;</span></button></a></div>
+<div class="footer-text">The link leads to the Steam Workshop page where the map can be downloaded into the game.</div></div></div>
+
+<div class="CCE"><div class="image-section">
+<img class="imageCR2" id="imageCRG2" style="animation: 1s fadein; transition-delay: 2s" src="media/GB_ReviewN.webp"></div>
+<div class="text-section bgvideoloop"><video src="./media/V_PZ.mov" autoplay muted loop></video>
+<div class="label">My creations - Game</div>
+<p>
+<div class="stack" style="--stacks: 3;">
+<span style="--index: 0;">WIP</span>
+<span style="--index: 1;">WIP</span>
+<span style="--index: 2;">WIP</span></div>
+</p>
+<p>WIP</p>
+<div class="features-button">
+<a href="#"><button>PLAY - WIP <span>&#10132;</span></button></a></div>
+<div class="footer-text"></div></div></div>
+
+</section>-->
+
+</div>
+
+<!-- Latest video and socials --> <div id="section5" class="content-section" style="overflow: hidden;">
+
+<div class="auto-resizable-iframe">
+<section class="video" id="video">
+<div id="videoContainer" class="video-wrapper" data-video-id="VgQDsqOi2wo">
+<div class="video-thumbnail" loading="lazy"></div>
+<div class="play-button"></div>
+<div class="loading-spinner"></div>
+<div class="close-button"></div></div></section></div>
+
+<div class="soc-footer">
+<ul><li><b class="MZoom" title="© 2024 MichalBr" alt="MichalBr">MichalBr</b></li>
+<li><a href="https://www.youtube.com/@MichalBr"><img src="./media/F_Youtube.svg" height="50" width="50" alt="Youtube" title="Youtube" id="Youtube" class="LZoom"></a></li><hr>
+<li><a href="https://www.threads.net/@brmichl"><img src="./media/F_Instagram.svg" height="50" width="50" alt="Instagram" title="Instagram" id="Instagram" class="LZoom"></a></li><hr>
+<li><a href="https://x.com/TheMichalBr"><img src="./media/F_Twitter.svg" height="50" width="50" alt="Twitter" title="Twitter (X)" id="Twitter" class="LZoom"></a></li><hr>
+<li><a href="https://steamcommunity.com/id/misakbr2"><img src="./media/F_Steam.svg" height="50" width="50" alt="Steam" title="Steam" id="Steam" class="LZoom"></a></li><hr>
+<li><a href="https://github.com/TheMichalBr"><img src="./media/F_GitHub.svg" height="50" width="50" alt="GitHub" title="GitHub" id="GitHub" class="LZoom"></a></li></ul></div>
+
+</div>
+
+<!-- Scripts --> <script src="index.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script><script>
+
+(function($){
+elementWidth = $('ul').width(),
+containerWidth = $('nav').width(),
+difference = elementWidth-containerWidth,
+finalWidth = difference * 1.5,
+element = $('ul');
+
+$('li').on('click', function(){
+$('li').removeClass('active');
+$(this).addClass('active');
+});})(jQuery);
+
+document.addEventListener('DOMContentLoaded', () => {
+document.getElementById('content').classList.add('visible');
+document.getElementById('section1').classList.add('active');});
+
+function changeContent(sectionId) {
+const contentElement = document.getElementById('content');
+const sections = document.querySelectorAll('.content-section');
+contentElement.classList.remove('visible');
+
+setTimeout(() => {
+sections.forEach(section => {
+section.classList.remove('active');});
+document.getElementById(sectionId).classList.add('active');
+contentElement.classList.add('visible');}, 500);}
+
+</script>
+
+</body>
+</html>
