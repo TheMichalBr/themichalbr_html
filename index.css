@@ -444,7 +444,7 @@ section .title span a::after {
     align-items: flex-end;
     margin-bottom: 1.2%;
     animation: fadein 1s ease;
-    margin-block-end: 10%;
+    margin-block-end: 160px;
 }
 
 .flexEQ {
@@ -695,31 +695,23 @@ section .title span a::after {
 /* --  GAMES  -- */
 
 .gamesother {
-    position: flex;
     display: flex;
-    order: 1;
-    flex-direction: row;
-    flex-grow: 1;
-    flex-shrink: 3;
     flex-flow: column wrap;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-    margin-top: 40px;
-    gap: 10px 20px;
-    column-gap: 20;
+    margin-top: 35px;
+    gap: 10px;
     text-align: center;
     justify-content: center;
     width: auto;
     word-wrap: break-word;
     font-family: 'Nunito', Light, sans-serif;
+    margin-block: 20px;
+    margin-bottom: 10rem;
     flex-wrap: wrap;
-    flex-direction: column;
-    margin-block-end: 150px;
+    flex-direction: row;
 }
 
 .page-content {
     display: flex;
-    /*display: grid;*/
     grid-gap: 1rem;
     padding: 1rem;
     max-width: 1024px;
