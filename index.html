@@ -1,24 +1,48 @@
 <!DOCTYPE html> <!-- Copyright by MichalBr 2024. The whole web was created by https://github.com/TheMichalBr. Versions: https://github.com/TheMichalBr/themichalbr/commits/main/ -->
 
-<head lang="cs-cz"><meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<link rel="icon" href="icon.webp" type="image/x-icon"><title>MichalBr</title><link rel="stylesheet" href="index.css"></head><body>
+<head lang="cs-cz">
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="icon" href="icon.webp" type="image/x-icon"><link rel="stylesheet" href="index.css"><title>MichalBr</title></head><body>
 
-<nav><ul><li href="#home" onclick="changeContent('section1')"><a>Home</a></li>
-<li href="#aboutme" onclick="changeContent('section2')"><a>About me</a></li>
-<li href="#equipment" onclick="changeContent('section3')"><a>Equipment</a></li>
-<li href="#games" onclick="changeContent('section4')"><a>Games</a></li>
-<li href="#socials" onclick="changeContent('section5')"><a>Socials</a></li>
-<li class="slide"></li></ul></nav>
+<!-- Header --> <header id="header">
 
-<div id="content">
+<a title="MichalBr" href="#home" class="logo MZoom">M</a>
+<ul><li><a href="#aboutme" onclick="toggle()">About me</a></li>
+<li><a href="#equipment" onclick="toggle()">Equipment</a></li>
+<li><a href="#gamesother" onclick="toggle()">Games and other</a></li></ul>
 
-<div id="section1" class="content-section active">
-<section id="home">
-<div class="title"><span class="customfont">MichalBr</span><span>Content creator, Developer and<a target="_blanck" href="https://themichalbr.github.io/themichalbr/">Gamer</a></span></div>
-</section></div>
+<div class="toggle TZoom" onclick="toggle()"></div>
 
-<!-- About me --> <div id="section2" class="content-section">
-<section class="sec aboutme" id="aboutme">
+</header>
+
+<!-- Home --> <section class="banner TFS" id="home">
+
+
+    <!--<section id="home">-->
+<div class="titleMAIN"><span class="customfont">MichalBr</span><span>Content creator, Developer and<a target="_blanck" href="https://themichalbr.github.io/themichalbr/">Gamer</a></span></div>
+
+    <!--
+<div class="containerlp">
+<h1>Welcome!</h1>
+<a href="#video" class="cta-button">Watch my latest video</a>
+</div>
+-->
+<div class="homeUT"><span>Use your mouse or buttons to navigate.</span></div>
+
+</section>
+
+<!-- Latest video --> <section class="sec video" id="video">
+
+<div id="videoContainer" class="video-wrapper" data-video-id="VgQDsqOi2wo">
+<div class="video-thumbnail" loading="lazy"></div>
+<div class="play-button"></div>
+<div class="loading-spinner"></div>
+<div class="close-button"></div></div>
+
+</section>
+
+<!-- About me --> <section class="sec aboutme" id="aboutme">
+
 <div class="flexcontainerAM">
 
 <dl><h1>About me</h1></dl>
@@ -37,10 +61,12 @@
 <p>I'm not going to write everything here, but if you have any questions, feel free to just message me @MichalBr on Discord.</p>
 </li></ul>
 
-</div></section></div>
+</div>
 
-<!-- Equipment --> <div id="section3" class="content-section">
-<section id="equipment" class="sec equipment">
+</section>
+
+<!-- Equipment --> <section class="sec equipment" id="equipment">
+
 <div class="flexcontainerEQ">
 
 <div class="flexEQ boxEQ table-icon-eqitems"><img src="./media/E_1.webp" alt="case" loading="lazy" decoding="async"><br><br>
@@ -99,15 +125,20 @@
 <p class="nameEQ">MICROPHONE</p>
 <p class="itemEQ">HyperX Quadcast</p></div>
 
-<div class="flexEQ boxEQ table-icon-eqitems"><img class="imageT" id="imageM" src="./media/E_18.webp" alt="mobile" loading="lazy" decoding="async"><br><br>
+<div class="flexEQ boxEQ table-icon-eqitems"><img class="imageT" id="imageM" src="./media/E_18.webp" alt="mobileother" loading="lazy" decoding="async"><br><br>
 <p class="nameEQ">MOBILE, CONSOLE AND OTHER</p>
-<p class="itemEQ">Samsung S20 FE<br>Xbox 360, Mobile VR, Electric Table</p></div>
+<p class="itemEQ">Samsung S20 FE<br>Xbox 360, Mobile VR, Electric Table, Monitor Lamp</p></div>
 
-</div></section></div>
+</div>
 
-<!-- Games and other --> <div id="section4" class="content-section"><section class="sec gamesother" id="gamesother">
+</section>
+
+<!-- All about accouts/games/reviews and other --> <section class="sec gamesother" id="gamesother">
+
+<br><br><br>
 
 <main class="page-content">
+
 <div class="card" loading="lazy">
 <div class="content">
 <h2 class="title">Latest review</h2>
@@ -134,6 +165,8 @@
 <h6>Or check my older <a href="https://steamcommunity.com/id/misakbr2/recommended/" class="odkazy"> Steam Reviews</a>.</h6>
 
 </div></div></main>
+
+<br><br><br>
 
 <div class="table-container"><table class="modern-table">
 
@@ -187,7 +220,9 @@
 <td>&nbsp<img src="media/G_Chesscom_Chess.webp" class="g-gm" alt="Chess">&nbsp Chess</td>
 <td>&nbsp 700+ Rating</td>
 <td>&nbsp <a href="https://www.chess.com/member/michalbr13"><img class="fas fa-apple-alt table-icon" src="./media/GL_Link.webp" width="55" alt="link"></a></td>
-</tr></tbody></table></div></section>
+</tr></tbody></table></div>
+
+</section>
 
 <!-- Creations --> <!--<section class="sec creations" id="creations">
 
@@ -224,60 +259,66 @@ the bigger shooter? Then this map is right choice for you. Inspired by the legen
 
 </section>-->
 
-</div>
+<!-- Socials --> <section class="socials" id="socials">
 
-<!-- Latest video and socials --> <div id="section5" class="content-section" style="overflow: hidden;">
-
-<div class="auto-resizable-iframe">
-<section class="video" id="video">
-<div id="videoContainer" class="video-wrapper" data-video-id="VgQDsqOi2wo">
-<div class="video-thumbnail" loading="lazy"></div>
-<div class="play-button"></div>
-<div class="loading-spinner"></div>
-<div class="close-button"></div></div></section></div>
-
-<div class="soc-footer">
-<ul><li><b class="MZoom" title="© 2024 MichalBr" alt="MichalBr">MichalBr</b></li>
+<div class="sc"><ul><li><b class="MZoom" title="© 2024 MichalBr" alt="MichalBr">MichalBr</b></li>
 <li><a href="https://www.youtube.com/@MichalBr"><img src="./media/F_Youtube.svg" height="50" width="50" alt="Youtube" title="Youtube" id="Youtube" class="LZoom"></a></li><hr>
 <li><a href="https://www.threads.net/@brmichl"><img src="./media/F_Instagram.svg" height="50" width="50" alt="Instagram" title="Instagram" id="Instagram" class="LZoom"></a></li><hr>
-<li><a href="https://x.com/TheMichalBr"><img src="./media/F_Twitter.svg" height="50" width="50" alt="Twitter" title="Twitter (X)" id="Twitter" class="LZoom"></a></li><hr>
+<li><a href="https://x.com/TheMichalBr"><img src="./media/F_Twitter.svg" height="50" width="50" alt="X" title="X (Twitter)" id="X" class="LZoom"></a></li><hr>
 <li><a href="https://steamcommunity.com/id/misakbr2"><img src="./media/F_Steam.svg" height="50" width="50" alt="Steam" title="Steam" id="Steam" class="LZoom"></a></li><hr>
 <li><a href="https://github.com/TheMichalBr"><img src="./media/F_GitHub.svg" height="50" width="50" alt="GitHub" title="GitHub" id="GitHub" class="LZoom"></a></li></ul></div>
 
-</div>
+</section>
 
-<!-- Scripts --> <script src="index.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script><script>
+<!-- Scripts --> <script src="index.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script><script type="text/javascript">
 
-alert("Sorry, the website is currently in beta phase! There are still a lot of bugs I'm working on.");
+window.addEventListener("scroll", function () {
+var header = document.querySelector("header");
+header.classList.toggle("sticky", window.scrollY > 0);})
 
-(function($){
-elementWidth = $('ul').width(),
-containerWidth = $('nav').width(),
-difference = elementWidth-containerWidth,
-finalWidth = difference * 1.5,
-element = $('ul');
+function toggle() {
+var header = document.querySelector("header");
+header.classList.toggle("active");}
 
-$('li').on('click', function(){
-$('li').removeClass('active');
-$(this).addClass('active');
-});})(jQuery);
+$(document).ready(function () {
+var HeightDiv = $("div").height();
+var HeightTable = $("table").height();
+if (HeightTable > HeightDiv) {
+var FontSizeTable = parseInt($("table").css("font-size"), 10);
+while (HeightTable > HeightDiv && FontSizeTable > 5) {FontSizeTable--; $("table").css("font-size", FontSizeTable);
+HeightTable = $("table").height();}}});
 
-document.addEventListener('DOMContentLoaded', () => {
-document.getElementById('content').classList.add('visible');
-document.getElementById('section1').classList.add('active');});
+const container = document.querySelector(".container");
+const primaryNav = document.querySelector(".nav__list");
+const toggleButton = document.querySelector(".nav-toggle");
+hljs.initHighlightingOnLoad();
 
-function changeContent(sectionId) {
-const contentElement = document.getElementById('content');
-const sections = document.querySelectorAll('.content-section');
-contentElement.classList.remove('visible');
+toggleButton.addEventListener("click", () => {
+const isExpanded = primaryNav.getAttribute("aria-expanded");
+primaryNav.setAttribute("aria-expanded", isExpanded === "false" ? "true" : "false");});
 
-setTimeout(() => {
-sections.forEach(section => {
-section.classList.remove('active');});
-document.getElementById(sectionId).classList.add('active');
-contentElement.classList.add('visible');}, 500);}
+container.addEventListener("click", (e) => {
+if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
+primaryNav.setAttribute("aria-expanded", "false");}});
+
+window.console = window.console || function (t) { };
+var fragment = document.createDocumentFragment();
+for(var i =0 ;i<resultArray.length;i++) { var val = resultArray[i];
+fragment.appendChild(appendText(val.content, val.id));}
+document.getElementById("LogArea").appendChild(fragment);
+
+var text = '';
+resultArray.forEach(function (val) {
+text += appendText(val.content);});
+$('#OutputArea').append(text);
+
+function myFunctionC() {
+var copyText = document.getElementById("myInput");
+copyText.select();
+copyText.setSelectionRange(0, 99999);
+navigator.clipboard.writeText(copyText.value);
+alert("Copied the text: " + copyText.value);}
 
 </script>
 
-</body>
-</html>
+</body> </html>
