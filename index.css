@@ -170,6 +170,8 @@ h1 {
     margin: 0 auto;
     overflow: hidden;
     padding-bottom: 10px;
+    filter: drop-shadow(1.5px 1.5px 1.5px black);
+    font-family: "Open Sans", sans-serif;
 }
 
 .titleMAIN span {
@@ -182,6 +184,11 @@ h1 {
     animation: byBottom 1s ease both;
     font-weight: 600;
     letter-spacing: 0.25vw;
+}
+
+.titleMAIN .customfont{
+    font-family: customfont;
+    font-weight: 500;
 }
 
 .titleMAIN span:last-child {
@@ -895,8 +902,7 @@ font-family: 'Montserrat', sans-serif;
 .video {
     transition: 0.25s;
     background: linear-gradient(180.2deg, rgba(4, 10, 22, 0.95) 155.8%, rgba(14, 50, 75, 0.95) 430%);
-    padding: 0px 50px 0px 50px;
-    padding: 10px;
+    padding: 100px 50px 100px 50px;
     box-sizing: border-box;
 }
 
@@ -1796,11 +1802,13 @@ font-family: 'Montserrat', sans-serif;
     color: #333;
     animation: fadein 1.5s ease;
     max-width: 82rem;
+    font-family: 'Poppins', sans-serif;
 }
 .modern-table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0 8px;
+    font-family: 'Poppins', sans-serif;
 }
 .modern-table th,
 .modern-table td {
@@ -1809,6 +1817,7 @@ font-family: 'Montserrat', sans-serif;
     border-bottom: 1px solid #423c9bd3;
     border-radius: 8px;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 16px;
 }
 .modern-table th {
     background: linear-gradient(135deg, #423c9bd3, rgba(166, 180, 209, 0.329));
