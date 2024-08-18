@@ -15,12 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
         playButton.style.opacity = '0';
         loadingSpinner.style.display = 'flex';
         var iframe = document.createElement('iframe');
-        iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1');
+        iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1'); // &rel=0&showinfo=0&loop=1&mute=0
         iframe.setAttribute('frameborder', '0');
         iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
-        iframe.setAttribute('allowfullscreen', 'true');
-        // &rel=0&showinfo=0&loop=1&mute=0
-        // iframe.width = '1590'; iframe.height = '902';
+        iframe.setAttribute('allowfullscreen', 'true'); // iframe.width = '1590'; iframe.height = '902';
 
         iframe.onload = function () {
             loadingSpinner.style.display = 'none';
@@ -133,50 +131,3 @@ setInterval(function () {
     document.getElementById("imageCRG2").src = workshopDVA[indexworkshopDVA];
     indexworkshopDVA++;
 }, 5700);
-
-/*window.addEventListener("scroll", function () {
-var header = document.querySelector("header");
-header.classList.toggle("sticky", window.scrollY > 0);})
-
-function toggle() {
-var header = document.querySelector("header");
-header.classList.toggle("active");}
-
-$(document).ready(function () {
-var HeightDiv = $("div").height();
-var HeightTable = $("table").height();
-if (HeightTable > HeightDiv) {
-var FontSizeTable = parseInt($("table").css("font-size"), 10);
-while (HeightTable > HeightDiv && FontSizeTable > 5) {FontSizeTable--; $("table").css("font-size", FontSizeTable);
-HeightTable = $("table").height();}}});
-
-const container = document.querySelector(".container");
-const primaryNav = document.querySelector(".nav__list");
-const toggleButton = document.querySelector(".nav-toggle");
-hljs.initHighlightingOnLoad();
-
-toggleButton.addEventListener("click", () => {
-const isExpanded = primaryNav.getAttribute("aria-expanded");
-primaryNav.setAttribute("aria-expanded", isExpanded === "false" ? "true" : "false");});
-
-container.addEventListener("click", (e) => {
-if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
-primaryNav.setAttribute("aria-expanded", "false");}});
-
-window.console = window.console || function (t) { };
-var fragment = document.createDocumentFragment();
-for(var i =0 ;i<resultArray.length;i++) { var val = resultArray[i];
-fragment.appendChild(appendText(val.content, val.id));}
-document.getElementById("LogArea").appendChild(fragment);
-
-var text = '';
-resultArray.forEach(function (val) {
-text += appendText(val.content);});
-$('#OutputArea').append(text);
-
-function myFunctionC() {
-var copyText = document.getElementById("myInput");
-copyText.select();
-copyText.setSelectionRange(0, 99999);
-navigator.clipboard.writeText(copyText.value);
-alert("Copied the text: " + copyText.value);}*/
