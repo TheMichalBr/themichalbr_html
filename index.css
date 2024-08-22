@@ -933,7 +933,7 @@ header.sticky ul li a {
     background-size: cover;
     background-position: center;
     transition: opacity 0.3s ease-in-out;
-    filter: blur(10.52px) grayscale(0.15);
+    filter: blur(6.5px) grayscale(0.15);
     transition: transform 0.3s ease;
 }
 
