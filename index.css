@@ -301,11 +301,6 @@ h1 {
 
 
 
-
-
-
-
-
 header {
     position: fixed;
     top: 0.5;
@@ -325,13 +320,12 @@ header {
         height 2s,
         background-color 0.2s,
         rotate 1.82s,
-        /* offset 0.1s;*/
-    ;
+        /* offset 0.1s;*/;
     transition-timing-function: ease;
     transition-delay: 0.325s;
     transition-duration: 0.325s;
     transition-property: all;
-    animation: fadetop 3s ease;
+    animation: fadetop 2.75s ease;
 }
 
 header ul li a nav {
@@ -476,15 +470,13 @@ header.sticky ul li a {
     color: white;
 }
 
-
 .containerlp {
-
     text-align: center;
     padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .containerlp h1 {
@@ -522,21 +514,6 @@ font-family: 'Montserrat', sans-serif;
 .containerlp .cta-button:hover {
     background: linear-gradient(135deg, #00e0e0, #4063ff);
     box-shadow: 0 0 25px rgba(64, 255, 223, 0.7);
-}
-
-.homeUT {
-    color: #ffffff;
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    right: 0;
-    font-size: 12px;
-    font-weight: 300;
-    text-align: center;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    animation: fadein 5s ease, byBottom 3s ease both;
 }
 
 /* --  Scrollbar -- */
