@@ -131,3 +131,37 @@ setInterval(function () {
     document.getElementById("imageCRG2").src = workshopDVA[indexworkshopDVA];
     indexworkshopDVA++;
 }, 5700);
+
+// VersionC for GitHub
+
+async function fetchVersion() {
+    try {
+        const response = await fetch('https://api.github.com/repos/themichalbr/godotgames/releases/latest');
+        const data = await response.json();
+        const version = data.tag_name;  // Get GitHub
+        document.getElementById('version').textContent = version;
+
+        // Kontrola, zda je verze synchronizována
+        const currentVersion = 'v1.0';  // Used version
+        const syncStatusEl = document.getElementById('syncStatus');
+        if (version === currentVersion) {
+            syncStatusEl.textContent = '✅';  // Syn
+            syncStatusEl.style.color = 'green';
+        } else {
+            syncStatusEl.textContent = '❌';  // Nesyn
+            syncStatusEl.style.color = 'red';
+        }
+
+        // Down
+        const downloadButton = document.getElementById('downloadButton');
+        downloadButton.href = data.assets[0].browser_download_url;
+    } catch (error) {
+        console.error('Chyba při získávání verze z GitHubu:', error);
+        document.getElementById('syncStatus').textContent = '❌';
+        document.getElementById('syncStatus').style.color = 'red';
+    }
+}
+
+window.onload = () => {
+    fetchVersion();
+};
