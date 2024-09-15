@@ -2117,6 +2117,12 @@ input[type=text] {
     transition: 2s;
 }
 
+.CCE .features-button .downbutton:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 57, 185);
+    transition: 2s;
+}
+
 .CCE .features-button button span {
     margin-left: 10px;
     font-size: 1.2em;
