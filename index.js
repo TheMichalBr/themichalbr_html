@@ -106,7 +106,7 @@ setInterval(function () {
     indexmobil++;
 }, 4400);
 
-// CR1
+// MR - CS2WM
 
 var workshop = ["./media/GB_ReviewC.webp", "./media/GB_ReviewN.webp"]
 
@@ -119,20 +119,7 @@ setInterval(function () {
     indexworkshop++;
 }, 5500);
 
-// CR2
-
-var workshopDVA = ["./media/GB_ReviewC.webp", "./media/GB_ReviewN.webp"]
-
-var indexworkshopDVA = 0;
-setInterval(function () {
-    if (indexworkshopDVA === workshopDVA.length) {
-        indexworkshopDVA = 0;
-    }
-    document.getElementById("imageCRG2").src = workshopDVA[indexworkshopDVA];
-    indexworkshopDVA++;
-}, 5700);
-
-// VersionC for GitHub
+// S - VersionC for GitHub
 
 async function fetchVersion() {
     try {
