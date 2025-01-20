@@ -12,7 +12,15 @@
             color: #e0f7fa;
             margin: 0;
             padding: 0;
-            transition: background-color 1s;
+            animation: backgroundColorChange 25s infinite;
+        }
+        @keyframes backgroundColorChange {
+            0% { background-color: #0d47a1; }
+            20% { background-color: #1a237e; }
+            40% { background-color: #283593; }
+            60% { background-color: #3949ab; }
+            80% { background-color: #5c6bc0; }
+            100% { background-color: #0d47a1; }
         }
         header {
             background-color: #0d47a1;
@@ -26,10 +34,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            transition: background-color 0.3s;
-        }
-        header:hover {
-            background-color: #1e88e5;
+            overflow: hidden;
         }
         header h1 {
             margin: 0;
@@ -43,10 +48,12 @@
             color: white;
             text-decoration: none;
             font-weight: bold;
-            transition: color 0.3s, transform 0.3s;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
         }
         nav a:hover {
-            color: #bbdefb;
+            background-color: #42a5f5;
             transform: scale(1.1);
         }
         .container {
@@ -87,11 +94,30 @@
             margin: 0;
             color: #bbdefb;
         }
+        .wave {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.2); /* Adjusted transparency */
+            border-radius: 50%;
+            pointer-events: none;
+            animation: wave-animation 1s ease-out;
+        }
+        @keyframes wave-animation {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(15);
+                opacity: 0;
+            }
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>My Projects</h1>
+    <header id="header">
+        <h1>Projects by MichalBr</h1>
         <nav>
             <a href="#home">Home</a>
             <a href="#projects">Projects</a>
@@ -137,15 +163,17 @@
         </div>
     </div>
     <script>
-        const colors = ['#0d47a1', '#1a237e', '#283593', '#3949ab', '#5c6bc0'];
-        let currentColorIndex = 0;
-
-        function changeBackgroundColor() {
-            document.body.style.backgroundColor = colors[currentColorIndex];
-            currentColorIndex = (currentColorIndex + 1) % colors.length;
-        }
-
-        setInterval(changeBackgroundColor, 5000); // Change color every 5 seconds
+        const header = document.getElementById('header');
+        header.addEventListener('mousemove', function(e) {
+            const wave = document.createElement('div');
+            wave.className = 'wave';
+            wave.style.left = `${e.clientX}px`;
+            wave.style.top = `${e.clientY}px`;
+            header.appendChild(wave);
+            setTimeout(() => {
+                wave.remove();
+            }, 1000);
+        });
     </script>
 </body>
 </html>
