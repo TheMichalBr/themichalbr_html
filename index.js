@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // EQ - CPU AND COOLER
 
-var cpuandcooler = ["./media/equipment/E_4.webp", "./media/equipment/E_5.webp"]
+var cpuandcooler = ["./media/equipment/4_CPU.webp", "./media/equipment/5_CPUCOOLER.webp"]
 
 var indexcpu = 0;
 setInterval(function () {
@@ -69,7 +69,7 @@ setInterval(function () {
 
 // EQ - DRIVES
 
-var drives = ["./media/equipment/E_8.webp", "./media/equipment/E_9.webp"]
+var drives = ["./media/equipment/8_HDD.webp", "./media/equipment/9_SSD.webp"]
 
 var indexdrives = 0;
 setInterval(function () {
@@ -82,7 +82,7 @@ setInterval(function () {
 
 // EQ - MONITORS
 
-var monitors = ["./media/equipment/E_11.webp", "./media/equipment/E_12.webp"]
+var monitors = ["./media/equipment/11_MMONITOR.webp", "./media/equipment/12_SMONITOR.webp"]
 
 var indexmonitors = 0;
 setInterval(function () {
@@ -95,7 +95,7 @@ setInterval(function () {
 
 // EQ - MOBILE AND OTHER
 
-var mobileother = ["./media/equipment/E_18.webp", "./media/equipment/E_19.webp"]
+var mobileother = ["./media/equipment/18_MOBILE.webp", "./media/equipment/19_CONSOLE.webp"]
 
 var indexmobil = 0;
 setInterval(function () {
