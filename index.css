@@ -1811,15 +1811,15 @@ header.sticky ul li a {
     z-index: 1;
 }
 .modern-table tbody tr {
-    background-color: #ffffff;
+    background-color: #a1abe4;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 .modern-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #b4bbe0;
 }
 .modern-table tbody tr:hover {
-    background-color: #f1f1f1;
-    color: rgb(0, 82, 135);
+    background-color: #0f6aaa;
+    color: rgb(160, 190, 255);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .modern-table tbody td:hover {
@@ -1832,7 +1832,7 @@ header.sticky ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .modern-table tbody td {
-    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    background: linear-gradient(180.2deg, rgba(46, 52, 92, 0.212) 6.8%, rgba(37, 78, 168, 0.329) 131%);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
@@ -2034,7 +2034,7 @@ input[type=text] {
     min-width: 850px;
     max-width: 1500px;
     margin-bottom: 50px;
-    border: 5px solid rgba(15, 56, 145, 0.685);
+    border: 5px solid rgba(8, 25, 58, 0.95);
 }
 
 .CCE .image-section {
@@ -2101,6 +2101,12 @@ input[type=text] {
     align-items: center;
     transition: 2s;
     animation: 4.5s fadeleft;
+}
+
+.CCE button[disabled] {
+    background-color: grey;
+    color: white;
+    cursor: not-allowed;
 }
 
 .CCE .features-button button:hover {
