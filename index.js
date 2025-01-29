@@ -108,7 +108,7 @@ setInterval(function () {
 
 // MR - CS2WM
 
-var workshop = ["./media/GB_ReviewC.webp", "./media/GB_ReviewN.webp"]
+var workshop = ["./media/games/B_ReviewC.webp", "./media/games/B_ReviewN.webp"]
 
 var indexworkshop = 0;
 setInterval(function () {
